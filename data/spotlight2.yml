@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "second"
+title : "Cual es mi agencia?"
+content: |
+  La agencia de buceo IANTD (International Association of Nitrox and Technical Divers) es una de las más prestigiosas y respetadas en el mundo del buceo. Fundada en 1984, IANTD se ha convertido en una autoridad en el campo del buceo técnico y el uso de gases mixtos, y ofrece una amplia gama de cursos y programas diseñados para buceadores de todos los niveles de experiencia. IANTD se dedica a proporcionar la formación más avanzada y segura en el campo del buceo técnico, y sus instructores son expertos altamente cualificados y apasionados por lo que hacen. Si buscas una agencia de buceo de confianza y de primera calidad, ¡IANTD es la opción perfecta para ti!
+button: 
+  label: "Visita su web"
+  link: "https://www.iantdspain.com/"
+image: "images/iantd-logo-est-1985-full-color-1.webp"

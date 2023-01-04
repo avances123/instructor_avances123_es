@@ -1,0 +1,12 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "Quien soy?"
+content: |
+  Soy un buceador centrado en el buceo en cuevas. Tengo una experiencia de 4 años como full cave diver, y mi mayor actividad es en la topografia y catalogacion de cuevas tanto conocidas como nuevas cavidades.
+  Considero que el sidemount es la configuracion mas adecuada para casi la totalidad de los buceos que hacemos en abierto, y de ahi mi gran numero de horas y experiencia en esta forma de bucear.
+  Ademas siempre dedico muchas horas de agua al entrenamiento, y me gusta ademas de ser exigente, superar los standares de mi agencia con otros ejercicios que he ido desarrollando con el paso del tiempo, especificos para el sidemount.
+button: 
+  label: "Learn More"
+  link: "#second"
+image: "images/quien_soy.png"

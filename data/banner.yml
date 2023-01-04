@@ -1,0 +1,12 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Fabio Rueda"
+subtitle: |
+  Cursos de sidemount avanzado
+content : |
+  ¿Estás buscando mejorar tus habilidades de buceo y experimentar con una configuración diferente? ¡Nuestro curso de buceo en <strong>sidemount</strong> es perfecto para ti! Aprenderás a utilizar este innovador sistema de flotación, que te permitirá llevar tus botellas a ambos lados del cuerpo para mayor movilidad y comodidad en el agua. Con este curso, podrás avanzar en tu camino como buceador técnico o explorar cuevas sumergidas con confianza. ¡No esperes más y únete hoy mismo!
+button:
+  label : "Mas Info"
+  link : "#first"
+image : "images/banner.jpg"
+

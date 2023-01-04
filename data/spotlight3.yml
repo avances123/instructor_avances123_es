@@ -1,0 +1,13 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "Solo sidemount?"
+content: |
+  Pues así es, yo no soy un instructor al uso, mi profesion es otra (ingeniero informatico) y es este trabajo el que me proporciona los ingresos economicos que necesito para vivir.<br>
+
+  Por esta razon solo busco enseñar aquello en lo que me considero que puedo aportar a la comunidad del buceo, ya que yo buceo siempre en esta configuracion y me considero experto en ella. Si estas buscando cursos sobre otros aspectos del buceo, puedo recomendarte otros instructores que seguro son mejores que yo.
+
+button: 
+  label: "Mas info"
+  link: "#donde"
+image: "images/equipo.png"
