@@ -4,7 +4,7 @@
 
 title = "Cursos de sidemount avanzado"
 theme = "hugo-story"
-
+baseurl ="https://avances123.github.io/instructor_avances123_es/"
 
 ## -----------------------------------------------
 ## Hugo Built-in Features
