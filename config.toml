@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-title = "Hugo Story"
+title = "Cursos de sidemount avanzado"
 theme = "hugo-story"
 
 
@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 ## -----------------------------------------------
 
 [Params]
-  description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
+  description = "Cursos de sidemount avanzado"
   logo = "images/banner.jpg"
   favicon = true
 
