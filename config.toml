@@ -5,7 +5,7 @@
 title = "Cursos de sidemount avanzado"
 theme = "hugo-story"
 baseurl ="https://instructor.avances123.es/"
-
+author = "Fabio Rueda"
 ## -----------------------------------------------
 ## Hugo Built-in Features
 ## -----------------------------------------------
