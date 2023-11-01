@@ -11,7 +11,7 @@ baseurl ="https://instructor.avances123.es/"
 ## -----------------------------------------------
 
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-# googleAnalytics = "your-google-analytics-id"
+googleAnalytics = "G-NFPNJYXW0E"
 
 
 ## -----------------------------------------------
@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 ## -----------------------------------------------
 
 [Params]
-  description = "Cursos de sidemount avanzado"
+  description = "Cursos de sidemount avanzado e introduccion al buceo tecnico"
   logo = "images/banner.jpg"
   favicon = true
 
