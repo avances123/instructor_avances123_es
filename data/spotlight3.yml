@@ -1,13 +1,19 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "Solo sidemount?"
+title: "Entra en el buceo tecnico ya en sidemount"
 content: |
-  Pues así es, yo no soy un instructor al uso, mi profesion es otra (ingeniero informatico) y es este trabajo el que me proporciona los ingresos economicos que necesito para vivir.<br>
+  Descubre las profundidades del buceo técnico y del sidemount conmigo, tu instructor especializado. Con un enfoque serio y años de experiencia, ofrezco cursos de sidemount y de introducción al buceo técnico para aquellos que buscan explorar el mundo submarino de manera más profunda y segura.
 
-  Por esta razon solo busco enseñar aquello en lo que me considero que puedo aportar a la comunidad del buceo, ya que yo buceo siempre en esta configuracion y me considero experto en ella. Si estas buscando cursos sobre otros aspectos del buceo, puedo recomendarte otros instructores que seguro son mejores que yo.
+  🌊 Cursos Especializados:
+  Sumérgete en el sidemount y el buceo técnico con lecciones que van más allá de lo convencional. Aprende las técnicas esenciales y las habilidades avanzadas necesarias para explorar entornos acuáticos desafiantes con confianza y seguridad.
 
-button: 
+  👨‍🏫 Instrucción Profesional:
+  Como instructor experimentado, te guiaré a través de cada paso con un enfoque serio y un compromiso con la seguridad. Mi objetivo es proporcionarte las habilidades necesarias para disfrutar de las maravillas del buceo técnico y del sidemount de manera responsable.
+
+  🌐 Reserva tu Curso Ahora:
+  No dejes pasar la oportunidad de adentrarte en el mundo del buceo técnico y del sidemount. Reserva tu curso ahora y descubre una nueva dimensión de exploración submarina con un instructor que se toma en serio tu formación y seguridad. Sumérgete con confianza y experimenta la emoción de las profundidades de manera controlada y experta.
+button:
   label: "Mas info"
   link: "#donde"
 image: "images/equipo.png"
