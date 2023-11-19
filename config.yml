@@ -46,7 +46,7 @@ params:
     title: _Fabio Rueda_
     text: Bienvenido a la web de Fabio Rueda
     lightNavIcon: /uploads/sun.svg
-    darkNavIcon: /uploads/zap.svg
+    darkNavIcon: /android-chrome-192x192.png
     iconHeight: "35"
     iconWIdth: "35"
   comments: false
@@ -81,7 +81,7 @@ params:
     heroCTASecondaryUrl: "/contact/"
     heroBackgroundImage: "/hero.webp"
     # Blog Section
-    disableBlogSection: false
+    disableBlogSection: true
     blogTitle: Historial
     blogDescription: Articulos de cursos y entrenos anteriores
     seeMoreText: More Posts
