@@ -55,20 +55,19 @@ params:
   ShowShareButtons: true
   ShowCodeCopyButtons: true
   ShowRelated: true
-  CookieNotice: We use cookies to improve your experience on our site and to show
-    you relevant advertising.
-  CookieLink: /legal/privacy/#cookies-and-web-beacons
+  CookieNotice: 
+  CookieLink:
   CookieButton: Cookies Policy
   disableAnchoredHeadings: false
   contactFormAction: https://formsubmit.io/send/avances123@gmail.com
   assets:
     disableFingerprinting: false
-    favicon: /uploads/zap.svg
-    favicon16x16: /uploads/zap.svg
-    favicon32x32: /uploads/zap.svg
-    apple_touch_icon: /uploads/zap.svg
-    safari_pinned_tab: /uploads/zap.svg
-  ShowReadingTime: true
+    favicon: /favicon.ico
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-16x16.png
+    apple_touch_icon: apple-touch-icon.png
+    safari_pinned_tab: /favicon.ico
+  ShowReadingTime: false
   ShowBreadCrumbs: true
   homepage:
     # Hero Section
