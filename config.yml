@@ -1,0 +1,168 @@
+---
+baseURL: https://www.sidemount.es
+languageCode: es-es
+title: Cursos de Sidemount Avanzado
+theme: piko
+paginate: "9"
+copyright: 
+googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepWhitespace: false
+
+params:
+  analytics:
+    google:
+      SiteVerificationTag: # Google Site Verification
+    yandex:
+      SiteVerificationTag: # Yandex Site Verification
+    bing:
+      SiteVerificationTag: # Bing Site Verification
+  env: production
+  author: Fabio Rueda
+  description: Cursos de buceo tecnico en sidemount
+  math: false
+  images:
+  - "/uploads/og.webp"
+  label:
+    title: _Fabio Rueda_
+    text: Bienvenido a la web de Fabio Rueda
+    lightNavIcon: /uploads/sun.svg
+    darkNavIcon: /uploads/zap.svg
+    iconHeight: "35"
+    iconWIdth: "35"
+  comments: false
+  mainSections:
+  - blog
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  ShowRelated: true
+  CookieNotice: We use cookies to improve your experience on our site and to show
+    you relevant advertising.
+  CookieLink: /legal/privacy/#cookies-and-web-beacons
+  CookieButton: Cookies Policy
+  disableAnchoredHeadings: false
+  contactFormAction: # Get link from https://formsubmit.io or https://fabform.io
+  assets:
+    disableFingerprinting: false
+    favicon: /uploads/zap.svg
+    favicon16x16: /uploads/zap.svg
+    favicon32x32: /uploads/zap.svg
+    apple_touch_icon: /uploads/zap.svg
+    safari_pinned_tab: /uploads/zap.svg
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  homepage:
+    # Hero Section
+    disableHeroSection: false
+    heroUpperTitle:
+    heroTitle: Fabio Rueda
+    heroDescription: Entrenamiento avanzado en el buceo tecnico
+    heroCTAPrimaryText: Mis Proyectos
+    heroCTAPrimaryUrl: "https://buceo.avances123.es/"
+    heroCTASecondaryText: Contacto
+    heroCTASecondaryUrl: "/contact/"
+    heroBackgroundImage: "/hero.webp"
+    # Blog Section
+    disableBlogSection: false
+    blogTitle: Historial
+    blogDescription: Articulos de cursos y entrenos anteriores
+    seeMoreText: More Posts
+    # About Section    
+    disableAboutSection: false
+    aboutTitle: Mi agencia
+    aboutDescription: Obtendras tus carnets de la mejor certificadora
+    aboutImgUrl: "/product_t_d_tdi_sticker_v2.1.jpg"
+    aboutContent: Hi guys. This is where you put something about yourself.
+    # Portfolio Section
+    disablePortfolioSection: true
+    portfolioTitle: Portfolio
+    portfolioDescription: Some of my works
+    portfolio:
+    - imageUrl: /uploads/portfolio-1.webp
+      alt: # image alt for better SEO
+      description: 
+      websiteUrl: 
+    - imageUrl: /uploads/portfolio-1.webp
+      alt: # image alt for better SEO
+      description: 
+      websiteUrl: 
+    - imageUrl: /uploads/portfolio-2.webp
+      alt: # image alt for better SEO
+      description: Portfolio Two.
+      websiteUrl: #
+    - imageUrl: /uploads/portfolio-3.webp
+      alt: # image alt for better SEO
+      description: Portfolio Three.
+      websiteUrl: #
+  # Search Options (https://fusejs.io/)
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: "0"
+    distance: "1000"
+    threshold: "0.4"
+    minMatchCharLength: "0"
+    keys:
+    - title
+    - permalink
+    - summary
+    - content
+  plugins:
+    css:
+    - link: plugins/css/pico.min.css
+    js:
+    - link: plugins/js/feather.min.js
+menus:
+  main: # Main Menu
+  - name: Blog
+    title: Historial
+    pre: activity
+    url: "/blog"
+    weight: "20"
+  - name: Contact
+    title: Contacto
+    pre: mail
+    url: "/contact"
+    weight: "40"
+  - name: Canal de youtube
+    title: 
+    pre: youtube
+    url: https://www.youtube.com/avances123
+    weight: "50"
+  - name: Perfil instagram
+    title: 
+    pre: instagram
+    url: https://www.youtube.com/avances123
+    weight: "60"
+  search: # Search page's quick links
+  - name: Categories
+    title: Categories
+    url: "/categories"
+    weight: "10"
+  - name: Archives
+    title: Archives
+    url: "/archives"
+    weight: "20"
+  - name: Tags
+    title: Tags
+    url: "/tags"
+    weight: "30"
