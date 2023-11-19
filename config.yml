@@ -14,8 +14,8 @@ enableEmoji: true
 outputs:
   home:
   - HTML
-  - RSS
-  - JSON
+  # - RSS
+  # - JSON
 minify:
   disableCSS: false
   disableHTML: false
