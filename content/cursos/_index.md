@@ -1,10 +1,9 @@
 ---
-title: Cursos
-date: 2023-11-11T23:22:20+08:00
+title: Formacion
 searchHidden: true
-description: Primer curso con los fundamentos para empezar en el buceo tecnico
+description: Distintos tipos de formacion disponible
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
-
+Image: /img_1897-1.png
 ---

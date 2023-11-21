@@ -1,5 +1,5 @@
 ---
-title: Intro to Tech
+title: TDI Intro to Tech
 searchHidden: true
 layout: curso
 url: /cursos/buceo-tecnico/intro-to-tech

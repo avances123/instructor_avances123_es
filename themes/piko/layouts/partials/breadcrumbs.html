@@ -1,9 +1,9 @@
 {{- if (.Param "ShowBreadCrumbs") -}}
-<div>
+<div style="margin-bottom: 20px;">
     {{- $url := replace .Parent.Permalink (printf "%s" .Site.BaseURL) "" }}
     {{- $lang_url := strings.TrimPrefix (printf "%s/" .Lang) $url -}}
 
-    <a href="{{ "" | absLangURL }}">{{ i18n "home" | default "Home" }}</a>
+    <a href="{{ "" | absLangURL }}">{{ i18n "home" | default "Inicio" }}</a>
     {{- $scratch := newScratch }}
     {{- range $index, $element := split $lang_url "/" }}
 
