@@ -1,0 +1,16 @@
+{{- define "main" }}
+<section class="container" style="margin-top: 20px;">
+  <hgroup>
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+  </hgroup>
+  
+  <div>
+    {{- if not (.Param
+    "disableAnchoredHeadings") }} {{- partial "anchored_headings.html"
+    .Content -}} {{- else }}{{ .Content }}{{ end }}
+  </div>
+  
+</section>
+{{- end }}{{/* end main */}}

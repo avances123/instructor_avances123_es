@@ -1,4 +1,5 @@
 ---
+pluralizelisttitles: false
 baseURL: https://www.sidemount.es
 languageCode: es-es
 title: Cursos de Sidemount Avanzado
@@ -51,8 +52,8 @@ params:
     iconWIdth: "35"
   comments: false
   mainSections:
-  - blog
-  ShowShareButtons: true
+  - cursos
+  ShowShareButtons: false
   ShowCodeCopyButtons: true
   ShowRelated: true
   CookieNotice: 
@@ -84,7 +85,7 @@ params:
     disableBlogSection: true
     blogTitle: Historial
     blogDescription: Articulos de cursos y entrenos anteriores
-    seeMoreText: More Posts
+    seeMoreText: Mas Certificaciones
     # About Section    
     disableAboutSection: false
     aboutTitle: Mi agencia
