@@ -8,6 +8,8 @@ ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
 weight: 3
+cover:
+    image: /sidemount-diving.webp
 ---
 ## ITT
 un cursitofdsfsda

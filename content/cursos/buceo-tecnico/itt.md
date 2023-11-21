@@ -8,6 +8,8 @@ ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
 weight: 1
+cover:
+    image: /TDI-sidemount-header.webp
 ---
 ## ITT
 un cursitofdsfsda
