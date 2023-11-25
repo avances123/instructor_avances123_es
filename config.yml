@@ -1,4 +1,5 @@
 ---
+disableKinds: ["taxonomy", "taxonomyTerm"]
 pluralizelisttitles: false
 baseURL: https://www.sidemount.es
 languageCode: es-es
