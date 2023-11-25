@@ -1,10 +1,10 @@
 ---
-title: "Thanks" # in any language you want
-layout: "thanks" # is necessary
+title: "Gracias" # in any language you want
+layout: "gracias" # is necessary
 searchHidden: true
 # url: "/archive"
-description: "Thanks for the submission"
-summary: "thanks"
+description: "Gracias por contactar"
+summary: "gracias"
 ---
 
 {{< rawhtml >}}

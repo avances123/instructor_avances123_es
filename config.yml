@@ -146,7 +146,7 @@ menus:
   - name: Contact
     title: Contacto
     pre: mail
-    url: "/contact"
+    url: "/contacto"
     weight: "40"
   - name: Canal de youtube
     title: 
