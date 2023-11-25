@@ -25,7 +25,7 @@ Principales ventajas del buceo en sidemount:
 
 Es ademas la configuracion mas adecuada y utilizada en los entornos bajo techo, siendo este curso, los cimientos donde construir a los futuros buceadores de cuevas.
 
-![sidemount](/sidemount1.png)
+![sidemount](/sidemount1.webp)
 ## Objetivo del curso
 
 El curso se distingue por su exigencia y enfoque preciso en acelerar la curva de aprendizaje y la memoria muscular para alcanzar la excelencia en el buceo. Diseñado meticulosamente, busca potenciar habilidades técnicas y cognitivas, así como desarrollar una destreza excepcional en el agua. A través de un riguroso entrenamiento, se promueve una sólida base de conocimientos y prácticas específicas que garantizan un desempeño sobresaliente bajo diversas condiciones. Este programa desafía a los participantes a alcanzar un nivel óptimo de competencia, priorizando la seguridad y el dominio completo de las técnicas para lograr estándares superiores en la experiencia de buceo.

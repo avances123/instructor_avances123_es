@@ -18,7 +18,7 @@ La formación en buceo técnico amplía el conocimiento teórico, perfecciona ha
 
 A pesar de su exigencia, el buceo técnico ofrece una gratificación única al explorar lugares más remotos y desafiantes, brindando la oportunidad de descubrir un mundo submarino aún más cautivador y enriquecedor.
 
-![sidemount](/sidemount3.png)
+![sidemount](/sidemount3.webp)
 ## Objetivo del curso
 
 El curso 'Intro to Tech' representa los fundamentos esenciales para ingresar al mundo del buceo técnico. Esta etapa marca un cambio significativo: el buceo deja de ser simplemente recreativo para convertirse en un compromiso serio y enfocado en el entrenamiento especializado. Los participantes deben estar preparados para elevar su nivel de esfuerzo y dedicación a través del estudio de materias más desafiantes y técnicas.
