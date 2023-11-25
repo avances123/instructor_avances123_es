@@ -138,6 +138,11 @@ menus:
   #   pre: activity
   #   url: "/blog"
   #   weight: "20"
+  - name: Agenda
+    title: Agenda
+    pre: calendar
+    url: "/agenda"
+    weight: "40"
   - name: Contact
     title: Contacto
     pre: mail
