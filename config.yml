@@ -79,7 +79,7 @@ params:
     heroCTAPrimaryText: Mis Proyectos
     heroCTAPrimaryUrl: "https://buceo.avances123.es/"
     heroCTASecondaryText: Contacto
-    heroCTASecondaryUrl: "/contact/"
+    heroCTASecondaryUrl: "/contacto/"
     heroBackgroundImage: "/hero.webp"
     # Blog Section
     disableBlogSection: true
