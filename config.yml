@@ -133,11 +133,11 @@ params:
     - link: plugins/js/feather.min.js
 menus:
   main: # Main Menu
-  - name: Blog
-    title: Historial
-    pre: activity
-    url: "/blog"
-    weight: "20"
+  # - name: Blog
+  #   title: Historial
+  #   pre: activity
+  #   url: "/blog"
+  #   weight: "20"
   - name: Contact
     title: Contacto
     pre: mail
