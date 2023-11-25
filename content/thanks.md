@@ -10,10 +10,10 @@ summary: "thanks"
 {{< rawhtml >}}
 
         <hgroup>
-            <h1>Thank you for your submission.</h1>
-            <h2>I will get back to you as soon as I can.</h2>
+            <h1>Gracias por contactar.</h1>
+            <h2>No tardo nada en contestarte!!.</h2>
         </hgroup>
         
-        <a role="button" href="{{ "/" | absLangURL }}">Return home</a>
+        <a role="button" href="{{ "/" | absLangURL }}">Vuelve al inicio</a>
 
 {{< /rawhtml >}}
