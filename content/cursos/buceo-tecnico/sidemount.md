@@ -9,7 +9,7 @@ ShowShareButtons: false
 showToc: false
 weight: 2
 cover:
-    image: /Sidemount-in-a-tech-world-2.jpg
+    image: /image-asset.png
 ---
 
 ## Por que sidemount?
