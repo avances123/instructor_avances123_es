@@ -31,8 +31,7 @@ Es ademas la configuracion mas adecuada y utilizada en los entornos bajo techo, 
 El curso se distingue por su exigencia y enfoque preciso en acelerar la curva de aprendizaje y la memoria muscular para alcanzar la excelencia en el buceo. Diseñado meticulosamente, busca potenciar habilidades técnicas y cognitivas, así como desarrollar una destreza excepcional en el agua. A través de un riguroso entrenamiento, se promueve una sólida base de conocimientos y prácticas específicas que garantizan un desempeño sobresaliente bajo diversas condiciones. Este programa desafía a los participantes a alcanzar un nivel óptimo de competencia, priorizando la seguridad y el dominio completo de las técnicas para lograr estándares superiores en la experiencia de buceo.
 
 ## Metodologia del curso
-### Duracion
-4 o 5 dias
+
 
 ### Talleres en superficie de configuracion
   * Tecnicas de aleteo
@@ -59,3 +58,9 @@ El curso se distingue por su exigencia y enfoque preciso en acelerar la curva de
 
 ## Otros detalles sobre el curso 
 En el transcurso de este curso, cada sesión será grabada minuciosamente con el propósito de permitir un análisis exhaustivo de cada detalle. Desde la configuración precisa del equipo hasta la disposición y técnica en el agua, cada aspecto será documentado para revisión posterior. Se recomienda encarecidamente a los participantes traer su propio equipo personal, permitiéndoles trabajar con la configuración que conocen y llevárselo ajustado de manera óptima. Es fundamental tener en cuenta la exigencia de este curso: se espera que los alumnos lleguen mentalmente preparados y con una base sólida de fundamentos teóricos previamente adquiridos. La disposición para asimilar nuevos conocimientos y perfeccionar habilidades será clave en este riguroso programa de formación en buceo.
+
+## Duracion
+5 dias
+
+## Precio
+500€ (no incluye el precio de la certificacion)

@@ -23,8 +23,6 @@ cover:
 Sumérgete en una experiencia única que te brindará mayor libertad y comodidad en el agua. Aprende a bucear con tanques a los lados, ganando agilidad y control para explorar de manera más eficiente y emocionante. Nuestro curso te enseñará técnicas especializadas mientras te sumerges en un ambiente relajado y divertido. ¡Prepárate para una aventura submarina inolvidable!
 
 ## Metodologia del curso
-### Duracion
-3 o 4 dias
 
 ### Talleres en superficie de configuracion
   * Tecnicas de aleteo
@@ -45,3 +43,9 @@ Sumérgete en una experiencia única que te brindará mayor libertad y comodidad
 
 ## Otros detalles sobre el curso 
 En el curso de buceo sidemount, grabamos con GoPro cada sesión para que puedas revisar y mejorar tu técnica, además de llevarte un recuerdo fantástico.
+
+## Duracion
+5 dias
+
+## Precio
+500€ (no incluye el precio de la certificacion)
