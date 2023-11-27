@@ -17,11 +17,21 @@
 [data-theme="dark"] {
   --muted-color: #8fa3b1 !important;
   --link-color: #4c82a8 !important;
+
 }
 
 :root {
   --spacing-hero: 5rem;
   --border-radius: 0.3rem !important;
+
+}
+
+h2 {
+  --typography-spacing-vertical: 2rem !important;
+}
+
+h3 {
+  --typography-spacing-vertical: 1rem !important;
 }
 
 *,
