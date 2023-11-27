@@ -139,6 +139,11 @@ menus:
   #   pre: activity
   #   url: "/blog"
   #   weight: "20"
+  - name: Cursos
+    title: Cursos
+    pre: book-open
+    url: "/cursos"
+    weight: "10"
   - name: Agenda
     title: Agenda
     pre: calendar
