@@ -154,6 +154,11 @@ menus:
     pre: mail
     url: "/contacto"
     weight: "40"
+  - name: Quien soy yo
+    title: Quien soy
+    pre: user
+    url: "/quien-soy"
+    weight: "40"
   - name: Canal de youtube
     title: 
     pre: youtube
