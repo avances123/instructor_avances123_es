@@ -16,6 +16,15 @@ showToc: false
   padding: 20px;
 }
 
+.fotito {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
 /* Card container */
 .card {
   position: relative;
@@ -123,7 +132,7 @@ showToc: false
         <h3 class="title">2014</h3>
         <h4>Comienzo a bucear</h4>
         <div>
-            <img src="/IMG-20141231-WA0071.jpg" style="max-width: 300px; float: left; margin-right:20px" />
+            <img src="/IMG-20141231-WA0071.jpg" class="fotito" />
             <p style="text-align: justify">Inspirado por la pasión de mi hermano, me sumergí en el mundo del buceo realizando mi curso de Open Water en Barcelona. Con rapidez adquirí las habilidades necesarias y comencé a explorar como buceador recreativo, navegando por las aguas de Canarias, los exuberantes arrecifes de Filipinas, las profundidades de Borneo en Indonesia y los cautivadores paisajes del Mar Rojo. Durante esa temporada, impulsado por mi curiosidad y deseo de perfeccionar mis habilidades, continué mi formación completando cursos adicionales como Advanced y Rescue de PADI. Estos cursos no solo expandieron mis conocimientos técnicos, sino que también fortalecieron mi confianza y entendimiento de la seguridad en el buceo, permitiéndome sumergirme con mayor profundidad en la maravillosa experiencia submarina.</p>
         </div>
       </div>
