@@ -60,7 +60,7 @@ El curso se distingue por su exigencia y enfoque preciso en acelerar la curva de
 En el transcurso de este curso, cada sesión será grabada minuciosamente con el propósito de permitir un análisis exhaustivo de cada detalle. Desde la configuración precisa del equipo hasta la disposición y técnica en el agua, cada aspecto será documentado para revisión posterior. Se recomienda encarecidamente a los participantes traer su propio equipo personal, permitiéndoles trabajar con la configuración que conocen y llevárselo ajustado de manera óptima. Es fundamental tener en cuenta la exigencia de este curso: se espera que los alumnos lleguen mentalmente preparados y con una base sólida de fundamentos teóricos previamente adquiridos. La disposición para asimilar nuevos conocimientos y perfeccionar habilidades será clave en este riguroso programa de formación en buceo.
 
 ## Duracion
-5 dias
+4 dias
 
 ## Precio
-500€ (no incluye el precio de la certificacion)
+650€ (no incluye el precio de la certificacion)
