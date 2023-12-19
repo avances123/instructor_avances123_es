@@ -45,8 +45,8 @@ params:
   images:
   - "/uploads/og.webp"
   label:
-    title: _Fabio Rueda_
-    text: Bienvenido a la web de Fabio Rueda
+    title: _Sidemount Spain_
+    text: Bienvenido a la web de Sidemount Spain
     lightNavIcon: /uploads/sun.svg
     darkNavIcon: /android-chrome-192x192.png
     iconHeight: "35"
@@ -75,7 +75,7 @@ params:
     # Hero Section
     disableHeroSection: false
     heroUpperTitle:
-    heroTitle: Fabio Rueda
+    heroTitle: Sidemount Spain
     heroDescription: Entrenamiento avanzado en el buceo tecnico
     heroCTAPrimaryText: Mis Proyectos
     heroCTAPrimaryUrl: "https://buceo.avances123.es/"
