@@ -162,12 +162,12 @@ menus:
   - name: Canal de youtube
     title: 
     pre: youtube
-    url: https://www.youtube.com/avances123
+    url: https://www.youtube.com/@sidemount_spain
     weight: "50"
   - name: Perfil instagram
     title: 
     pre: instagram
-    url: https://www.instagram.com/avances123
+    url: https://www.instagram.com/sidemount.es/
     weight: "60"
   search: # Search page's quick links
   - name: Categories

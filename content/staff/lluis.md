@@ -8,7 +8,7 @@ ShowReadingTime: false
 showToc: false
 Image: /tech_diving.jpg
 cover:
-    image: /tdi.png
+    image: /lluis.png
 ---
 
 
