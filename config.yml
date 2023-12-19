@@ -154,10 +154,10 @@ menus:
     pre: mail
     url: "/contacto"
     weight: "40"
-  - name: Quien soy yo
-    title: Quien soy
+  - name: Quiénes Somos
+    title: Quiénes Somos
     pre: user
-    url: "/quien-soy"
+    url: "/staff"
     weight: "40"
   - name: Canal de youtube
     title: 

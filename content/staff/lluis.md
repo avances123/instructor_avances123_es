@@ -1,12 +1,18 @@
 ---
-title: 'Quien soy yo' # in any language you want
-url: "/quien-soy"
+title: 'Lluis Vila' # in any language you want
+url: "/lluis"
 description: 'Mi historia como buceador e instructor'
 disableShare: true
 layout: legal
 ShowReadingTime: false
 showToc: false
+Image: /tech_diving.jpg
+cover:
+    image: /tdi.png
 ---
+
+
+
 {{< rawhtml >}}
 <style>
 
