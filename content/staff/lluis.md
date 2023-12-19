@@ -1,6 +1,6 @@
 ---
-title: 'Fabio Rueda' # in any language you want
-url: "/fabio"
+title: 'Lluis Vila' # in any language you want
+url: "/lluis"
 description: 'Mi historia como buceador e instructor'
 disableShare: true
 layout: legal
@@ -8,8 +8,9 @@ ShowReadingTime: false
 showToc: false
 Image: /tech_diving.jpg
 cover:
-    image: /fabio_avatar.jpg
+    image: /lluis.png
 ---
+
 
 
 {{< rawhtml >}}
@@ -156,7 +157,7 @@ cover:
         <h3 class="title">Actualidad</h3>
         <h4>Buceando sin parar</h4>
         <div>
-            <img src="/yo.png" class="fotito"  />
+            <img src="/a1f003ee-b4ec-472a-9e9b-cccb4a88004b.jpeg" class="fotito"  />
             <p class="largo" style="text-align: justify">En la actualidad, mi vida gira en torno al buceo en cuevas, una pasión que se ha convertido en un estilo de vida. A través de un dedicado estudio, he incursionado en la topografía submarina, fusionando mi profesión como ingeniero de datos y mapas con mi amor por el buceo. Esta combinación me ha permitido llevar la precisión, la rigurosidad y la tecnología del análisis de datos a un ámbito apasionante: la espeleología subacuática. Cada inmersión se convierte en una oportunidad para explorar, mapear y comprender estos intrincados laberintos submarinos, utilizando mi formación profesional para crear mapas detallados y comprender mejor estos entornos misteriosos y desafiantes. Mi mayor satisfacción radica en poder integrar la ciencia y la exploración, llevando el buceo en cuevas a un nivel más profundo y técnico gracias a las herramientas y enfoques de la ingeniería de datos.</p>
             <p class="corto" style="text-align: justify">Mi vida se centra en el buceo en cuevas, fusionando mi profesión de ingeniero de datos con esta pasión, lo que me permite aplicar la precisión y tecnología del análisis de datos a la espeleología subacuática. Utilizando mi formación profesional, cada inmersión se convierte en una oportunidad para explorar, mapear y comprender estos entornos, llevando el buceo en cuevas a un nivel más técnico y profundo mediante la integración de la ciencia y la exploración.</p>
         </div>
@@ -165,10 +166,10 @@ cover:
 
     <div class="card">
       <div class="info">
-        <h3 class="title">2023</h3>
-        <h4 style="text-align: right">Comienzo a ser instructor</h4>
+        <h3 class="title">2022</h3>
+        <h4 style="text-align: right">Comienzo con el buceo en cuevas</h4>
         <div>
-            <img src="/clase.jpg" class="fotito"  />
+            <img src="/7b24eb01-a507-4072-bad6-2dd769b9304a.jpeg" class="fotito"  />
             <p class="largo" style="text-align: justify">Tras una intensa trayectoria como buceador especializado en cuevas y la configuración sidemount, sentí un fuerte llamado en mi interior, una necesidad de compartir toda la valiosa experiencia y conocimientos que había adquirido a lo largo de mi recorrido. Esa convicción me llevó a tomar la decisión de convertirme en instructor, aspirando a guiar a otros en el mismo camino que he recorrido para llegar a ser el buceador de cuevas que soy en la actualidad. La pasión por transmitir no solo las habilidades técnicas sino también la mentalidad disciplinada y el profundo respeto por este entorno subacuático motivaron mi elección de convertirme en un instructor, con la esperanza de inspirar y preparar a otros buceadores para abrazar este apasionante y desafiante mundo submarino.</p>
             <p class="corto" style="text-align: justify">Tras mi experiencia en cuevas y el buceo con configuración sidemount, sentí una fuerte vocación por transmitir mis conocimientos. Decidí convertirme en instructor con el deseo de compartir tanto habilidades técnicas como la mentalidad y el respeto necesarios para explorar el mundo submarino, aspirando a guiar a otros buceadores en su viaje hacia la exploración de cuevas submarinas.</p>
         </div>
@@ -177,10 +178,10 @@ cover:
     
     <div class="card">
       <div class="info">
-        <h3 class="title">2020</h3>
-        <h4>Comienzo on el buceo de cuevas</h4>
+        <h3 class="title">2015</h3>
+        <h4>Comienzo con el buceo técnico</h4>
         <div>
-            <img src="/GOPR1774.JPG" class="fotito"  />
+            <img src="/af88c58c-6ae9-44c1-b70f-d785fc0e4d4f.jpeg" class="fotito"  />
             <p class="largo" style="text-align: justify">Después de acumular una sólida experiencia en el buceo en aguas abiertas, sentí la llamada para adentrarme en un nuevo desafío: el buceo en cuevas. Con esa meta en mente, decidí seguir mi camino hacia el buceo de cuevas bajo la guía experta de Javier de Miguel, en la cautivadora cueva del Moraig. Fue allí donde consolidé los fundamentos esenciales para desenvolverme con seguridad en este entorno desafiante y fascinante. A través del riguroso entrenamiento y la orientación experta, adquirí la disciplina y el enfoque necesarios para operar de manera segura en estas condiciones, comprendiendo la importancia de la preparación meticulosa y el respeto por el entorno subterráneo. Este período de formación no solo fortaleció mis habilidades, sino que también me brindó una comprensión más profunda y una apreciación renovada por la belleza y complejidad del buceo en cuevas.</p>
             <p class="corto" style="text-align: justify">Bajo la guía experta de Javier de Miguel en la cueva del Moraig, consolidé los fundamentos esenciales para adentrarme de manera segura en el desafiante mundo del buceo en cuevas. Este riguroso entrenamiento no solo fortaleció mis habilidades, sino que también amplió mi comprensión y aprecio por la belleza y complejidad de este entorno submarino.</p>
         </div>
@@ -189,10 +190,10 @@ cover:
 
     <div class="card">
       <div class="info">
-        <h3 class="title">2018</h3>
-        <h4 style="text-align: right">Comienzo en el buceo tecnico</h4>
+        <h3 class="title">2012</h3>
+        <h4 style="text-align: right">Comienzo a ser instructor</h4>
         <div>
-            <img src="/tdi_sidemount.png" class="fotito"  />
+            <img src="/4c6f2599-ed22-4238-babb-3ba0d064c03e.jpeg" class="fotito"  />
             <p class="largo" style="text-align: justify">El mundo del buceo técnico se abrió ante mí como un desafío irresistible después de mi incursión inicial en el buceo recreativo. Fascinado por la idea de explorar cuevas submarinas al estilo de un astronauta, decidí adentrarme en el buceo técnico desde sus cimientos, adoptando la configuración sidemount. Determinado a dominar esta disciplina desde el principio, busqué y encontré a uno de los instructores más destacados en España, Oscar L Garcia. El proceso fue exigente y complejo, llevándome a superar desafíos que ampliaron mis límites. A pesar de la intensidad, encontré una nueva pasión en este enfoque más técnico del buceo. La fusión entre la exploración intrépida y el desafío técnico me atrapó por completo, convirtiendo lo que solía ser un pasatiempo en una dedicación seria y absorbente que me motivó a explorar aún más las profundidades desconocidas del mundo submarino.</p>
             <p class="corto" style="text-align: justify">Me adentré en el desafiante mundo del buceo técnico, adoptando la configuración sidemount, con el instructor Oscar L Garcia en España. Este enfoque exigente y emocionante amplió mis límites, convirtiendo mi pasión por el buceo en una dedicación absorbente, fusionando la exploración intrépida con desafíos técnicos, llevándome a explorar aún más las profundidades submarinas desconocidas.</p>
         </div>
@@ -201,10 +202,10 @@ cover:
 
     <div class="card">
       <div class="info">
-        <h3 class="title">2014</h3>
+        <h3 class="title">2003</h3>
         <h4>Comienzo a bucear</h4>
         <div>
-            <img src="/IMG-20141231-WA0071.jpg" class="fotito" />
+            <img src="/628a8d4f-fe45-4ce6-afb1-515019dd01d6.jpeg" class="fotito" />
             <p class="largo" style="text-align: justify">Inspirado por la pasión de mi hermano, me sumergí en el mundo del buceo realizando mi curso de Open Water en Barcelona. Con rapidez adquirí las habilidades necesarias y comencé a explorar como buceador recreativo, navegando por las aguas de Canarias, los exuberantes arrecifes de Filipinas, las profundidades de Borneo en Indonesia y los cautivadores paisajes del Mar Rojo. Durante esa temporada, impulsado por mi curiosidad y deseo de perfeccionar mis habilidades, continué mi formación completando cursos adicionales como Advanced y Rescue de PADI. Estos cursos no solo expandieron mis conocimientos técnicos, sino que también fortalecieron mi confianza y entendimiento de la seguridad en el buceo, permitiéndome sumergirme con mayor profundidad en la maravillosa experiencia submarina.</p>
             <p class="corto" style="text-align: justify">Inspirado por mi hermano, comencé mi aventura en el buceo en Barcelona y exploré lugares como Canarias, Filipinas, Borneo e Indonesia. Completé cursos de PADI como Advanced y Rescue, ampliando mis habilidades y confianza en esta experiencia submarina.</p>
         </div>
