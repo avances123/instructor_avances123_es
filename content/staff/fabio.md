@@ -177,7 +177,7 @@ cover:
    <div class="card">
       <div class="info">
         <h3 class="title">2020</h3>
-        <h4>Comienzo on el buceo de cuevas</h4>
+        <h4>Comienzo con el buceo de cuevas</h4>
         <div>
             <img src="/GOPR1774.JPG" class="fotito"  />
             <p class="largo" style="text-align: justify">Después de acumular una sólida experiencia en el buceo en aguas abiertas, sentí la llamada para adentrarme en un nuevo desafío: el buceo en cuevas. Con esa meta en mente, decidí seguir mi camino hacia el buceo de cuevas bajo la guía experta de Javier de Miguel, en la cautivadora cueva del Moraig. Fue allí donde consolidé los fundamentos esenciales para desenvolverme con seguridad en este entorno desafiante y fascinante. A través del riguroso entrenamiento y la orientación experta, adquirí la disciplina y el enfoque necesarios para operar de manera segura en estas condiciones, comprendiendo la importancia de la preparación meticulosa y el respeto por el entorno subterráneo. Este período de formación no solo fortaleció mis habilidades, sino que también me brindó una comprensión más profunda y una apreciación renovada por la belleza y complejidad del buceo en cuevas.</p>
