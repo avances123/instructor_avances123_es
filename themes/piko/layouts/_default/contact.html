@@ -7,7 +7,7 @@
       <h2>{{ .Description }}</h2>
     </hgroup>
     <form name="contact" method="POST" action="{{ .Site.Params.contactFormAction | relURL }}" >
-        <input name="_redirect" type="hidden" id="name" value="{{"/gracias/" | absURL}}">
+        <input name="_redirect" type="hidden" id="name" value="/gracias/">
         <input name="_formsubmit_id" type="text" hidden>
         <div class="grid">
       
