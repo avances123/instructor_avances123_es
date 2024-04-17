@@ -19,7 +19,7 @@ Con este equipo, podrás explorar aguas más frías con total confort y libertad
 al agua para una experiencia de buceo más cómoda y segura. Aprovecha los beneficios técnicos únicos que ofrece este equipo 
 y perfecciona tu habilidad en su uso con nuestra formación especializada.
 
-![sidemount](/drysuit.png)
+![sidemount](/drysuit.webp)
 
 ## Metodologia del curso
 
