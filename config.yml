@@ -167,7 +167,7 @@ menus:
   - name: Perfil instagram
     title: 
     pre: instagram
-    url: https://www.instagram.com/sidemount.es/
+    url: https://www.instagram.com/sidemount_spain/
     weight: "60"
   search: # Search page's quick links
   - name: Categories
