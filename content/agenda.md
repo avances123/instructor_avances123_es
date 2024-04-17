@@ -1,7 +1,7 @@
 ---
 title: 'Calendario' # in any language you want
 # url: "/archive"
-description: 'Agenda de cursos y entrenamientos'
+description: 'Aqui mostraremos nuestra agenda de cursos y entrenamientos, tambien de cualquier acticidad que planeemos'
 disableShare: true
 layout: legal
 ShowReadingTime: false

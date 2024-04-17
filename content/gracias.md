@@ -3,8 +3,10 @@ title: "Gracias" # in any language you want
 layout: "gracias" # is necessary
 searchHidden: true
 # url: "/archive"
-description: "Gracias por contactar"
+description: "Pagina para mostrar despues de rellenar el formulario de contacto"
 summary: "gracias"
+sitemap:
+    disable: true
 ---
 
 {{< rawhtml >}}
