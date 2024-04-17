@@ -168,7 +168,7 @@ cover:
         <h3 class="title">2024</h3>
         <h4>Especializandome como instructor tecnico con los mejores en la especialidad</h4>
         <div>
-            <img src="/sdrill-audrey.jpg" class="fotito"  />
+            <img src="/sdrill-audrey.webp" class="fotito"  />
             <p class="largo" style="text-align: justify">Durante el transcurso de este año, he alcanzado un hito significativo en mi desarrollo profesional como instructor al obtener la certificación en sidemount técnico en Malta, bajo la tutela de Audrey Cudel, una destacada instructora reconocida en la especialidad. Esta evaluación representó un proceso riguroso y exigente que ha ampliado mi competencia y conocimiento en técnicas avanzadas de buceo, específicamente en el contexto del sidemount. La instrucción recibida y el éxito obtenido en esta evaluación constituyen una validación tangible de mi habilidad para impartir formación de alta calidad en este campo especializado del buceo técnico. Este logro no solo refleja mi dedicación y compromiso con la excelencia profesional, sino que también fortalece mi capacidad para brindar una enseñanza efectiva y segura a futuros alumnos en esta disciplina exigente y técnica del buceo.</p>
             <p class="corto" style="text-align: justify">Durante este año, he avanzado como instructor al completar con éxito mi evaluación de sidemount técnico en Malta, bajo la dirección de Audrey Cudel, una instructora líder en la especialidad. Esta certificación representa un hito significativo en mi desarrollo profesional, validando mi competencia para impartir formación de alta calidad en técnicas avanzadas de buceo.</p>
         </div>
