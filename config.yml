@@ -142,22 +142,22 @@ menus:
   - name: Cursos
     title: Cursos
     pre: book-open
-    url: "/cursos"
+    url: "/cursos/"
     weight: "10"
   - name: Agenda
     title: Agenda
     pre: calendar
-    url: "/agenda"
+    url: "/agenda/"
     weight: "40"
   - name: Contact
     title: Contacto
     pre: mail
-    url: "/contacto"
+    url: "/contacto/"
     weight: "40"
   - name: Quiénes Somos
     title: Quiénes Somos
     pre: user
-    url: "/staff"
+    url: "/staff/"
     weight: "40"
   - name: Canal de youtube
     title: 
@@ -172,13 +172,13 @@ menus:
   search: # Search page's quick links
   - name: Categories
     title: Categories
-    url: "/categories"
+    url: "/categories/"
     weight: "10"
   - name: Archives
     title: Archives
-    url: "/archives"
+    url: "/archives/"
     weight: "20"
   - name: Tags
     title: Tags
-    url: "/tags"
+    url: "/tags/"
     weight: "30"
