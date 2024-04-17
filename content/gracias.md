@@ -14,6 +14,6 @@ summary: "gracias"
             <h2>No tardo nada en contestarte!!.</h2>
         </hgroup>
         
-        <a role="button" href="{{ "/" | absLangURL }}">Vuelve al inicio</a>
+        <a role="button" href="/">Vuelve al inicio</a>
 
 {{< /rawhtml >}}
