@@ -77,16 +77,16 @@ params:
     heroUpperTitle:
     heroTitle: Sidemount Spain
     heroDescription: Entrenamiento avanzado en el buceo tecnico
-    heroCTAPrimaryText: Mis Proyectos
-    heroCTAPrimaryUrl: "https://buceo.avances123.es/"
-    heroCTASecondaryText: Contacto
+    heroCTAPrimaryText: Contacto
+    heroCTAPrimaryUrl: "/contacto/"
+    heroCTASecondaryText: Por que sidemount?
     heroCTASecondaryUrl: "/contacto/"
-    heroBackgroundImage: "/hero.webp"
+    heroBackgroundImage: "/11.jpg"
     # Blog Section
     disableBlogSection: true
     blogTitle: Historial
     blogDescription: Articulos de cursos y entrenos anteriores
-    seeMoreText: Mas Certificaciones
+    seeMoreText: Más Certificaciones
     # About Section    
     disableAboutSection: false
     aboutTitle: La mejor agencia de la industria
