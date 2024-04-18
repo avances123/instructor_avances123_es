@@ -1,6 +1,6 @@
 ---
 title: "Gracias" # in any language you want
-layout: "gracias" # is necessary
+layout: "thanks" # is necessary
 searchHidden: true
 # url: "/archive"
 description: "Pagina para mostrar despues de rellenar el formulario de contacto"
