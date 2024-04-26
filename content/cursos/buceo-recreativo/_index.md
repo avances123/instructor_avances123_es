@@ -8,4 +8,5 @@ showToc: false
 Image: /img_1897-1.png
 cover:
     image: /sdi.png
+    alttext: logo de sdi
 ---

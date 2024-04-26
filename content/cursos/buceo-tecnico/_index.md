@@ -8,4 +8,5 @@ showToc: false
 Image: /tech_diving.jpg
 cover:
     image: /tdi.png
+    alttext: logo de tdi
 ---

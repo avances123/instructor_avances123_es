@@ -23,6 +23,7 @@
       {{if .Params.Cover.Image }}<img
         class="cover"
         src="{{.Params.Cover.Image | absURL}}"
+        alt="{{.Params.Cover.AltText}}"
         width="600"
         height="400"
         align="left"

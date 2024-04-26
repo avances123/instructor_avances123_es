@@ -7,7 +7,7 @@ title: Cursos de Sidemount Avanzado
 theme: piko
 paginate: "9"
 copyright: 
-googleAnalytics: G-NFPNJYXW0E
+googleAnalytics:
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
