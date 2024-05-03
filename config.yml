@@ -81,7 +81,7 @@ params:
     heroCTAPrimaryUrl: "/contacto/"
     heroCTASecondaryText: Por que sidemount?
     heroCTASecondaryUrl: "/articulos/"
-    heroBackgroundImage: "/11.jpg"
+    heroBackgroundImage: "/11.webp"
     # Blog Section
     disableBlogSection: true
     blogTitle: Historial
