@@ -80,7 +80,7 @@ params:
     heroCTAPrimaryText: Contacto
     heroCTAPrimaryUrl: "/contacto/"
     heroCTASecondaryText: Por que sidemount?
-    heroCTASecondaryUrl: "/cursos/buceo-tecnico/sidemount//"
+    heroCTASecondaryUrl: "/articulos/"
     heroBackgroundImage: "/11.jpg"
     # Blog Section
     disableBlogSection: true

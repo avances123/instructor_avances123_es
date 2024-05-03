@@ -34,12 +34,12 @@
     
       <div class="post">
         
-        {{ partial "social-share.html" . }} {{- if not (.Param
+         {{- if not (.Param
         "disableAnchoredHeadings") }} {{- partial "anchored_headings.html"
         .Content -}} {{- else }}{{ .Content }}{{ end }}
       </div>
 
-      {{ partial "social-share.html" . }}
+      
     </div>
     
     {{- if (.Param "ShowRelated") }} 
