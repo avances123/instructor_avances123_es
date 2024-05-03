@@ -13,7 +13,7 @@ sitemap:
 
         <hgroup>
             <h1>Gracias por contactar.</h1>
-            <h2>No tardo nada en contestarte!!.</h2>
+            <h2>Nos pondremos en contacto contigo al instante.</h2>
         </hgroup>
         
         <a role="button" href="/">Vuelve al inicio</a>
