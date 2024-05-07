@@ -1,7 +1,7 @@
 ---
-title: Formacion
+title: Formación
 searchHidden: true
-description: Distintos tipos de formacion disponible
+description: Distintos tipos de formación disponible
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
