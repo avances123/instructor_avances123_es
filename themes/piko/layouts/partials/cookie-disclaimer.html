@@ -1,11 +1,11 @@
-<article class="hidden" id="cookie-banner">
+<article  id="cookie-consent-banner">
   <div>
        <span>
           {{ .Site.Params.CookieNotice }}
        </span>
   </div>
   <footer>
-       <a role="button" id="consent-cookies">
+       <a role="button" id="btn-accept-all">
               Cerrar
        </a>
        <a role="button" class="secondary" href="{{ .Site.Params.CookieLink | relURL}}" >{{ .Site.Params.CookieButton }}</a>     
