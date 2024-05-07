@@ -57,8 +57,8 @@ params:
   ShowShareButtons: false
   ShowCodeCopyButtons: true
   ShowRelated: true
-  CookieNotice: 
-  CookieLink:
+  CookieNotice: fsfas
+  CookieLink: dsafdasf
   CookieButton: Cookies Policy
   disableAnchoredHeadings: false
   contactFormAction: https://formsubmit.io/send/avances123@gmail.com

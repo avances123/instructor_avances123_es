@@ -1,7 +1,7 @@
 ---
 title: 'Fabio Rueda' # in any language you want
 url: "/fabio"
-description: 'Mi historia como buceador e instructor'
+description: 'Los hitos de mi carrera en el buceo'
 disableShare: true
 layout: legal
 ShowReadingTime: false
