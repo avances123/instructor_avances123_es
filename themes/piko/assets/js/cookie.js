@@ -13,6 +13,8 @@ if(localStorage.getItem('consentMode') === null) {
         hideBanner();
     });
     document.getElementById('cookie-consent-banner').style.display = 'block';
+} else {
+    hideBanner();
 }
 
 function setConsent(consent) {
