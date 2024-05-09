@@ -1,7 +1,7 @@
 ---
 title: Buceo Recreativo
 searchHidden: true
-description: Certificaciones de buceo basicas
+description: Certificaciones de buceo básicas
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false

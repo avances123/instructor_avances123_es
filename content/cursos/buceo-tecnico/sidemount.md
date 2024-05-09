@@ -21,7 +21,7 @@ Principales ventajas del buceo en sidemount:
 * Control de la flotabilidad y trim optimizado
 * Hidrodinamica
 * Comodidad en el agua
-* Mas facilidad en todas las habilidades en buceo tecnico 
+* Mas facilidad en todas las habilidades en buceo técnico 
 
 Es ademas la configuracion mas adecuada y utilizada en los entornos bajo techo, siendo este curso, los cimientos donde construir a los futuros buceadores de cuevas.
 
@@ -61,6 +61,3 @@ En el transcurso de este curso, cada sesión será grabada minuciosamente con el
 
 ## Duracion
 4 dias
-
-## Precio
-650€ (no incluye el precio de la certificacion)

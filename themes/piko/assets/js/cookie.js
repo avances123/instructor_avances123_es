@@ -22,8 +22,9 @@ function setConsent(consent) {
         'functionality_storage': consent.necessary ? 'granted' : 'denied',
         'security_storage': consent.necessary ? 'granted' : 'denied',
         'ad_storage': consent.marketing ? 'granted' : 'denied',
+        'ad_user_data': consent.marketing ? 'granted' : 'denied',
         'analytics_storage': consent.analytics ? 'granted' : 'denied',
-        'personalization': consent.preferences ? 'granted' : 'denied',
+        'ad_personalization': consent.preferences ? 'granted' : 'denied',
     };
     gtag('consent', 'update', consentMode);  
     localStorage.setItem('consentMode', JSON.stringify(consentMode));

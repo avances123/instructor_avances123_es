@@ -40,7 +40,7 @@ params:
       SiteVerificationTag: # Bing Site Verification
   env: production
   author: Fabio Rueda
-  description: Cursos de buceo tecnico en sidemount
+  description: Cursos de buceo técnico en sidemount
   math: false
   images:
   - "/uploads/og.webp"
@@ -60,7 +60,7 @@ params:
   CookieNotice: Usamos cookies para mejorar tu experiencia de usuario
   CookieLink: /politicaCookies.pdf
   CookieButton: Politica de Cookies
-  hideFooter: true
+  hideFooter: false
   disableAnchoredHeadings: false
   contactFormAction: https://formsubmit.io/send/avances123@gmail.com
   assets:
@@ -77,7 +77,7 @@ params:
     disableHeroSection: false
     heroUpperTitle:
     heroTitle: Sidemount Spain
-    heroDescription: Entrenamiento avanzado en el buceo tecnico
+    heroDescription: Entrenamiento avanzado en el buceo técnico
     heroCTAPrimaryText: Contacto
     heroCTAPrimaryUrl: "/contacto/"
     heroCTASecondaryText: Por que sidemount?

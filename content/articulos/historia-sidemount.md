@@ -5,6 +5,8 @@ description: 'Historia del nacimiento y evolucion de la configuracion sidemount 
 layout: legal
 ShowReadingTime: false
 showToc: false
+cover:
+    image: /Ancient-Book.jpg
 ---
 
 

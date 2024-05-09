@@ -202,7 +202,7 @@ cover:
     <div class="card">
       <div class="info">
         <h3 class="title">2018</h3>
-        <h4 style="text-align: right">Comienzo en el buceo tecnico</h4>
+        <h4 style="text-align: right">Comienzo en el buceo técnico</h4>
         <div>
             <img src="/tdi_sidemount.png" class="fotito"  />
             <p class="largo" style="text-align: justify">El mundo del buceo técnico se abrió ante mí como un desafío irresistible después de mi incursión inicial en el buceo recreativo. Fascinado por la idea de explorar cuevas submarinas al estilo de un astronauta, decidí adentrarme en el buceo técnico desde sus cimientos, adoptando la configuración sidemount. Determinado a dominar esta disciplina desde el principio, busqué y encontré a uno de los instructores más destacados en España, Oscar L Garcia. El proceso fue exigente y complejo, llevándome a superar desafíos que ampliaron mis límites. A pesar de la intensidad, encontré una nueva pasión en este enfoque más técnico del buceo. La fusión entre la exploración intrépida y el desafío técnico me atrapó por completo, convirtiendo lo que solía ser un pasatiempo en una dedicación seria y absorbente que me motivó a explorar aún más las profundidades desconocidas del mundo submarino.</p>
