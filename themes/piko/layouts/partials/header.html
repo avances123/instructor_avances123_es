@@ -71,7 +71,7 @@
     </li>
     {{ end }}
     <li>
-      <a href='https://api.whatsapp.com/send?phone=608611784' target="_blank">
+      <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=608611784');" href='https://api.whatsapp.com/send?phone=608611784' target="_blank">
         <i data-feather="message-circle" style="color:green; height: 2rem;" class="blink_me"></i>
       </a>
     </li>
@@ -79,9 +79,9 @@
   </ul>
 
   <ul class="mobile-navigation">
-    <button onclick="location.href='https://api.whatsapp.com/send?phone=608611784'" type="button">
+    <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=608611784');" href='https://api.whatsapp.com/send?phone=608611784' target="_blank">
       <i data-feather="message-circle" style="color:green; height: 2rem;" class="blink_me"></i>
-    </button>
+    </a>
     <li>
       <button id="menuOpen" onclick="openMobile()" aria-label="Menu closed">
         <i data-feather="menu"></i>
