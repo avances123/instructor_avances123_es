@@ -1,4 +1,16 @@
 <!-- Nav -->
+<style>
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+</style>
+
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVJJGFF2"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -37,6 +49,7 @@
   </ul>
   {{- $currentPage := . }}
   <ul class="desktop-navigation">
+
     {{ range .Site.Menus.main }}
     {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
     {{- $page_url:= $currentPage.Permalink | absLangURL }}
@@ -57,8 +70,18 @@
       </a>
     </li>
     {{ end }}
+    <li>
+      <a href='https://api.whatsapp.com/send?phone=608611784' target="_blank">
+        <i data-feather="message-circle" style="color:green; height: 2rem;" class="blink_me"></i>
+      </a>
+    </li>
+
   </ul>
+
   <ul class="mobile-navigation">
+    <button onclick="location.href='https://api.whatsapp.com/send?phone=608611784'" type="button">
+      <i data-feather="message-circle" style="color:green; height: 2rem;" class="blink_me"></i>
+    </button>
     <li>
       <button id="menuOpen" onclick="openMobile()" aria-label="Menu closed">
         <i data-feather="menu"></i>
