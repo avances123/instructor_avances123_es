@@ -1,5 +1,5 @@
 ---
-title: Artículos sobre sidemount
+title: Información sobre sidemount
 searchHidden: true
 description: Historia e información sobre esta configuración en el buceo
 ShowBreadCrumbs: true
