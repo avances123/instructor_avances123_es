@@ -44,5 +44,3 @@ En el curso grabamos con GoPro cada sesión para que puedas revisar y mejorar tu
 ## Duracion
 2 dias
 
-## Precio
-200€ (no incluye el precio de la certificacion)

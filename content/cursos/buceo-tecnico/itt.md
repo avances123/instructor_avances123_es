@@ -27,16 +27,16 @@ Este programa no solo proporciona conocimientos básicos, sino que exige un comp
 
 La transición al buceo técnico a través de este curso implica una mentalidad de dedicación continua y una apreciación más profunda de los aspectos técnicos y la seguridad en el entorno submarino. Se abre la puerta a un nuevo mundo de desafíos y descubrimientos, transformando el buceo en una disciplina comprometida y enriquecedora.
 
-## Metodologia del curso
-### Duracion
+## Metodología del curso
+### Duración
 4 o 5 dias
 
-### Talleres en superficie de configuracion
+### Talleres en superficie de configuración
   * Tecnicas de aleteo
   * Controles de manometros
   * Trabajo en equipo
   * Anticiparnos a la resolucion de problemas
-### Sesiones de teoria
+### Sesiones de teoría
   * Planificacion del buceo
   * Tiempo de runtime
   * Planificacion de gases

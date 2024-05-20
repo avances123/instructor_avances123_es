@@ -47,5 +47,3 @@ En el curso de buceo sidemount, grabamos con GoPro cada sesión para que puedas 
 ## Duracion
 3 dias
 
-## Precio
-500€ (no incluye el precio de la certificacion)

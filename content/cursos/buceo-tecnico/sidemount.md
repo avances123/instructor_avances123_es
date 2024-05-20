@@ -61,6 +61,3 @@ En el transcurso de este curso, cada sesión será grabada minuciosamente con el
 
 ## Duracion
 4 dias
-
-## Precio
-650€ (no incluye el precio de la certificacion)
