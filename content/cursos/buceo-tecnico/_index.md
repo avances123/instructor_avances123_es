@@ -1,5 +1,5 @@
 ---
-title: Buceo Tecnico
+title: Buceo Técnico
 searchHidden: true
 description: Certificaciones de buceo avanzadas
 ShowBreadCrumbs: true
