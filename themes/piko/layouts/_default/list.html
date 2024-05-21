@@ -12,7 +12,7 @@ url('{{.Params.Image}}');">
 
 {{- $currentPage := . }}
 <div class="container">
-  <p>{{.Params.TextoPrincipal}}</p>
+  <p>{{.Params.TextoPrincipal | safeHTML}}</p>
   <div class="grid grid-post">
     {{- $pages := union .RegularPages .Sections }}
 

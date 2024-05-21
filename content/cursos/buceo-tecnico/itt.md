@@ -33,7 +33,7 @@ La transición al buceo técnico a través de este curso implica una mentalidad 
 
 ### Talleres en superficie de configuración
   * Tecnicas de aleteo
-  * Controles de manometros
+  * Controles de manómetros
   * Trabajo en equipo
   * Anticiparnos a la resolucion de problemas
 ### Sesiones de teoría
@@ -50,6 +50,8 @@ La transición al buceo técnico a través de este curso implica una mentalidad 
   * Tecnicas de propulsion en el agua
   * Navegacion avanzada
   * Despligue de SMB
+
+
 
 ## Otros detalles sobre el curso 
 En el transcurso de este curso, cada sesión será grabada minuciosamente con el propósito de permitir un análisis exhaustivo de cada detalle. Desde la configuración precisa del equipo hasta la disposición y técnica en el agua, cada aspecto será documentado para revisión posterior. Se recomienda encarecidamente a los participantes traer su propio equipo personal, permitiéndoles trabajar con la configuración que conocen y llevárselo ajustado de manera óptima. Es fundamental tener en cuenta la exigencia de este curso: se espera que los alumnos lleguen mentalmente preparados y con una base sólida de fundamentos teóricos previamente adquiridos. La disposición para asimilar nuevos conocimientos y perfeccionar habilidades será clave en este riguroso programa de formación en buceo.

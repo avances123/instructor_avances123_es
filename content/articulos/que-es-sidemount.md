@@ -5,6 +5,8 @@ description: 'Principales beneficios que tiene la configuracion sidemount en el 
 layout: legal
 ShowReadingTime: false
 showToc: false
+cover:
+    image: /having-doubts--drawing-of-a-man-on-blackboard--illustration.jpg
 ---
 
 
