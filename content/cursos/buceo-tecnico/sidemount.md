@@ -3,7 +3,7 @@ title: TDI Sidemount
 searchHidden: true
 layout: curso
 url: /cursos/buceo-tecnico/sidemount
-description: Hazte buceador tecnico en sidemount
+description: Hazte buceador técnico en sidemount
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
@@ -12,7 +12,7 @@ cover:
     image: /image-asset.png
 ---
 
-## Por que sidemount?
+## Por qué sidemount?
 La configuración de buceo sidemount es un estilo de buceo en el que los tanques de aire se colocan a los lados del buceador en lugar de llevarlos en la espalda, como en el buceo con tanque trasero tradicional (backmount). Esta técnica se ha vuelto cada vez más popular debido a sus ventajas en términos de comodidad, maniobrabilidad y acceso a los equipos.
 
 Principales ventajas del buceo en sidemount:

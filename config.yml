@@ -80,7 +80,7 @@ params:
     heroDescription: Entrenamiento avanzado en el buceo técnico
     heroCTAPrimaryText: Contacto
     heroCTAPrimaryUrl: "/contacto/"
-    heroCTASecondaryText: Por que sidemount?
+    heroCTASecondaryText: Por qué sidemount?
     heroCTASecondaryUrl: "/articulos/"
     heroBackgroundImage: "/11.webp"
     # Blog Section

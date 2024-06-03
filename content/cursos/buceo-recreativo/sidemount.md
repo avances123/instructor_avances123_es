@@ -13,7 +13,7 @@ cover:
 ---
 
 
-## Por que sidemount?
+## Por qué sidemount?
 ¡El buceo sidemount es como llevar tu propio traje espacial submarino! Imagina deslizarte bajo el agua con tanques a ambos lados de tu cuerpo, como un auténtico explorador submarino. Esta técnica te libera de cargar tanques en la espalda, ofreciéndote una libertad y movilidad increíbles bajo el agua. Con el sidemount, puedes sumergirte con mayor facilidad en lugares estrechos, explorar cuevas y tener un acceso sencillo a tu equipo. Es como descubrir un nuevo estilo de buceo que te brinda más control y comodidad para disfrutar al máximo del mundo submarino. ¡Sumérgete en esta aventura y descubre la emoción del buceo sidemount!
 
 

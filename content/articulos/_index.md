@@ -1,7 +1,7 @@
 ---
 title: Información sobre sidemount
 searchHidden: true
-description: Por que es mejor bucear en sidemount para el buceo técnico?
+description: Por qué es mejor bucear en sidemount para el buceo técnico?
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false

@@ -13,7 +13,7 @@ cover:
 ---
 
 
-## Por que traje seco?
+## Por qué traje seco?
 Descubre la comodidad y aislamiento térmico incomparables del traje seco en nuestro curso especializado. 
 Con este equipo, podrás explorar aguas más frías con total confort y libertad de movimiento, minimizando la exposición
 al agua para una experiencia de buceo más cómoda y segura. Aprovecha los beneficios técnicos únicos que ofrece este equipo 
@@ -21,7 +21,7 @@ y perfecciona tu habilidad en su uso con nuestra formación especializada.
 
 ![sidemount](/drysuit.webp)
 
-## Metodologia del curso
+## Metodología del curso
 
 ### Talleres en superficie de configuracion
   * Tecnica para equiparse 
