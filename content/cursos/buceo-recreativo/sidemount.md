@@ -4,6 +4,7 @@ searchHidden: true
 layout: curso
 url: /cursos/buceo-recreativo/sidemount
 description: Hazte buceador recreativo en sidemount
+seoDescription: Curso SDI Sidemount en Barcelona y Costa Brava. Aprende a bucear con botellas laterales con máxima comodidad, seguridad, redundancia y control.
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false

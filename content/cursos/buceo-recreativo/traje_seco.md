@@ -4,6 +4,7 @@ searchHidden: true
 layout: curso
 url: /cursos/buceo-recreativo/traje-seco
 description: Curso para usar traje seco
+seoDescription: Curso de Traje Seco (SDI Dry Suit) en la Costa Brava. Domina la flotabilidad, aislamiento térmico y procedimientos de seguridad con traje seco.
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false

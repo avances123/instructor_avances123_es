@@ -4,7 +4,7 @@
 url('{{.Site.Params.homepage.heroBackgroundImage}}'); ">
   <header class="container">
     <hgroup>
-      <h1>{{.Site.Params.homepage.heroUpperTitle}}</h1>
+      {{ with .Site.Params.homepage.heroUpperTitle }}<h1>{{ . }}</h1>{{ end }}
       <h1>{{.Site.Params.homepage.heroTitle}}</h1>
       <h2>{{.Site.Params.homepage.heroDescription}}</h2>
     </hgroup>
@@ -42,6 +42,7 @@ url('{{.Site.Params.homepage.heroBackgroundImage}}'); ">
           <figure>
             <img
               src="{{.Params.Cover.Image | absURL}}"
+              alt="{{ .Title }}"
               width="600"
               height="400"
               layout="responsive"
@@ -83,6 +84,7 @@ url('{{.Site.Params.homepage.heroBackgroundImage}}'); ">
           <figure>
             <img
               src="{{.Params.Cover.Image | absURL}}"
+              alt="{{ .Title }}"
               width="600"
               height="400"
               layout="responsive"

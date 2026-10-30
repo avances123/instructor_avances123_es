@@ -1,111 +1,110 @@
-{{ if .IsHome }}
+{{- if .IsHome }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "{{- ( .Site.Params.schema.publisherType | default "Organization") | title -}}",
+  "@type": "Organization",
   "name": {{ .Site.Title }},
+  "alternateName": "Sidemount Spain",
   "url": {{ .Site.BaseURL }},
-  "description": {{ .Site.Params.description | plainify | truncate 180 | safeHTML }},
-  "thumbnailUrl": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
+  "description": {{ .Site.Params.description | plainify }},
+  "logo": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
   "sameAs": [
-    {{- if .Site.Params.schema.sameAs }}
-      {{ range $i, $e := .Site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
-    {{- else}}
-      {{ range $i, $e := .Site.Params.SocialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " }}{{ end }}
-    {{- end}}
+    "https://www.youtube.com/@sidemount_spain",
+    "https://www.instagram.com/sidemount_spain/"
   ]
 }
 </script>
-{{- else if (or .IsPage .IsSection) }}
-{{/* BreadcrumbList */}}
-{{- $url := replace .Parent.Permalink ( printf "%s" .Site.BaseURL) "" }}
-{{- $lang_url := strings.TrimPrefix ( printf "%s/" .Lang) $url }}
-{{- $bc_list := (split $lang_url "/")}}
-
+{{- else if and (or .IsPage .IsSection) (not .Params.noindex) (ne .Layout "thanks") }}
 {{- $scratch := newScratch }}
+{{- $scratch.Set "pos" 1 }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-  {{- range $index, $element := $bc_list }}
-
-    {{- $scratch.Add "path" (printf "%s/" $element ) | safeJS }}
-    {{- $bc_pg := $.Site.GetPage ($scratch.Get "path") -}}
-
-    {{- if (and ($bc_pg) (gt (len . ) 0))}}
-    {{- if (and $index)}}, {{end }}
     {
       "@type": "ListItem",
-      "position": {{ add 1 $index  }},
-      "name": {{ $bc_pg.Name }},
-      "item": {{ $bc_pg.Permalink | safeHTML }}
+      "position": 1,
+      "name": "Inicio",
+      "item": {{ .Site.BaseURL }}
     }
-    {{- end }}
-
-  {{- end }}
-  {{- /*  self-page addition  */ -}}
-  {{- if (ge (len $bc_list) 2) }}, {{end }}
+    {{- if and .Parent (not .Parent.IsHome) -}}
+      {{- if and .Parent.Parent (not .Parent.Parent.IsHome) -}}
+        {{- $scratch.Add "pos" 1 -}},
     {
       "@type": "ListItem",
-      "position": {{len $bc_list}},
-      "name": {{ .Name }},
-      "item": {{ .Permalink | safeHTML }}
+      "position": {{ $scratch.Get "pos" }},
+      "name": {{ .Parent.Parent.Title }},
+      "item": {{ .Parent.Parent.Permalink }}
+    }
+      {{- end -}}
+      {{- $scratch.Add "pos" 1 -}},
+    {
+      "@type": "ListItem",
+      "position": {{ $scratch.Get "pos" }},
+      "name": {{ .Parent.Title }},
+      "item": {{ .Parent.Permalink }}
+    }
+    {{- end -}}
+    {{- $scratch.Add "pos" 1 -}},
+    {
+      "@type": "ListItem",
+      "position": {{ $scratch.Get "pos" }},
+      "name": {{ .Title }},
+      "item": {{ .Permalink }}
     }
   ]
 }
 </script>
-{{- if .IsPage }}
+
+{{- if eq .Layout "curso" }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": {{ .Title | plainify}},
-  "name": "{{ .Title | plainify }}",
-  "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ .Summary | plainify  }}{{ end -}},
-  "keywords": [
-    {{- if .Params.keywords }}
-    {{ range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
-    {{- else }}
-    {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
-    {{- end }}
-  ],
-  "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
-  "wordCount" : "{{ .WordCount }}",
-  "inLanguage": {{ .Language.Lang | default "en-us" }},
+  "@type": "Course",
+  "name": {{ .Title | plainify }},
+  "description": {{ with (.Params.seoDescription | default .Description) | plainify }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }},
+  "url": {{ .Permalink }},
+  "inLanguage": "es",
   {{ if .Params.cover.image -}}
-  "image":
-    {{- if (ne .Params.cover.relative true) -}}
-    {{ .Params.cover.image | absURL }},
-    {{- else -}}
-    {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }},
-    {{- end}}
-  {{- end -}}
-  "datePublished": {{ .PublishDate }},
-  "dateModified": {{ .Lastmod }},
-  {{- with (.Params.author | default .Site.Params.author) }}
-  "author":
-    {{- if (or (eq (printf "%T" .) "[]string") (eq (printf "%T" .) "[]interface {}")) -}}
-  [{{- range $i, $v := . -}}
-  {{- if $i }}, {{end -}}
-  {
-    "@type": "Person",
-    "name": {{ $v }}
-  }
-  {{- end }}],
-    {{- else -}}
-  {
-    "@type": "Person",
-    "name": {{ . }}
-  },
-    {{- end -}}
+  "image": {{ .Params.cover.image | absURL }},
   {{- end }}
+  "provider": {
+    "@type": "Organization",
+    "name": "Sidemount Spain",
+    "url": {{ .Site.BaseURL }}
+  }
+}
+</script>
+{{- else if and .IsPage (ne .Layout "contact") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | plainify }},
+  "name": {{ .Title | plainify }},
+  "description": {{ with (.Params.seoDescription | default .Description) | plainify }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }},
+  "wordCount": "{{ .WordCount }}",
+  "inLanguage": "es",
+  {{ if .Params.cover.image -}}
+  "image": {{ .Params.cover.image | absURL }},
+  {{- end }}
+  {{ if gt .PublishDate.Year 1 -}}
+  "datePublished": {{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }},
+  {{- end }}
+  {{ if gt .Lastmod.Year 1 -}}
+  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }},
+  {{- end }}
+  "author": {
+    "@type": "Person",
+    "name": {{ .Params.author | default .Site.Params.author }}
+  },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": {{ .Permalink | safeHTML }}
+    "@id": {{ .Permalink }}
   },
   "publisher": {
-    "@type": "{{- ( .Site.Params.schema.publisherType | default "Organization") | title -}}",
+    "@type": "Organization",
     "name": {{ .Site.Title }},
     "logo": {
       "@type": "ImageObject",
@@ -114,6 +113,5 @@
   }
 }
 </script>
-{{- end }}{{/* .IsPage end */}}
-
+{{- end }}
 {{- end -}}

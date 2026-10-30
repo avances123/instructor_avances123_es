@@ -4,6 +4,7 @@ searchHidden: true
 layout: curso
 url: /cursos/buceo-tecnico/intro-to-tech
 description: Fundamentos para empezar en el buceo técnico
+seoDescription: Curso oficial TDI Intro to Tech en España (Costa Brava). Aprende los fundamentos del buceo técnico: flotabilidad, trim, propulsión y trabajo en equipo.
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false

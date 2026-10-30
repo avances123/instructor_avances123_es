@@ -1,9 +1,9 @@
 ---
-title: "Gracias" # in any language you want
-layout: "thanks" # is necessary
+title: "Gracias"
+layout: "thanks"
 searchHidden: true
-# url: "/archive"
-description: "Pagina para mostrar despues de rellenar el formulario de contacto"
+noindex: true
+description: "Página de confirmación tras enviar el formulario de contacto"
 summary: "gracias"
 sitemap:
     disable: true
