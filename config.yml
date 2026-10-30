@@ -62,7 +62,8 @@ params:
   CookieButton: Politica de Cookies
   hideFooter: false
   disableAnchoredHeadings: false
-  contactFormAction: https://formsubmit.io/send/avances123@gmail.com
+  formsparkFormId: "4HNkSW497"
+  contactFormAction: https://submit-form.com/4HNkSW497
   assets:
     disableFingerprinting: false
     favicon: /favicon.ico

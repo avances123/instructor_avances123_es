@@ -25,7 +25,10 @@
     var status = granted ? 'granted' : 'denied';
     if (typeof gtag === 'function') {
       gtag('consent', 'update', {
-        'analytics_storage': status
+        'analytics_storage': status,
+        'ad_storage': status,
+        'ad_user_data': status,
+        'ad_personalization': status
       });
     }
     try {

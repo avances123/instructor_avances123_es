@@ -6,33 +6,95 @@
       <h1>{{ .Title }}</h1>
       <h2>{{ .Description }}</h2>
     </hgroup>
-    <form name="contact" method="POST" action="{{ .Site.Params.contactFormAction | relURL }}" >
-        <input name="_redirect" type="hidden" id="name" value="https://www.sidemount.es/gracias/">
-        <input name="_formsubmit_id" type="text" hidden>
+
+    <div style="margin-bottom: 2rem; padding: 1rem; border-radius: 8px; background: var(--card-background-color, rgba(255,255,255,0.05)); border: 1px solid var(--card-border-color, rgba(255,255,255,0.1)); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+      <div>
+        <strong>¿Prefieres atención inmediata?</strong>
+        <p style="margin: 0; font-size: 0.9rem; opacity: 0.85;">Escríbeme directamente por WhatsApp para resolver dudas sobre cursos, fechas o material.</p>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=608611784&text=Hola%20Fabio,%20te%20escribo%20desde%20la%20web%20para%20preguntarte%20sobre%20los%20cursos" 
+         target="_blank" 
+         role="button" 
+         onclick="return trackLead('whatsapp', 'contact_page_banner', '', this.href);"
+         style="margin-bottom: 0; white-space: nowrap;">
+         Abrir WhatsApp
+      </a>
+    </div>
+
+    <form id="contact-form" name="contact" method="POST" action="https://submit-form.com/{{ .Site.Params.formsparkFormId | default "4HNkSW497" }}">
+        <!-- Antispam Honeypot de Formspark -->
+        <input type="checkbox" name="_honeypot" style="display:none" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="_redirectTo" value="https://www.sidemount.es/gracias/">
+
         <div class="grid">
-      
           <label for="firstname">
-            First name
+            Nombre
             <input type="text" id="firstname" name="firstname" placeholder="Nombre" required>
           </label>
       
           <label for="lastname">
-            Last name
+            Apellido
             <input type="text" id="lastname" name="lastname" placeholder="Apellido">
           </label>
-      
         </div>
       
-        <label for="email">Direccion Email</label>
-        <input type="email" id="email" name="email" placeholder="Direccion Email" required>
+        <label for="email">Dirección de Email</label>
+        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
 
-        <label for="email">Tu mensaje</label>
-        <textarea name="message" id="message" cols="30" rows="5" style="resize: none;" required></textarea>
-        <small>Escribe cualquier duda o peticion.</small>
+        <label for="message">Tu mensaje</label>
+        <textarea name="message" id="message" cols="30" rows="5" style="resize: vertical;" placeholder="Cuéntame tu nivel actual de buceo, dudas o fechas aproximadas..." required></textarea>
+        <small>Escribe cualquier duda o petición sobre formación.</small>
       
-        <input type="submit">
-      
-      </form>
+        <div style="margin-top: 1rem;">
+          <button type="submit" id="contact-submit-btn">Enviar Mensaje</button>
+        </div>
+    </form>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('contact-form');
+    var submitBtn = document.getElementById('contact-submit-btn');
+
+    if (!form) return;
+
+    form.addEventListener('submit', function(e) {
+        // Enviar evento de conversión a GA4
+        if (typeof trackLead === 'function') {
+            trackLead('form', 'contact_form_submit', '', '');
+        }
+
+        if (window.fetch) {
+            e.preventDefault();
+            submitBtn.disabled = true;
+            submitBtn.innerText = 'Enviando...';
+
+            var formData = new FormData(form);
+            var payload = {};
+            formData.forEach(function(value, key) {
+                payload[key] = value;
+            });
+
+            fetch(form.action, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            }).then(function(response) {
+                if (response.ok) {
+                    window.location.href = 'https://www.sidemount.es/gracias/';
+                } else {
+                    // Fallback al submit normal si la API responde con error
+                    form.submit();
+                }
+            }).catch(function() {
+                form.submit();
+            });
+        }
+    });
+});
+</script>
 {{ end }}

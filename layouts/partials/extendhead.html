@@ -13,9 +13,9 @@
 
         gtag('consent', 'default', {
             'analytics_storage': isGranted ? 'granted' : 'denied',
-            'ad_storage': 'denied',
-            'ad_user_data': 'denied',
-            'ad_personalization': 'denied'
+            'ad_storage': isGranted ? 'granted' : 'denied',
+            'ad_user_data': isGranted ? 'granted' : 'denied',
+            'ad_personalization': isGranted ? 'granted' : 'denied'
         });
     })();
 </script>
@@ -27,18 +27,42 @@
     gtag('config', 'G-NFPNJYXW0E');
 </script>
 
-<!-- Google tag event helper -->
+<!-- Conversion Tracking Helpers -->
 <script>
-    function gtagSendEvent(url) {
-        var callback = function () {
-            if (typeof url === 'string') {
-                window.location = url;
+    function trackLead(method, source, courseName, targetUrl) {
+        var callbackTriggered = false;
+        function doNavigate() {
+            if (!callbackTriggered && typeof targetUrl === 'string' && targetUrl) {
+                callbackTriggered = true;
+                if (targetUrl.indexOf('whatsapp.com') !== -1 || targetUrl.indexOf('wa.me') !== -1) {
+                    window.open(targetUrl, '_blank');
+                } else {
+                    window.location.href = targetUrl;
+                }
             }
-        };
-        gtag('event', 'conversion_event_contact', {
-            'event_callback': callback,
-            'event_timeout': 2000
-        });
+        }
+
+        if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+                'lead_method': method || 'generic',
+                'lead_source': source || window.location.pathname,
+                'course_name': courseName || '',
+                'event_callback': doNavigate,
+                'event_timeout': 1500
+            });
+            gtag('event', 'conversion_event_contact', {
+                'lead_method': method || 'generic',
+                'lead_source': source || window.location.pathname,
+                'course_name': courseName || ''
+            });
+        } else {
+            doNavigate();
+        }
         return false;
+    }
+
+    // Helper retrocompatible para llamadas existentes
+    function gtagSendEvent(url) {
+        return trackLead('whatsapp', 'header', '', url);
     }
 </script>

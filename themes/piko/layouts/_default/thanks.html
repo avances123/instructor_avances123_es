@@ -4,4 +4,17 @@
         {{.Content}}
     </div>    
 </div>
+
+<script>
+    if (typeof gtag === 'function') {
+        gtag('event', 'generate_lead', {
+            'lead_method': 'form',
+            'lead_source': 'thanks_page'
+        });
+        gtag('event', 'conversion_event_contact', {
+            'lead_method': 'form',
+            'lead_source': 'thanks_page'
+        });
+    }
+</script>
 {{ end }}
