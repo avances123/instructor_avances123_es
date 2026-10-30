@@ -13,12 +13,15 @@
     <img class="img-footer" src="/android-chrome-192x192.png" alt="Bienvenido a la web de Sidemount Spain" width="35" height="35">
     <img class="img-footer" src="/tdi_logo.png" alt="Bienvenido a la web de Sidemount Spain" width="100">
     <img class="img-footer" src="/sdi_logo.png" alt="Bienvenido a la web de Sidemount Spain" width="100">
+    <p style="margin-top: 0.75rem; margin-bottom: 0;">
+        <a href="javascript:void(0)" onclick="openCookieBanner()" style="font-size: 0.75rem; opacity: 0.75;">Configurar cookies</a>
+    </p>
 </footer>
 {{- end }}
 
 {{- partial "extendfooter.html" . }}
 
-<!-- {{- partial "cookie-disclaimer.html" . }} -->
+{{- partial "cookie-disclaimer.html" . }}
 <script>
     let menu = document.getElementById('menu')
     if (menu) {

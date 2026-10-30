@@ -1,41 +1,44 @@
+<!-- Google Consent Mode & Google Analytics (GA4) -->
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    
-    if(localStorage.getItem('consentMode') === null){
+
+    (function() {
+        var consent = null;
+        try {
+            consent = localStorage.getItem('cookie_consent');
+        } catch (e) {}
+
+        var isGranted = consent === 'granted';
+
         gtag('consent', 'default', {
+            'analytics_storage': isGranted ? 'granted' : 'denied',
             'ad_storage': 'denied',
-            'analytics_storage': 'denied',
             'ad_user_data': 'denied',
-            'ad_personalization': 'denied',
-            'functionality_storage': 'denied',
-            'security_storage': 'denied'
+            'ad_personalization': 'denied'
         });
-    } else {
-        gtag('consent', 'default', JSON.parse(localStorage.getItem('consentMode')));
-    }
+    })();
 </script>
 
-
-
-
-
-
-<!-- Google tag (gtag.js) event - delayed navigation helper -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFPNJYXW0E"></script>
 <script>
-    // Helper function to delay opening a URL until a gtag event is sent.
-    // Call it in response to an action that should navigate to a URL.
+    gtag('js', new Date());
+    gtag('config', 'G-NFPNJYXW0E');
+</script>
+
+<!-- Google tag event helper -->
+<script>
     function gtagSendEvent(url) {
-      var callback = function () {
-        if (typeof url === 'string') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'conversion_event_contact', {
-        'event_callback': callback,
-        'event_timeout': 2000,
-        // <event_parameters>
-      });
-      return false;
+        var callback = function () {
+            if (typeof url === 'string') {
+                window.location = url;
+            }
+        };
+        gtag('event', 'conversion_event_contact', {
+            'event_callback': callback,
+            'event_timeout': 2000
+        });
+        return false;
     }
-  </script>
+</script>

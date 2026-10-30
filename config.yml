@@ -57,7 +57,7 @@ params:
   ShowShareButtons: false
   ShowCodeCopyButtons: true
   ShowRelated: true
-  CookieNotice: Usamos cookies para mejorar tu experiencia de usuario
+  CookieNotice: Usamos cookies de analítica (Google Analytics) para conocer el tráfico y uso de la web. Puedes aceptarlas o rechazarlas.
   CookieLink: /politicaCookies.pdf
   CookieButton: Politica de Cookies
   hideFooter: false

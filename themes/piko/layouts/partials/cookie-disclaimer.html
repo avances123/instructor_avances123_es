@@ -1,17 +1,18 @@
-<article  id="cookie-consent-banner">
+<article id="cookie-consent-banner" style="display: none;" role="dialog" aria-live="polite" aria-label="Consentimiento de cookies">
   <div>
-       <span>
-          {{ .Site.Params.CookieNotice }}
-       </span>
+    <span>
+      {{ .Site.Params.CookieNotice | default "Utilizamos cookies analíticas para medir el tráfico y mejorar la experiencia. Puedes aceptarlas o rechazarlas." }}
+    </span>
   </div>
-  <footer>
-       <a role="button" id="btn-accept-all">
-              Cerrar
-       </a>
-       <a role="button" class="secondary" href="{{ .Site.Params.CookieLink | relURL}}" >{{ .Site.Params.CookieButton }}</a>     
+  <footer style="margin-top: 1rem; display: flex; gap: 0.5rem; justify-content: flex-end; align-items: center; flex-wrap: wrap;">
+    {{ if .Site.Params.CookieLink }}
+    <a href="{{ .Site.Params.CookieLink | relURL }}" target="_blank" rel="noopener" style="margin-right: auto; font-size: 0.85rem;">{{ .Site.Params.CookieButton | default "Política de cookies" }}</a>
+    {{ end }}
+    <button type="button" id="cookie-btn-reject" class="secondary outline" style="margin-bottom: 0; padding: 0.4rem 0.8rem; font-size: 0.85rem; width: auto;">Rechazar</button>
+    <button type="button" id="cookie-btn-accept" style="margin-bottom: 0; padding: 0.4rem 0.8rem; font-size: 0.85rem; width: auto;">Aceptar</button>
   </footer>
 </article>
 
 {{ "<!-- Cookies Script -->" | safeHTML }}
-{{ $cookies := resources.Get "js/cookie.js" | minify}}
-<script async src="{{ $cookies.Permalink }}" layout="container"></script>
+{{ $cookies := resources.Get "js/cookie.js" | minify }}
+<script src="{{ $cookies.Permalink }}" layout="container"></script>
