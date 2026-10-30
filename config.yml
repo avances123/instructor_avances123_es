@@ -1,14 +1,12 @@
 ---
-disableKinds: ["taxonomy", "taxonomyTerm"]
+disableKinds: ["taxonomy", "term"]
 pluralizelisttitles: false
 baseURL: https://www.sidemount.es
 languageCode: es-es
 defaultContentLanguage: es
 title: Cursos de Sidemount Avanzado | Sidemount Spain
 theme: piko
-paginate: "9"
 copyright: 
-googleAnalytics:
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
