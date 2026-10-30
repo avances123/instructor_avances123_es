@@ -1,7 +1,9 @@
 ---
-title: Información sobre sidemount
-searchHidden: true
-description: Por qué es mejor bucear en sidemount para el buceo técnico?
+title: Artículos de Buceo Técnico, Sidemount y Cuevas
+seoTitle: "Artículos y Guías de Buceo Técnico, Sidemount y Cuevas | Sidemount Spain"
+searchHidden: false
+description: "¿Por qué elegir la configuración sidemount para el buceo técnico y en cuevas?"
+seoDescription: "Guías técnicas sobre buceo en sidemount, comparativa bibotella vs sidemount, cómo empezar en el buceo técnico TDI e iniciación al buceo en cuevas."
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false

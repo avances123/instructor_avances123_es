@@ -6,6 +6,7 @@ seoDescription: "Descubre qué es el buceo sidemount o buceo en montaje lateral:
 layout: legal
 ShowReadingTime: false
 showToc: false
+weight: 4
 cover:
     image: /having-doubts--drawing-of-a-man-on-blackboard--illustration.jpg
 ---

@@ -6,6 +6,7 @@ seoDescription: "Conoce la historia del buceo sidemount (montaje lateral): desde
 layout: legal
 ShowReadingTime: false
 showToc: false
+weight: 5
 cover:
     image: /Ancient-Book.jpg
 ---
