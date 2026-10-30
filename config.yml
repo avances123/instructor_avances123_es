@@ -39,12 +39,12 @@ params:
       SiteVerificationTag: # Bing Site Verification
   env: production
   author: Fabio Rueda
-  description: "Formación especializada en buceo técnico y configuración sidemount en España. Cursos oficiales TDI y SDI: Intro to Tech, Sidemount y Traje Seco."
+  description: "Formación especializada en buceo técnico y configuración sidemount en España. Cursos oficiales TDI y SDI: Intro to Tech, Sidemount, Cavern Diver y Traje Seco."
   math: false
   images:
   - "/uploads/og.webp"
   label:
-    title: _Sidemount Spain_
+    title: Sidemount Spain
     text: Bienvenido a la web de Sidemount Spain
     lightNavIcon: /uploads/sun.svg
     darkNavIcon: /android-chrome-192x192.png

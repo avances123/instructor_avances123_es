@@ -8,7 +8,7 @@ seoDescription: "Curso SDI Sidemount en Barcelona y L'Escala (Costa Brava). Apre
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
-weight: 3
+weight: 4
 cover:
     image: /sidemount-diving.webp
 ---

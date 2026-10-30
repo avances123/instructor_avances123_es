@@ -8,7 +8,7 @@ seoDescription: "Curso de Traje Seco (SDI Dry Suit) en L'Escala (Costa Brava) y 
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
-weight: 3
+weight: 5
 cover:
     image: /drysuit1.jpg
 ---

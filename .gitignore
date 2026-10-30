@@ -4,3 +4,4 @@ resources
 .playwright-mcp/
 documentacion_tdi/
 *.webm
+*.mkv
