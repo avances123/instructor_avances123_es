@@ -30,7 +30,7 @@
     }
     {{- if and .Parent (not .Parent.IsHome) -}}
       {{- if and .Parent.Parent (not .Parent.Parent.IsHome) -}}
-        {{- $scratch.Add "pos" 1 -}},
+        {{- $scratch.Add "pos" 1 | safeJS -}},
     {
       "@type": "ListItem",
       "position": {{ $scratch.Get "pos" }},
@@ -38,7 +38,7 @@
       "item": {{ .Parent.Parent.Permalink }}
     }
       {{- end -}}
-      {{- $scratch.Add "pos" 1 -}},
+      {{- $scratch.Add "pos" 1 | safeJS -}},
     {
       "@type": "ListItem",
       "position": {{ $scratch.Get "pos" }},
@@ -46,7 +46,7 @@
       "item": {{ .Parent.Permalink }}
     }
     {{- end -}}
-    {{- $scratch.Add "pos" 1 -}},
+    {{- $scratch.Add "pos" 1 | safeJS -}},
     {
       "@type": "ListItem",
       "position": {{ $scratch.Get "pos" }},
