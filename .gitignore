@@ -3,3 +3,4 @@ resources
 .hugo_build.lock
 .playwright-mcp/
 documentacion_tdi/
+*.webm
