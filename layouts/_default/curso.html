@@ -35,6 +35,57 @@
       </a>
     </div>
   </div>
+
+  {{- $otherCourses := where (where site.RegularPages "Type" "in" site.Params.mainSections) "Permalink" "ne" .Permalink }}
+  {{- if $otherCourses }}
+  <div style="margin-top: 3rem;">
+    <hgroup>
+      <h2>Otros cursos del itinerario formativo</h2>
+      <h3>Continúa tu progresión en buceo técnico y sidemount</h3>
+    </hgroup>
+    <div class="grid grid-post">
+      {{- range first 3 $otherCourses }}
+      <a href="{{ .RelPermalink }}">
+        <article class="text-center">
+          {{- if .Params.Cover.Image }}
+          <figure>
+            <img
+              src="{{ .Params.Cover.Image | absURL }}"
+              alt="{{ .Title }}"
+              width="600"
+              height="400"
+              layout="responsive"
+            ></img>
+          </figure>
+          {{- end }}
+          <hgroup>
+            <h3>{{ .Title }}</h3>
+            <hr />
+            <p>
+              {{ .Description | plainify | htmlUnescape | truncate 100 }}{{ if .Truncated }}...{{ end }}
+            </p>
+          </hgroup>
+        </article>
+      </a>
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+
+  {{- $articles := where site.RegularPages "Section" "articulos" }}
+  {{- if $articles }}
+  <div style="margin-top: 2.5rem;">
+    <hgroup>
+      <h3>Lecturas recomendadas sobre Sidemount</h3>
+      <p style="margin-bottom: 1rem;">Conoce a fondo el origen, la técnica y las ventajas de la configuración lateral:</p>
+    </hgroup>
+    <ul>
+      {{- range $articles }}
+      <li><a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a> — {{ .Description }}</li>
+      {{- end }}
+    </ul>
+  </div>
+  {{- end }}
 </section>
 
 {{- end }}{{/* end main */}}

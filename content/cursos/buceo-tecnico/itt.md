@@ -1,6 +1,7 @@
 ---
 title: TDI Intro to Tech
-searchHidden: true
+seoTitle: "Curso TDI Intro to Tech en Costa Brava y Barcelona | Sidemount Spain"
+searchHidden: false
 layout: curso
 url: /cursos/buceo-tecnico/intro-to-tech
 description: Fundamentos para empezar en el buceo técnico

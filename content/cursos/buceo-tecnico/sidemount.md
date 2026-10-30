@@ -1,6 +1,7 @@
 ---
 title: TDI Sidemount
-searchHidden: true
+seoTitle: "Curso TDI Sidemount en Costa Brava y Barcelona | Sidemount Spain"
+searchHidden: false
 layout: curso
 url: /cursos/buceo-tecnico/sidemount
 description: Hazte buceador técnico en sidemount

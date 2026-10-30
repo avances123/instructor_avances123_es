@@ -1,6 +1,7 @@
 ---
 title: SDI Sidemount
-searchHidden: true
+seoTitle: "Curso SDI Sidemount en Costa Brava y Barcelona | Sidemount Spain"
+searchHidden: false
 layout: curso
 url: /cursos/buceo-recreativo/sidemount
 description: Hazte buceador recreativo en sidemount

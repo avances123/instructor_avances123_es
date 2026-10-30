@@ -145,6 +145,11 @@ menus:
     pre: book-open
     url: "/cursos/"
     weight: "10"
+  - name: Artículos
+    title: Artículos
+    pre: file-text
+    url: "/articulos/"
+    weight: "20"
   - name: Agenda
     title: Agenda
     pre: calendar

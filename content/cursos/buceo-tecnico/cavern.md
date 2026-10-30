@@ -1,6 +1,7 @@
 ---
 title: TDI Cavern Diver
-searchHidden: true
+seoTitle: "Curso TDI Cavern Diver (Buceo en Cavernas) en España | Sidemount Spain"
+searchHidden: false
 layout: curso
 url: /cursos/buceo-tecnico/cavern
 description: Iniciación a los entornos bajo techo y utilización del hilo guía

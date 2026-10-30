@@ -10,5 +10,73 @@
     "disableAnchoredHeadings") }} {{- partial "anchored_headings.html"
     .Content -}} {{- else }}{{ .Content }}{{ end }}
   </div>
+
+  {{- if eq .Section "articulos" }}
+  <div style="margin-top: 2.5rem; padding: 1.5rem; border-radius: 8px; background: var(--card-background-color, rgba(255,255,255,0.05)); border: 1px solid var(--card-border-color, rgba(255,255,255,0.1));">
+    <h3 style="margin-top: 0; margin-bottom: 0.5rem;">¿Quieres formarte en Sidemount o Buceo Técnico?</h3>
+    <p style="margin-bottom: 1rem; font-size: 0.95rem; opacity: 0.85;">Entrena en L'Escala (Costa Brava) y Barcelona con instructores especializados en configuración lateral y entornos bajo techo.</p>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
+      <a href="https://api.whatsapp.com/send?phone=608611784&text=Hola%20Fabio,%20he%20le%C3%ADdo%20el%20art%C3%ADculo%20{{ .Title | urlquery }}%20y%20quiero%20informaci%C3%B3n%20sobre%20los%20cursos" 
+         target="_blank" 
+         role="button" 
+         onclick="return trackLead('whatsapp', 'article_cta', '{{ .Title }}', this.href);"
+         style="margin-bottom: 0;">
+         Preguntar por WhatsApp
+      </a>
+      <a href="/contacto/" 
+         role="button" 
+         class="contrast outline" 
+         onclick="return trackLead('form_click', 'article_cta', '{{ .Title }}', this.href);"
+         style="margin-bottom: 0;">
+         Rellenar formulario
+      </a>
+    </div>
+  </div>
+
+  {{- $otherArticles := where (where site.RegularPages "Section" "articulos") "Permalink" "ne" .Permalink }}
+  {{- if $otherArticles }}
+  <div style="margin-top: 2.5rem;">
+    <h3>Más artículos sobre Sidemount</h3>
+    <ul>
+      {{- range $otherArticles }}
+      <li><a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a> — {{ .Description }}</li>
+      {{- end }}
+    </ul>
+  </div>
+  {{- end }}
+
+  <div style="margin-top: 2.5rem;">
+    <hgroup>
+      <h2>Cursos oficiales TDI y SDI</h2>
+      <h3>Lleva la teoría a la práctica en el agua</h3>
+    </hgroup>
+    <div class="grid grid-post">
+      {{- range first 3 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+      <a href="{{ .RelPermalink }}">
+        <article class="text-center">
+          {{- if .Params.Cover.Image }}
+          <figure>
+            <img
+              src="{{ .Params.Cover.Image | absURL }}"
+              alt="{{ .Title }}"
+              width="600"
+              height="400"
+              layout="responsive"
+            ></img>
+          </figure>
+          {{- end }}
+          <hgroup>
+            <h3>{{ .Title }}</h3>
+            <hr />
+            <p>
+              {{ .Description | plainify | htmlUnescape | truncate 100 }}{{ if .Truncated }}...{{ end }}
+            </p>
+          </hgroup>
+        </article>
+      </a>
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
 </section>
 {{- end }}{{/* end main */}}

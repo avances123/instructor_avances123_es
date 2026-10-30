@@ -1,6 +1,7 @@
 ---
 title: SDI Dry Suit
-searchHidden: true
+seoTitle: "Curso de Traje Seco (SDI Dry Suit) en Costa Brava y Barcelona | Sidemount Spain"
+searchHidden: false
 layout: curso
 url: /cursos/buceo-recreativo/traje-seco
 description: Curso para usar traje seco
