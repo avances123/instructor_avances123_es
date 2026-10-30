@@ -4,7 +4,7 @@ searchHidden: true
 layout: curso
 url: /cursos/buceo-tecnico/sidemount
 description: Hazte buceador técnico en sidemount
-seoDescription: Curso oficial TDI Sidemount en Barcelona y Costa Brava (Palamós). Domina el trimado, propulsión avanzada, gestión de gases y configuración lateral.
+seoDescription: "Curso oficial TDI Sidemount en Barcelona y Costa Brava (Palamós). Domina el trimado, propulsión avanzada, gestión de gases y configuración lateral."
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
