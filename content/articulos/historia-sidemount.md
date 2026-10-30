@@ -1,7 +1,8 @@
 ---
-title: 'Historia del sidemount' # in any language you want
-#url: "/historia-del-sidemount"
-description: 'Historia del nacimiento y evolucion de la configuracion sidemount en el buceo'
+title: 'Historia del buceo sidemount'
+seoTitle: "Historia del Buceo Sidemount y Montaje Lateral en Cuevas | Sidemount Spain"
+description: 'Origen y evolución del buceo en configuración sidemount (montaje lateral) desde la exploración de cuevas hasta el buceo técnico y recreativo.'
+seoDescription: "Conoce la historia del buceo sidemount (montaje lateral): desde el sump diving británico en cuevas hasta los arneses modernos de buceo técnico y recreativo."
 layout: legal
 ShowReadingTime: false
 showToc: false

@@ -1,11 +1,11 @@
 ---
 title: SDI Sidemount
-seoTitle: "Curso SDI Sidemount en Costa Brava y Barcelona | Sidemount Spain"
+seoTitle: "Curso de Buceo Sidemount Recreativo (SDI) en Costa Brava y Barcelona | Sidemount Spain"
 searchHidden: false
 layout: curso
 url: /cursos/buceo-recreativo/sidemount
-description: Hazte buceador recreativo en sidemount
-seoDescription: "Curso SDI Sidemount en Barcelona y L'Escala (Costa Brava). Aprende a bucear con botellas laterales con máxima comodidad, seguridad, redundancia y control."
+description: Curso de buceo sidemount recreativo (montaje lateral)
+seoDescription: "Curso de buceo sidemount recreativo (SDI Sidemount Diver) en Barcelona y L'Escala (Costa Brava). Aprende buceo en montaje lateral con máxima seguridad y control."
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
@@ -14,8 +14,8 @@ cover:
     image: /sidemount-diving.webp
 ---
 
-## ¿Por qué sidemount?
-¡El buceo sidemount es como llevar tu propio traje espacial submarino! Imagina deslizarte bajo el agua con tanques a ambos lados de tu cuerpo, como un auténtico explorador submarino. Esta técnica te libera de cargar tanques en la espalda, ofreciéndote una libertad y movilidad increíbles bajo el agua. Con el sidemount, puedes sumergirte con mayor facilidad en lugares estrechos, explorar nuevos entornos y tener un acceso sencillo y visual a tu equipo. Es descubrir un estilo de buceo que te brinda más control y comodidad para disfrutar al máximo del mundo submarino.
+## ¿Por qué elegir el buceo sidemount recreativo (montaje lateral)?
+¡El **buceo sidemount recreativo** (también conocido como **buceo de montaje lateral**) es como llevar tu propio traje espacial submarino! Imagina deslizarte bajo el agua con tanques a ambos lados de tu cuerpo, como un auténtico explorador submarino. Esta técnica te libera de cargar tanques en la espalda, ofreciéndote una libertad y movilidad increíbles bajo el agua. Con el **sidemount buceo**, puedes sumergirte con mayor facilidad en lugares estrechos, explorar nuevos entornos y tener un acceso sencillo y visual a tu equipo. Es descubrir un estilo de buceo en montaje lateral que te brinda más control y comodidad para disfrutar al máximo del mundo submarino.
 
 ![sidemount](/sidemount2.webp)
 

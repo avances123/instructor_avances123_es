@@ -4,7 +4,7 @@ pluralizelisttitles: false
 baseURL: https://www.sidemount.es
 languageCode: es-es
 defaultContentLanguage: es
-title: Cursos de Sidemount Avanzado | Sidemount Spain
+title: "Cursos de Buceo Sidemount, Técnico y Cuevas | Sidemount Spain"
 theme: piko
 copyright: 
 enableRobotsTXT: true
@@ -39,7 +39,7 @@ params:
       SiteVerificationTag: # Bing Site Verification
   env: production
   author: Fabio Rueda
-  description: "Formación especializada en buceo técnico y configuración sidemount en España. Cursos oficiales TDI y SDI: Intro to Tech, Sidemount, Cavern Diver y Traje Seco."
+  description: "Cursos de buceo sidemount (montaje lateral), buceo técnico y cuevas en España (Costa Brava y Barcelona). Formación oficial TDI y SDI: Sidemount Técnico y Recreativo, Intro to Tech, Cavern Diver y Traje Seco."
   math: false
   images:
   - "/uploads/og.webp"

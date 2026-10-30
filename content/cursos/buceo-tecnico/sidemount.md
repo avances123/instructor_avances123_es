@@ -1,11 +1,11 @@
 ---
 title: TDI Sidemount
-seoTitle: "Curso TDI Sidemount en Costa Brava y Barcelona | Sidemount Spain"
+seoTitle: "Curso de Buceo Técnico en Sidemount (TDI Sidemount) en Costa Brava y Barcelona | Sidemount Spain"
 searchHidden: false
 layout: curso
 url: /cursos/buceo-tecnico/sidemount
-description: Hazte buceador técnico en sidemount
-seoDescription: "Curso oficial TDI Sidemount en Barcelona y Costa Brava (L'Escala). Domina el trimado, propulsión avanzada, gestión de gases y configuración lateral."
+description: Curso de buceo técnico en configuración sidemount (montaje lateral)
+seoDescription: "Curso oficial TDI Sidemount (buceo técnico en montaje lateral) en L'Escala (Costa Brava) y Barcelona. Domina el trimado, propulsión avanzada y gestión de gases."
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
@@ -14,8 +14,8 @@ cover:
     image: /image-asset.png
 ---
 
-## ¿Por qué sidemount?
-La configuración de buceo sidemount es un estilo de buceo en el que los tanques de gas se colocan a los lados del buceador en lugar de llevarlos en la espalda, como en el buceo con tanque trasero tradicional (backmount). Esta técnica se ha vuelto cada vez más popular debido a sus ventajas en términos de comodidad, maniobrabilidad y acceso al equipo.
+## ¿Por qué buceo técnico en sidemount (montaje lateral)?
+La configuración de **buceo sidemount** (o **buceo en montaje lateral**) es un estilo de buceo en el que los tanques de gas se colocan a los lados del buceador en lugar de llevarlos en la espalda, como en el buceo con tanque trasero tradicional (backmount). Esta técnica de **buceo técnico en sidemount** se ha vuelto cada vez más popular debido a sus ventajas en términos de comodidad, maniobrabilidad y acceso al equipo.
 
 Principales ventajas del buceo en sidemount:
 * Redundancia total de gas y reguladores independientes

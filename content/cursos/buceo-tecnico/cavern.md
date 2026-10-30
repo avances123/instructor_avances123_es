@@ -1,11 +1,11 @@
 ---
 title: TDI Cavern Diver
-seoTitle: "Curso TDI Cavern Diver (Buceo en Cavernas) en España | Sidemount Spain"
+seoTitle: "Curso de Cuevas y Cavernas en Sidemount (TDI Cavern Diver) | Sidemount Spain"
 searchHidden: false
 layout: curso
 url: /cursos/buceo-tecnico/cavern
-description: Iniciación a los entornos bajo techo y utilización del hilo guía
-seoDescription: "Curso oficial TDI Cavern Diver en España (L'Escala, Costa Brava y Barcelona). Aprende técnicas de entornos bajo techo, carrete e hilo guía, propulsión anti-sedimento y gestión de gas."
+description: Iniciación al buceo en cuevas y cavernas en montaje lateral (sidemount) e hilo guía
+seoDescription: "Curso oficial TDI Cavern Diver (iniciación al buceo en cuevas y cavernas en sidemount / montaje lateral) en Costa Brava y Barcelona. Uso de carrete, hilo guía y propulsión."
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
@@ -14,10 +14,10 @@ cover:
     image: /video/cave-training.webp
 ---
 
-## ¿Por qué formarse en el entorno de caverna?
+## ¿Por qué formarse en cuevas y cavernas en sidemount?
 El buceo bajo techo (*overhead environment*) introduce un cambio radical respecto al buceo en aguas abiertas: el ascenso directo a la superficie deja de ser una opción inmediata. Aunque la zona de caverna conserva siempre luz natural visible desde la entrada, adentrarse en ella sin el entrenamiento, el protocolo de equipo y el dominio psicológico adecuados es una de las principales causas de accidentes en entornos confinados.
 
-El curso **TDI Cavern Diver** es el primer escalón formal dentro de la formación en cuevas de Technical Diving International. Está diseñado para desarrollar las destrezas motrices, los procedimientos de navegación con carrete e hilo guía y la disciplina de equipo necesarios para explorar cavernas con total seguridad y respeto por la conservación del entorno.
+El curso **TDI Cavern Diver** es el primer escalón formal dentro de los **cursos de cuevas en sidemount** (montaje lateral en cueva) de Technical Diving International. Está diseñado para desarrollar las destrezas motrices, los procedimientos de navegación con carrete e hilo guía y la disciplina de equipo necesarios para explorar cavernas con total seguridad y respeto por la conservación del entorno.
 
 {{< rawhtml >}}
 <div class="course-film" aria-hidden="true">

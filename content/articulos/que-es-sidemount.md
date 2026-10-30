@@ -1,7 +1,8 @@
 ---
-title: 'Qué es el sidemount' # in any language you want
-#url: "/historia-del-sidemount"
-description: 'Principales beneficios que tiene la configuracion sidemount en el buceo'
+title: 'Qué es el buceo sidemount (montaje lateral)'
+seoTitle: "¿Qué es el Buceo Sidemount (Montaje Lateral)? Guía y Ventajas | Sidemount Spain"
+description: 'Guía completa sobre el buceo en sidemount (montaje lateral): configuración de botellas, ventajas en buceo técnico, recreativo y cuevas.'
+seoDescription: "Descubre qué es el buceo sidemount o buceo en montaje lateral: configuración de equipo, ventajas frente al bibotella en buceo técnico, recreativo y cuevas."
 layout: legal
 ShowReadingTime: false
 showToc: false
@@ -11,13 +12,13 @@ cover:
 
 
 
-# Introduccion
-El sidemount es una configuración de equipo de buceo en la que los conjuntos de buceo se montan al costado del buceador, debajo de los hombros y a lo largo de las caderas, en lugar de en la espalda del buceador. Se originó como una configuración para el buceo en cuevas avanzado, ya que facilita la penetración en secciones estrechas de las cuevas, permite un acceso fácil a las válvulas de los cilindros, proporciona una redundancia de gas fácil y confiable, y los tanques pueden ser removidos fácilmente cuando sea necesario. Estos beneficios para operar en espacios confinados también fueron reconocidos por los buceadores que realizaban penetraciones técnicas en naufragios.
+# Introducción al buceo sidemount (montaje lateral)
+El **buceo sidemount** (también denominado **buceo de montaje lateral** o **buceo en montaje lateral**) es una configuración de equipo de buceo en la que los conjuntos de botellas se montan al costado del buceador, debajo de los hombros y a lo largo de las caderas, en lugar de en la espalda del buceador. Se originó como una configuración para el **montaje lateral en cueva** y el buceo en cuevas avanzado, ya que facilita la penetración en secciones estrechas de las cuevas, permite un acceso fácil a las válvulas de los cilindros, proporciona una redundancia de gas fácil y confiable, y los tanques pueden ser removidos fácilmente cuando sea necesario. Estos beneficios para operar en espacios confinados también fueron reconocidos por los buceadores que realizaban penetraciones técnicas en naufragios.
 
 ![Buceador sidemount](/que_es/Sidemount_032_Photo_by_Pete_Nawrocky.jpg)
 
 
-El buceo en sidemount está creciendo en popularidad dentro de la comunidad de buceo técnico para el buceo general con descompresión, y se está convirtiendo en una especialidad de entrenamiento cada vez más popular para el buceo recreativo, con varias agencias de certificación de buceadores que ofrecen programas de entrenamiento en sidemount tanto a nivel recreativo como técnico.
+El **sidemount buceo** está creciendo en popularidad dentro de la comunidad de **buceo técnico en sidemount** para inmersiones con descompresión, y se está convirtiendo en una especialidad de entrenamiento cada vez más demandada para el **sidemount recreativo**, con agencias como TDI y SDI que ofrecen cursos de buceo en sidemount tanto a nivel recreativo como técnico y de cuevas.
 
 ## Terminología
 ### Buceo en sidemount
