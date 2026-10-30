@@ -1,5 +1,5 @@
 ---
-title: Quienes Somos
+title: Quiénes Somos
 searchHidden: true
 description: Historia de nuestro staff
 ShowBreadCrumbs: true

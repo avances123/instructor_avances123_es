@@ -60,7 +60,7 @@ params:
   ShowRelated: true
   CookieNotice: Usamos cookies de analítica (Google Analytics) para conocer el tráfico y uso de la web. Puedes aceptarlas o rechazarlas.
   CookieLink: /politicaCookies.pdf
-  CookieButton: Politica de Cookies
+  CookieButton: Política de Cookies
   hideFooter: false
   disableAnchoredHeadings: false
   formsparkFormId: "4HNkSW497"
@@ -82,18 +82,18 @@ params:
     heroDescription: Entrenamiento avanzado en el buceo técnico
     heroCTAPrimaryText: Contacto
     heroCTAPrimaryUrl: "/contacto/"
-    heroCTASecondaryText: Por qué sidemount?
+    heroCTASecondaryText: "¿Por qué sidemount?"
     heroCTASecondaryUrl: "/articulos/"
     heroBackgroundImage: "/11.webp"
     # Blog Section
     disableBlogSection: true
     blogTitle: Historial
-    blogDescription: Articulos de cursos y entrenos anteriores
+    blogDescription: Artículos de cursos y entrenos anteriores
     seeMoreText: Más Certificaciones
     # About Section    
     disableAboutSection: false
     aboutTitle: La mejor agencia de la industria
-    aboutDescription: Obtendras tus carnets de la mejor certificadora
+    aboutDescription: Obtendrás tus carnets de la mejor certificadora
     aboutImgUrl: "/product_t_d_tdi_sticker_v2.1.jpg"
     aboutContent: Hi guys. This is where you put something about yourself.
     # Portfolio Section

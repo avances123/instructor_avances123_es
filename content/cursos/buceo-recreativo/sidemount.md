@@ -4,7 +4,7 @@ searchHidden: true
 layout: curso
 url: /cursos/buceo-recreativo/sidemount
 description: Hazte buceador recreativo en sidemount
-seoDescription: "Curso SDI Sidemount en Barcelona y Costa Brava. Aprende a bucear con botellas laterales con máxima comodidad, seguridad, redundancia y control."
+seoDescription: "Curso SDI Sidemount en Barcelona y L'Escala (Costa Brava). Aprende a bucear con botellas laterales con máxima comodidad, seguridad, redundancia y control."
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
@@ -13,38 +13,46 @@ cover:
     image: /sidemount-diving.webp
 ---
 
-
-## Por qué sidemount?
-¡El buceo sidemount es como llevar tu propio traje espacial submarino! Imagina deslizarte bajo el agua con tanques a ambos lados de tu cuerpo, como un auténtico explorador submarino. Esta técnica te libera de cargar tanques en la espalda, ofreciéndote una libertad y movilidad increíbles bajo el agua. Con el sidemount, puedes sumergirte con mayor facilidad en lugares estrechos, explorar cuevas y tener un acceso sencillo a tu equipo. Es como descubrir un nuevo estilo de buceo que te brinda más control y comodidad para disfrutar al máximo del mundo submarino. ¡Sumérgete en esta aventura y descubre la emoción del buceo sidemount!
-
+## ¿Por qué sidemount?
+¡El buceo sidemount es como llevar tu propio traje espacial submarino! Imagina deslizarte bajo el agua con tanques a ambos lados de tu cuerpo, como un auténtico explorador submarino. Esta técnica te libera de cargar tanques en la espalda, ofreciéndote una libertad y movilidad increíbles bajo el agua. Con el sidemount, puedes sumergirte con mayor facilidad en lugares estrechos, explorar nuevos entornos y tener un acceso sencillo y visual a tu equipo. Es descubrir un estilo de buceo que te brinda más control y comodidad para disfrutar al máximo del mundo submarino.
 
 ![sidemount](/sidemount2.webp)
+
 ## Objetivo del curso
 
-Sumérgete en una experiencia única que te brindará mayor libertad y comodidad en el agua. Aprende a bucear con tanques a los lados, ganando agilidad y control para explorar de manera más eficiente y emocionante. Nuestro curso te enseñará técnicas especializadas mientras te sumerges en un ambiente relajado y divertido. ¡Prepárate para una aventura submarina inolvidable!
+Este curso está diseñado según los estándares oficiales **SDI Sidemount Diver** para enseñar a los buceadores certificados cómo utilizar de forma segura cilindros primarios de montaje lateral como alternativa a la configuración tradicional montada en la espalda (dentro de los límites de buceo recreativo sin descompresión).
 
-## Metodologia del curso
+## Metodología del curso
 
-### Talleres en superficie de configuracion
-  * Tecnicas de aleteo
-  * Opciones disponible para manejo de los reguladores
-  * Controles de manometros
-  * Trimado de botellas y como dominar la tecnica
-  * Anticiparnos a la resolucion de problemas
-### Sesiones de teoria
-  * Planificacion del buceo
-  * Tiempo de runtime
+### Talleres en superficie de configuración
+  * Opciones de cilindros, reguladores y arnés/ala (BCD) específicos de sidemount
+  * Distribución de lastre adecuado y ajuste de trimado de botellas
+  * Técnicas de aleteo y posición en el agua
+  * Controles de manómetros y señales de comunicación
+
+### Sesiones de teoría
+  * Gestión de gas utilizando cilindros independientes y cambios de regulador (switch)
+  * Planificación de la inmersión, tiempo máximo sin descompresión e intervalos en superficie
+  * Solución de problemas: compartir gas y pérdidas de gas
+
 ### Sesiones en el agua
-  * Entradas y salidas en el agua (tambien desde barco)
-  * Control de todo el equipo
-  * Chequeo de lastre y trimado
-  * Tecnicas de propulsion en el agua
-  * Navegacion avanzada
-  * Despligue de SMB
+  * Entradas y salidas en el agua (desde costa y desde barco)
+  * Colocación y retirada de cilindros laterales fuera del agua, en superficie (haciendo pie y sin hacer pie) y en profundidad
+  * S-Drills específicos para sidemount y cambios de regulador
+  * Chequeo de lastre, control de flotabilidad y trimado
+  * Técnicas de propulsión en el agua, navegación con brújula y parada de seguridad con despliegue de boya (SMB)
 
-## Otros detalles sobre el curso 
-En el curso de buceo sidemount, grabamos con GoPro cada sesión para que puedas revisar y mejorar tu técnica, además de llevarte un recuerdo fantástico.
+## Requisitos oficiales, equipamiento y localización
+* **Pre-requisitos del estudiante (Estándares SDI):**
+  * Certificación Open Water Scuba Diver SDI o equivalente.
+  * Edad mínima: 18 años (15 años con consentimiento paterno).
+* **Equipamiento requerido:**
+  * Cilindros independientes de volumen apropiado para sidemount.
+  * Reguladores apropiados para configuración lateral con un manómetro en cada primera etapa y un total de dos segundas etapas.
+  * Dispositivo compensador de flotabilidad (BCD/arnés) específico para configuración sidemount.
+  * Traje de protección térmica adecuado, máscara, aletas, ordenador de buceo, brújula y boya de señalización (SMB).
+* **Duración:** 3 días.
+* **Dónde se imparte:** Sesiones prácticas en **L'Escala (Costa Brava)** y **Barcelona**.
 
-## Duracion
-3 dias
-
+## Otros detalles sobre el curso
+En el curso de buceo sidemount grabamos con GoPro cada sesión para que puedas revisar y mejorar tu técnica en los debriefings, además de llevarte un recuerdo fantástico.
