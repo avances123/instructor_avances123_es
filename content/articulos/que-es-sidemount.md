@@ -14,10 +14,16 @@ cover:
 
 
 # Introducción al buceo sidemount (montaje lateral)
+
+{{< rawhtml >}}
+<div class="course-film" aria-hidden="true">
+  <video autoplay muted loop playsinline preload="metadata" poster="/video/fuentenavina-hero.webp">
+    <source src="/video/fuentenavina-hero.mp4" type="video/mp4">
+  </video>
+</div>
+{{< /rawhtml >}}
+
 El **buceo sidemount** (también denominado **buceo de montaje lateral** o **buceo en montaje lateral**) es una configuración de equipo de buceo en la que los conjuntos de botellas se montan al costado del buceador, debajo de los hombros y a lo largo de las caderas, en lugar de en la espalda del buceador. Se originó como una configuración para el **montaje lateral en cueva** y el buceo en cuevas avanzado, ya que facilita la penetración en secciones estrechas de las cuevas, permite un acceso fácil a las válvulas de los cilindros, proporciona una redundancia de gas fácil y confiable, y los tanques pueden ser removidos fácilmente cuando sea necesario. Estos beneficios para operar en espacios confinados también fueron reconocidos por los buceadores que realizaban penetraciones técnicas en naufragios.
-
-![Buceador sidemount](/que_es/Sidemount_032_Photo_by_Pete_Nawrocky.jpg)
-
 
 El **sidemount buceo** está creciendo en popularidad dentro de la comunidad de **buceo técnico en sidemount** para inmersiones con descompresión, y se está convirtiendo en una especialidad de entrenamiento cada vez más demandada para el **sidemount recreativo**, con agencias como TDI y SDI que ofrecen cursos de buceo en sidemount tanto a nivel recreativo como técnico y de cuevas.
 
@@ -25,6 +31,8 @@ El **sidemount buceo** está creciendo en popularidad dentro de la comunidad de 
 ### Buceo en sidemount
 
 El buceo en sidemount es la práctica de bucear con dos o más cilindros asegurados a los lados del cuerpo en línea con el torso y sin cilindros en la espalda del buceador. Una característica común de la configuración de sidemount es el uso de cuerdas elásticas enganchadas sobre la válvula del cilindro para mantenerlo cerca de la axila. Estas cuerdas elásticas normalmente se enrutan desde la parte superior de la espalda del buceador hasta un anillo en D en el pecho. La parte inferior del cilindro se asegura al arnés del buceador cerca de la cintura o las caderas mediante broches de perno que se enganchan en una placa de soporte o anillos en D del cinturón.
+
+![Buceador sidemount](/que_es/Sidemount_032_Photo_by_Pete_Nawrocky.jpg)
 
 ### Etapas en sidemount
 
