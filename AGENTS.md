@@ -3,7 +3,7 @@
 ## Workflow Rules
 - **Local verification first:** Run `hugo -D` locally and verify zero build errors before committing or pushing to `master`.
 - **Analytics & Search Console:** GA4 (`properties/414173275`, `G-NFPNJYXW0E`) and Search Console (`sc-domain:sidemount.es`) are accessible via the `analytics-mcp` server and service account `/home/fabio/.config/ga4-mcp/credentials.json` (`ga4-mcp-reader@cave-diving.iam.gserviceaccount.com`). Resubmit `https://www.sidemount.es/sitemap.xml` via Search Console API after publishing new pages.
-- **Google Ads CLI:** Configured via Service Account `gads-cli-sa@cave-diving.iam.gserviceaccount.com` in `~/.config/google-ads/google-ads.yaml`. CLI tool available at `~/.local/bin/gads` (commands: `campaigns`, `keywords`, `search-terms`, `budget`, `pause`, `enable`, `negative`, `query`). Customer ID: `9268996137`.
+- **Google Ads CLI:** Configured via Service Account `gads-cli-sa@cave-diving.iam.gserviceaccount.com` in `~/.config/google-ads/google-ads.yaml`. CLI tool available at `~/.local/bin/gads` (commands: `campaigns`, `groups`, `keywords`, `search-terms`, `budget`, `pause`, `enable`, `negative`, `query`). Customer ID: `3353483693`.
 
 
 ---
