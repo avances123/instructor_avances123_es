@@ -11,9 +11,7 @@ cover:
     image: /having-doubts--drawing-of-a-man-on-blackboard--illustration.jpg
 ---
 
-
-
-# Introducción al buceo sidemount (montaje lateral)
+# ¿Qué es el buceo sidemount?
 
 {{< rawhtml >}}
 <div class="course-film" aria-hidden="true">
@@ -23,54 +21,96 @@ cover:
 </div>
 {{< /rawhtml >}}
 
-El **buceo sidemount** (también denominado **buceo de montaje lateral** o **buceo en montaje lateral**) es una configuración de equipo de buceo en la que los conjuntos de botellas se montan al costado del buceador, debajo de los hombros y a lo largo de las caderas, en lugar de en la espalda del buceador. Se originó como una configuración para el **montaje lateral en cueva** y el buceo en cuevas avanzado, ya que facilita la penetración en secciones estrechas de las cuevas, permite un acceso fácil a las válvulas de los cilindros, proporciona una redundancia de gas fácil y confiable, y los tanques pueden ser removidos fácilmente cuando sea necesario. Estos beneficios para operar en espacios confinados también fueron reconocidos por los buceadores que realizaban penetraciones técnicas en naufragios.
+El **sidemount**, o buceo en montaje lateral, es una configuración en la que las botellas principales se llevan a los lados del cuerpo en lugar de en la espalda. Cada botella se sujeta al arnés y queda aproximadamente paralela al torso. Lo habitual es utilizar dos botellas independientes, cada una con su regulador y manómetro, aunque también se puede bucear con una sola.
 
-El **sidemount buceo** está creciendo en popularidad dentro de la comunidad de **buceo técnico en sidemount** para inmersiones con descompresión, y se está convirtiendo en una especialidad de entrenamiento cada vez más demandada para el **sidemount recreativo**, con agencias como TDI y SDI que ofrecen cursos de buceo en sidemount tanto a nivel recreativo como técnico y de cuevas.
+La diferencia se nota antes de entrar en el agua. Puedes transportar las botellas por separado, ponerte el arnés sin el peso de un bibotella y, cuando las condiciones lo permiten, colocarte las botellas en el agua. Durante la inmersión, las griferías quedan a tu alcance, delante de ti, y puedes gestionar cada suministro de gas de forma independiente.
 
-## Terminología
-### Buceo en sidemount
+En Sidemount Spain enseñamos esta configuración porque creemos que sus ventajas van mucho más allá de las cuevas donde empezó a desarrollarse. También tiene sentido en una inmersión recreativa, en una entrada desde costa o en un viaje de buceo.
 
-El buceo en sidemount es la práctica de bucear con dos o más cilindros asegurados a los lados del cuerpo en línea con el torso y sin cilindros en la espalda del buceador. Una característica común de la configuración de sidemount es el uso de cuerdas elásticas enganchadas sobre la válvula del cilindro para mantenerlo cerca de la axila. Estas cuerdas elásticas normalmente se enrutan desde la parte superior de la espalda del buceador hasta un anillo en D en el pecho. La parte inferior del cilindro se asegura al arnés del buceador cerca de la cintura o las caderas mediante broches de perno que se enganchan en una placa de soporte o anillos en D del cinturón.
+## De la exploración de cuevas al buceo recreativo
 
-![Buceador sidemount](/que_es/Sidemount_032_Photo_by_Pete_Nawrocky.jpg)
+Las raíces del sidemount están ligadas a los espeleobuceadores británicos que necesitaban transportar su equipo por cuevas y atravesar sifones y pasos estrechos. Las botellas desmontables y las configuraciones compactas respondían a un problema muy concreto: avanzar donde un equipo voluminoso a la espalda dificultaba el paso.
 
-### Etapas en sidemount
+Con el tiempo, el montaje lateral se adaptó a cuevas inundadas que exigían nadar durante más tiempo, con mayor atención a la flotabilidad y a la posición de las botellas. Después se extendió al buceo técnico y recreativo en aguas abiertas. Si te interesa esa evolución, puedes leer la [historia del sidemount](/articulos/historia-sidemount/).
 
-Las etapas en sidemount es la práctica de utilizar la configuración de sidemount (bucle de cuerdas elásticas y/o rieles de la placa de soporte) como un medio para guardar cilindros de etapa/descompresión de manera aerodinámica contra los lados del torso, cuando de otro modo se bucea con dobles montados en la espalda o con CCR.
+![Buceador con las botellas colocadas a los lados del cuerpo](/que_es/Sidemount_032_Photo_by_Pete_Nawrocky.jpg)
 
-### Buceo en mono
+## Cómo funciona una configuración sidemount
 
-El buceo en mono es el uso de la configuración y procedimientos de sidemount con un solo cilindro. Se presenta como una opción en algunos cursos de nivel recreativo de sidemount (dependiendo de la agencia) y también puede ser una estrategia considerada para algunas penetraciones en ambientes de techo (cuevas/naufragios). El uso de un solo cilindro puede requerir contrapeso para prevenir la inestabilidad lateral en el agua, dependiendo de la flotabilidad del cilindro elegido, y no proporciona una reserva redundante de gas.
+Un equipo de dos botellas suele incluir un arnés con su sistema de flotabilidad, dos botellas independientes, dos reguladores y un manómetro para cada botella. Las griferías se mantienen cerca del cuerpo mediante elásticos o sistemas de sujeción, y la parte inferior de cada botella se engancha al arnés. La disposición exacta varía según el equipo, las botellas y el buceador.
 
-### Buceo sin montaje (no-mount)
+El ajuste importa. No basta con colgar dos botellas a los lados: hay que adaptar el arnés, la posición de las botellas, los latiguillos y el lastre para poder alcanzar el equipo, mantener una posición cómoda y controlar la flotabilidad. Una configuración bien ajustada deja las botellas próximas al cuerpo sin dificultar el movimiento.
 
-El buceo sin montaje es una estrategia especializada para ambientes de techo para manejar restricciones particularmente estrechas. Esto puede implicar que los buceadores usen un arnés muy básico debajo de su configuración existente, o simplemente transporten los cilindros en la mano. Al llegar a una restricción por la cual no podrían pasar de otra manera, se despojarán de su equipo principal, sostendrán en la mano o unirán los cilindros a su arnés sin montaje y avanzarán. Un arnés sin montaje puede consistir en nada más que un cinturón de lastre con varios anillos en D adjuntos. La evolución de las técnicas y configuraciones de sidemount ha hecho en gran medida innecesario este enfoque, ya que un arnés/BCD minimalista de sidemount se puede usar debajo de dobles montados en la espalda, o incluso un CCR.
+Con dos botellas independientes también cambia la gestión del gas. Hay que controlar ambos manómetros, alternar los reguladores según el plan aprendido y conservar una reserva adecuada para la inmersión y sus posibles incidencias. Llevar dos botellas no garantiza por sí solo que la reserva sea suficiente.
 
-![Buceador con las dos botellas por delante](/que_es/Sidemount_cylinder_partial_removal-crop.jpg)
+## Ventajas del sidemount
 
+### Porteo y entradas desde costa
 
-## Beneficios
-### Flexibilidad
-El buceo en sidemount ofrece algunos beneficios en cuanto a la flexibilidad del equipo. Los cilindros adecuados para el buceo en sidemount suelen estar disponibles para alquiler, a diferencia de los conjuntos gemelos con colector para uso en la espalda, lo que permite al viajero realizar inmersiones técnicas o en entornos cerrados sin tener que conseguir conjuntos de cilindros gemelos. Al bucear en lugares remotos, el transporte de cilindros de buceo individuales, especialmente a mano, puede ser menos agotador físicamente. El arnés de sidemount puede ser más ligero y menos voluminoso que las alternativas montadas en la espalda, lo que facilita y abarata los viajes aéreos.
+Una de las mayores ventajas aparece fuera del agua. Un bibotella backmount unido por aros y manifold suele transportarse como un conjunto. En sidemount puedes mover las botellas individualmente y decidir cómo repartir la carga: llevar una en cada mano, hacer varios viajes o usar una mochila apropiada si prefieres llevar ambas a la espalda.
 
-### Accesibilidad
-A diferencia de los cilindros montados en la espalda, el buceador en sidemount tiene acceso inmediato a, y puede ver, los reguladores y las válvulas de sus cilindros. Esto permite una identificación y resolución de problemas más rápida y segura, sin requerir maniobras de cierre detrás de la cabeza que exigen un mayor nivel de flexibilidad en las articulaciones y el traje, y la capacidad de identificar y operar correctamente el equipo que está fuera de la vista.
+Esto importa especialmente en accesos a cuevas, senderos irregulares y entradas de infantería, como las que encontramos en la Costa Brava. Caminar con un conjunto pesado a la espalda por rocas, escalones o terreno resbaladizo puede dificultar el equilibrio y hacer más seria una caída. Poder organizar el porteo por partes da más opciones para adaptarse al lugar y a la persona.
 
-### Perfil bajo
-La configuración de buceo en sidemount coloca los cilindros debajo de las axilas del buceador, en línea con su cuerpo, permitiendo que el buceador pase por restricciones más pequeñas que las posibles con cilindros montados en la espalda. La capacidad de quitar los tanques y empujarlos hacia adelante permite al buceador pasar por pasajes y agujeros muy pequeños durante las inmersiones de penetración, estando limitado solo por el volumen de su cuerpo y traje de buceo. La aerodinámica para reducir la resistencia al nadar no siempre se logra.
+Tampoco hace falta cargar siempre con las botellas puestas al entrar o salir: cuando la profundidad, el oleaje y el punto de acceso lo permiten, se pueden colocar o retirar en el agua. En un barco, la posibilidad de pasar las botellas por separado también puede facilitar la maniobra. Hay que planificarla según las condiciones y la ayuda disponible; hacerlo en el agua no es siempre la opción más segura.
 
-![Buceador con las dos botellas por delante](/que_es/Technical_wreck_penetration_training_course.jpg)
+### Griferías accesibles
 
+Con las botellas a los lados, las griferías y primeras etapas están delante del buceador y normalmente resultan más fáciles de alcanzar y observar. Eso permite comprobar el equipo y actuar sobre las válvulas sin tener que buscarlas detrás de la cabeza.
 
-### Seguridad
-El mayor acceso a las primeras etapas del regulador y las válvulas de los cilindros mejora la eficiencia y rapidez de los procedimientos críticos de cierre de cilindros, permite la identificación inmediata de la pérdida de gas y proporciona al buceador un acceso rápido a procedimientos de contingencia alternativos, como cambiar reguladores entre cilindros, operar manualmente una válvula de cilindro para controlar el flujo de gas a través de un regulador que está liberando gas, o permitir la respiración directamente desde la válvula del tanque. Montar los cilindros a los lados del buceador reduce la exposición de las válvulas y las primeras etapas del regulador a daños por impacto y abrasión, o cierres accidentales por contacto con el techo. También reduce significativamente el riesgo de enredo detrás del buceador, donde es más difícil de rectificar.
+En un bibotella backmount con manifold, el ejercicio de cierre de válvulas o *V-drill* entrena una habilidad necesaria para gestionar determinados fallos. Nuestra preferencia por el sidemount responde a una diferencia práctica: alcanzar válvulas a la espalda depende de la movilidad, del traje y de la posición del equipo, y una avería real añade pérdida de gas, estrés y posiblemente mala visibilidad. Practicar el ejercicio es importante, pero completarlo en condiciones controladas no garantiza que resulte igual de sencillo durante una emergencia.
 
-### Comodidad
-Algunos buceadores testifican que la configuración de buceo en sidemount ofrece mayor estabilidad y un trimado y control más fáciles de alcanzar en el agua. También se afirma que es menos agotador físicamente llevar y ponerse el equipo de sidemount que los dobles montados en la espalda, especialmente al operar desde un barco pequeño o en una entrada desde la orilla con oleaje. La capacidad de unir, quitar y reemplazar cilindros mientras se está en el agua permite al buceador evitar llevar cilindros gemelos. La reducción del esfuerzo físico al realizar procedimientos de cierre de reguladores es un beneficio importante para los buceadores que sufren molestias en los hombros o la espalda o tienen movilidad reducida.
+La accesibilidad lateral tampoco convierte una avería en algo automático: hay que reconocer el problema y practicar su resolución. Sí nos permite trabajar con las válvulas en una posición que consideramos más accesible y funcional.
 
-### Redundancia de gas
-Los buceadores técnicos generalmente han utilizado un sistema de suministro de gas redundante, ya sea con colector de aislamiento o cilindros montados en la espalda independientes. Los buceadores recreativos han recurrido tradicionalmente al gas suministrado por el compañero, o a cilindros de rescate relativamente pequeños o botellas de ascenso para emergencias de falta de aire. Ya sea unidos al cilindro principal o colgados en el pecho, estos cilindros a menudo presentan problemas de estabilidad y aerodinámica, sin proporcionar siempre más que un suministro mínimo de aire para el ascenso de emergencia. Bucear en sidemount con dos cilindros del mismo tamaño ayuda a resolver problemas de estabilidad y aerodinámica, y puede asegurar que se mantenga una reserva redundante adecuada de aire, similar a los cilindros gemelos montados en la espalda. Los cilindros montados en la espalda con colector permiten un fácil acceso a todo el suministro de gas en caso de fallo del regulador y cierre. Sin embargo, el colector en sí crea puntos adicionales de falla del anillo de sellado, y una fuga importante en el colector privará al buceador de al menos la mitad del suministro de gas restante. Los cilindros independientes, cuando se montan en sidemount, proporcionan una redundancia de gas más confiable y permiten un mayor acceso a todo el gas restante al cambiar los reguladores entre cilindros o respirando a pluma, siempre que el buceador sea competente en las habilidades adicionales requeridas.
+### Dos suministros independientes
 
-### Conveniencia
-El sidemount no requiere hardware complicado. Se puede hacer utilizando los cilindros de alquiler más comunes (Al 80s), necesitando solo aparejos simples. Si el buceador también alquila los reguladores, generalmente se pueden reconfigurar para este propósito con una simple llave y uno o dos tapones de puerto de baja presión. El arnés y el compensador de flotabilidad pueden ser ligeros y compactos para viajar.
+En una configuración lateral habitual, cada botella tiene su propia grifería, regulador y manómetro, sin un manifold que comunique ambas botellas. Una fuga en un sistema no vacía directamente la otra botella a través de un colector común. A cambio, el buceador debe vigilar y gestionar por separado los dos suministros.
 
+Un bibotella con manifold permite acceder al gas de ambas botellas a través del regulador operativo en determinados fallos, pero incorpora un colector y requiere saber identificar y aislar correctamente las averías. Preferimos la independencia y el acceso directo del sidemount, siempre con una planificación que contemple cuánto gas queda disponible tras una incidencia.
+
+### Control de una válvula y feathering
+
+El acceso a la grifería también permite aplicar, cuando procede, una técnica de contingencia llamada *feathering*: controlar manualmente la válvula para limitar la pérdida de gas de un regulador en flujo libre y aprovechar el gas restante. Es una habilidad especializada que se practica con formación y supervisión adecuadas, no un procedimiento que deba aprenderse a partir de un artículo.
+
+Su utilidad depende del fallo, del gas disponible, del entorno y de la capacidad del buceador para mantener el control y salir o completar el ascenso previsto. No sustituye la reserva ni el uso de un regulador operativo. Con una válvula situada detrás de la cabeza, mantener ese control manual mientras se respira resulta mucho más difícil que con la grifería accesible a un lado.
+
+### Comodidad y posición en el agua
+
+Al situar las botellas a los lados, el peso y la flotabilidad se distribuyen de forma diferente. Un arnés bien ajustado, junto con el lastre y las botellas adecuados, ayuda a encontrar una posición horizontal estable y a mantener el equipo cerca del cuerpo.
+
+Para algunos buceadores también es más cómodo no cargar un conjunto pesado a la espalda y poder alcanzar las griferías sin forzar los hombros. Esa comodidad depende del ajuste, la anatomía, el traje y las condiciones: el sidemount se aprende y se configura para cada persona, no se resuelve simplemente cambiando de chaleco.
+
+### Flexibilidad para viajar y elegir botellas
+
+El equipo lateral permite utilizar botellas individuales sin necesitar un juego emparejado y unido por aros y manifold. Según el destino encontrarás botellas de acero o aluminio, de distintos tamaños y con diferentes griferías. Conviene consultar antes con el centro qué material tiene disponible y si es compatible con tu configuración.
+
+El arnés y el ala pueden resultar prácticos para viajar, pero su peso y volumen varían según el modelo. Lo importante es que puedes adaptar la configuración a las botellas y al tipo de inmersión, sin depender necesariamente de encontrar un bibotella montado.
+
+## Sidemount en cuevas y pecios
+
+En entornos bajo techo, el perfil de las botellas y la posibilidad de manipularlas son ventajas para buceadores con formación específica. Una configuración lateral bien ajustada puede facilitar el avance en ciertos pasos y permite modificar la posición de las botellas cuando la técnica y el entorno lo requieren.
+
+![Buceador desplazando las botellas hacia delante en una zona estrecha](/que_es/Sidemount_cylinder_partial_removal-crop.jpg)
+
+Esto no significa que cualquier paso sea seguro ni que el tamaño del cuerpo sea el único límite: el equipo, la visibilidad, el hilo guía, el espacio para maniobrar y la salida forman parte de la decisión. El sidemount por sí solo no habilita para penetrar en cuevas o pecios; esas inmersiones requieren formación, planificación y experiencia específicas.
+
+![Buceador durante una formación de penetración en pecios](/que_es/Technical_wreck_penetration_training_course.jpg)
+
+## ¿Se puede bucear en sidemount con una sola botella?
+
+Sí. La configuración con una sola botella lateral suele llamarse *monkey diving*. Puede ser útil en determinadas inmersiones recreativas o situaciones especializadas, siempre que el equipo y el lastre estén adaptados para mantener el equilibrio.
+
+Una sola botella principal no ofrece la independencia de gas de una configuración con dos. La reserva y las contingencias deben planificarse de acuerdo con la inmersión y el equipo disponible.
+
+## ¿Es lo mismo llevar una etapa lateral que bucear en sidemount?
+
+No exactamente. Un buceador en backmount o con un rebreather puede llevar una botella de etapa, descompresión o bailout a un lado. Esa botella está montada lateralmente, pero su equipo principal sigue siendo backmount o CCR. En sidemount, las botellas principales se llevan a los lados y la configuración y los procedimientos se organizan alrededor de ellas.
+
+## ¿Necesito un curso de sidemount?
+
+Recomendamos formación específica incluso si ya tienes experiencia en backmount. El curso sirve para ajustar el equipo a tu cuerpo, practicar la flotabilidad y el trim, aprender a gestionar dos fuentes de gas y trabajar las entradas, salidas y situaciones de emergencia con esa configuración.
+
+El sidemount tiene una curva de aprendizaje: al principio hay más equipo que colocar y más procedimientos que integrar. Cuando el ajuste y las habilidades empiezan a encajar, sus ventajas se disfrutan tanto en una inmersión recreativa como en proyectos más exigentes.
+
+En Sidemount Spain impartimos el [curso SDI Sidemount recreativo](/cursos/buceo-recreativo/sidemount) y el [curso TDI Sidemount técnico](/cursos/buceo-tecnico/sidemount) en Barcelona y L'Escala. Trabajamos la configuración, la gestión del gas y las habilidades en el agua, con vídeo para revisar las sesiones. Cada curso tiene su alcance: la formación en sidemount no sustituye la formación específica para descompresión o entornos bajo techo.
+
+Si quieres profundizar en las diferencias entre llevar las botellas a los lados o en la espalda, consulta también nuestra [comparativa entre bibotella y sidemount](/articulos/bibotella-vs-sidemount/).
