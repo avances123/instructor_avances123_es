@@ -2,7 +2,7 @@
 title: "Valores M y Gradient Factors en Bühlmann ZHL-16: Guía Técnica sin Dogmas"
 seoTitle: "Valores M y Gradient Factors (GF) en Bühlmann ZHL-16 | Sidemount Spain"
 description: "Cómo funciona realmente el algoritmo Bühlmann ZHL-16: valores M, cinética de gases tisulares y ajuste de Gradient Factors (GF Low / GF High) explicados por un ingeniero."
-seoDescription: "Explicación técnica y matemática de los valores M y Factores de Gradiente (GF Low/High) de Erik Baker en el algoritmo Bühlmann ZHL-16 para buceo técnico."
+seoDescription: "Explicación técnica y matemática de los valores M y Factores de Gradiente (GF Low/High) en el algoritmo Bühlmann ZHL-16 para buceo técnico."
 layout: legal
 ShowReadingTime: false
 showToc: false
@@ -29,7 +29,7 @@ cover:
 
 Cuando un ordenador de buceo o un planificador como *Subsurface* muestra una profundidad de parada, está traduciendo un cálculo de presiones a metros. Esa conversión depende de la presión en superficie y de la densidad del agua; no es un detalle cosmético, porque afecta a las profundidades mostradas.
 
-El modelo **Bühlmann ZHL-16** representa la evolución de las tensiones de gas inerte en 16 compartimentos teóricos. Aquí explicamos sus valores M y los **factores de gradiente (Gradient Factors o GF)** propuestos por Erik Baker para modificar los límites del modelo.
+El modelo **Bühlmann ZHL-16** representa la evolución de las tensiones de gas inerte en 16 compartimentos teóricos. Aquí explicamos sus valores M y los **factores de gradiente (Gradient Factors o GF)** utilizados para modificar los límites del modelo.
 
 > Este artículo es divulgativo: no valida perfiles ni recomienda ajustes de GF para una inmersión concreta. Ningún algoritmo elimina el riesgo de enfermedad descompresiva (ED). La planificación requiere formación, procedimientos apropiados y atención a los límites del equipo y de la mezcla respirada.
 
@@ -63,7 +63,7 @@ La posición respecto a la diagonal **no indica por sí sola si el compartimento
 
 ---
 
-## 3. Los factores de gradiente de Erik Baker
+## 3. Factores de gradiente (Gradient Factors)
 
 Los factores de gradiente modifican el límite de sobresaturación utilizado por el modelo sin cambiar sus semiperíodos. Para un compartimento y una presión ambiente dados, GF es la fracción del gradiente entre la presión ambiente y el valor M:
 
