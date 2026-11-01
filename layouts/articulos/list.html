@@ -1,0 +1,156 @@
+{{ define "main" }}
+
+<section class="hero" style="background-image:linear-gradient(rgba(20,30,38, 0.9), rgba(24,44,54, 0.8)), url('{{.Params.Image | default "/mike-thomas-cdg-50th-dinner-june-19961.jpg" | relURL}}');">
+  <header class="container">
+    <hgroup>
+      <h1>{{ .Title }}</h1>
+      <h2>{{ .Description }}</h2>
+    </hgroup>
+  </header>
+</section>
+
+<div class="container" style="padding-top: 1.5rem; padding-bottom: 3rem;">
+  {{ if .Params.TextoPrincipal }}
+  <p style="font-size: 1.05rem; line-height: 1.6; max-width: 800px; opacity: 0.9; margin-bottom: 2rem;">
+    {{ .Params.TextoPrincipal | safeHTML }}
+  </p>
+  {{ end }}
+
+  <div class="articles-grid">
+    {{- $pages := where site.RegularPages "Section" "articulos" }}
+    {{- $pages = sort $pages "Weight" "asc" }}
+    {{ range $pages }}
+    <a href="{{ .RelPermalink }}" class="article-card">
+      {{ if .Params.Cover.Image }}
+      <div class="article-card-media">
+        <img
+          src="{{ .Params.Cover.Image | relURL }}"
+          alt="{{ .Title }}"
+          loading="lazy"
+        >
+      </div>
+      {{ end }}
+      <div class="article-card-body">
+        <h3 class="article-card-title">{{ .Title }}</h3>
+        <p class="article-card-desc">
+          {{ .Description | plainify | htmlUnescape | truncate 130 }}
+        </p>
+        <span class="article-card-link">
+          Leer artículo
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card-background-color, rgba(255, 255, 255, 0.03));
+  border: 1px solid var(--card-border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.article-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary, #00897b);
+  box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.5);
+}
+
+.article-card-media {
+  position: relative;
+  width: 100%;
+  height: 190px;
+  background: #0f172a;
+  overflow: hidden;
+}
+
+.article-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.article-card:hover .article-card-media img {
+  transform: scale(1.04);
+}
+
+.article-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.25rem 1.25rem 1.5rem 1.25rem;
+  text-align: left;
+}
+
+.article-card-title {
+  font-size: 1.15rem;
+  line-height: 1.35;
+  font-weight: 600;
+  margin: 0 0 0.65rem 0;
+  color: var(--color, #f8fafc);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.article-card-desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--muted-color, #94a3b8);
+  margin: 0 0 1.25rem 0;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.article-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary, #14b8a6);
+  margin-top: auto;
+  transition: gap 0.2s ease;
+}
+
+.article-card:hover .article-card-link {
+  gap: 0.65rem;
+}
+
+@media (max-width: 640px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .article-card-media {
+    height: 170px;
+  }
+}
+</style>
+
+{{ end }}
