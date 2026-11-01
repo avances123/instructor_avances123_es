@@ -33,7 +33,7 @@ En el buceo recreativo convencional (hasta 40 metros, sin paradas de descompresi
 
 En el **buceo técnico** operamos bajo un **techo físico o fisiológico** (*overhead environment*):
 * **Techo físico:** El techo de roca de una caverna o cueva ([TDI Cavern Diver](/cursos/buceo-tecnico/cavern)) o el interior de un barco hundido.
-* **Techo fisiológico (descompresión):** Una obligación de paradas de descompresión que te impide salir directamente a la superficie sin sufrir una enfermedad descompresiva grave.
+* **Techo fisiológico (descompresión):** Una obligación de paradas de descompresión que te impide salir directamente a la superficie sin sufrir una enfermedad descompresiva grave (analizamos cómo se modelan matemáticamente estos límites en nuestro artículo sobre [valores M y Gradient Factors en Bühlmann ZHL-16](/articulos/valores-m-gradient-factors-buhlmann/)).
 
 ![Buceador técnico manteniendo trimado neutro en entorno de caverna y cueva](/articulos-img/kakuk-cave-ledge.webp)
 
@@ -73,7 +73,7 @@ En el Mediterráneo (especialmente en invierno y primavera en la Costa Brava) y 
 ### Paso 3: Elegir tu especialidad — Entorno bajo techo (Cuevas) o Profundidad (Descompresión)
 Una vez que tu flotabilidad, tu propulsión (incluyendo patada atrás y giro helicóptero) y tu gestión de válvulas son automáticas, se abren dos grandes caminos (que a menudo convergen):
 1. **Rama de Entornos Bajo Techo (Cuevas):** Comenzando por el curso [TDI Cavern Diver](/cursos/buceo-tecnico/cavern) (navegación con carrete e hilo guía, visibilidad cero, regla de los tercios y trabajo en equipo dentro de la zona de luz), para progresar posteriormente hacia *TDI Intro to Cave* y *TDI Full Cave Diver*.
-2. **Rama de Profundidad y Gases (Decompression Procedures & Advanced Nitrox):** Donde aprendes a utilizar mezclas hiperóxicas de descompresión (EAN50, Oxígeno 100 %) en botellas de etapa (*stage cylinders*) para acelerar la eliminación de nitrógeno en inmersiones más allá de los límites recreativos.
+2. **Rama de Profundidad y Gases (Decompression Procedures & Advanced Nitrox):** Donde aprendes a utilizar mezclas hiperóxicas de descompresión (EAN50, Oxígeno 100 %) en botellas de etapa (*stage cylinders*) para acelerar la eliminación de nitrógeno en inmersiones más allá de los límites recreativos, configurando con criterio los [Factores de Gradiente](/articulos/valores-m-gradient-factors-buhlmann/) en tu ordenador de buceo.
 
 ---
 
