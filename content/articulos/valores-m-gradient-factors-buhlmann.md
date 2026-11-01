@@ -27,77 +27,69 @@ cover:
 </div>
 {{< /rawhtml >}}
 
-Cuando miras la pantalla de un *Shearwater*, un *Garmin* o planificas una inmersión técnica en *Subsurface*, el software te muestra metros de profundidad y minutos de tiempo de parada. Sin embargo, **el algoritmo de descompresión no tiene ni idea de qué es un metro ni qué es el agua de mar**.
+Cuando un ordenador de buceo o un planificador como *Subsurface* muestra una profundidad de parada, está traduciendo un cálculo de presiones a metros. Esa conversión depende de la presión en superficie y de la densidad del agua; no es un detalle cosmético, porque afecta a las profundidades mostradas.
 
-El algoritmo **Bühlmann ZHL-16** es un motor matemático que solo entiende de **presiones absolutas y tensiones de gas inerte**. Los metros son un mero artificio cosmético que añade la interfaz del ordenador aplicando correcciones de densidad, salinidad y presión barométrica en superficie.
+El modelo **Bühlmann ZHL-16** representa la evolución de las tensiones de gas inerte en 16 compartimentos teóricos. Aquí explicamos sus valores M y los **factores de gradiente (Gradient Factors o GF)** propuestos por Erik Baker para modificar los límites del modelo.
 
-En esta sesión del taller técnico *«Deco para nerds»*, analizamos con mentalidad de sistemas cómo se calcula la frontera entre una desaturación controlada y el riesgo de enfermedad descompresiva: el concepto de **Valor M** y el ajuste de **Factores de Gradiente (Gradient Factors - GF)** introducido por Erik Baker.
+> Este artículo es divulgativo: no valida perfiles ni recomienda ajustes de GF para una inmersión concreta. Ningún algoritmo elimina el riesgo de enfermedad descompresiva (ED). La planificación requiere formación, procedimientos apropiados y atención a los límites del equipo y de la mezcla respirada.
 
 ---
 
 ## 1. El concepto de Valor M (*M-Value*): La frontera de sobresaturación
 
-Durante el descenso y el tiempo de fondo (*on-gassing*), los diferentes compartimentos tisulares del cuerpo absorben gas inerte (nitrógeno y helio) porque la presión parcial alveolar en los pulmones es mayor que la tensión de gas en los tejidos. Al ascender, la presión ambiente disminuye y se produce la inversión: la tensión del gas en el tejido pasa a ser mayor que la presión externa (*off-gassing*).
+Los compartimentos son construcciones matemáticas, no tejidos identificados uno a uno. En el modelo, cada gas inerte se carga o se elimina según la diferencia entre su presión inspirada modelada y su tensión en el compartimento. El sentido del intercambio puede variar entre compartimentos y entre gases, especialmente después de un cambio de mezcla.
 
-En ese momento el tejido entra en **sobresaturación**. El cuerpo humano puede tolerar cierto grado de sobresaturación sin que el gas disuelto precipite en fase gaseosa libre (microburbujas sintomáticas).
+Al ascender, la reducción de presión ambiente puede producir **sobresaturación**. Pueden detectarse burbujas después de una inmersión incluso en ausencia de síntomas; la presencia de burbujas y el diagnóstico de ED no son equivalentes [3, 4].
 
-El **Valor M** (definido históricamente por Robert Workman y perfeccionado por Albert Bühlmann) es la **máxima tensión de gas inerte que un compartimento tisular específico puede soportar a una presión ambiente determinada sin manifestar síntomas de enfermedad descompresiva (ED)**.
+El **valor M**, concepto asociado a Robert Workman y desarrollado en la formulación de Bühlmann, es el límite de tensión de gas inerte que el modelo asigna a un compartimento a una presión ambiente dada. Es un límite modelado, no una frontera fisiológica individual que garantice la ausencia de ED.
 
 En el modelo de Bühlmann, la relación entre la presión ambiente y la tolerancia máxima del tejido es una función lineal gobernada por dos coeficientes específicos ($a$ y $b$) para cada uno de los 16 compartimentos:
 
 $$\text{Valor M} = \frac{P_{\text{amb}}}{b} + a$$
 
-O, expresado desde la perspectiva inversa del algoritmo (que calcula techos de ascenso seguros en función de la tensión actual del tejido):
+Para un compartimento y GF del 100 %, la presión ambiente límite se obtiene despejando la ecuación:
 
-$$P_{\text{amb, tolerada}} = \frac{P_{\text{comp}} - a}{b}$$
+$$P_{\text{amb, límite}} = b\,(P_{\text{comp}} - a)$$
 
-* **Coeficiente $a$:** Representa la tolerancia de sobresaturación del tejido a presión cero (tensión intrínseca admisible).
-* **Coeficiente $b$:** Pendiente de la recta que determina cómo varía la tolerancia a medida que aumenta la presión ambiente absoluta.
-
----
-
-## 2. Las tres zonas de presión en el buceo
-
-Si representamos en un gráfico cartesiano la **Presión del Tejido** frente a la **Presión Ambiente**, el espacio de inmersión queda dividido en tres franjas críticas:
-
-1. **Zona de Saturación / Carga (*On-gassing*):** 
-   Situada por debajo de la línea de 45° ($y = x$, donde $P_{\text{tejido}} = P_{\text{ambiente}}$). La presión ambiente es superior a la del tejido; el compartimento está absorbiendo gas inerte.
-2. **Zona de Ventana Descompresiva Segura (*Off-gassing*):** 
-   Comprendida entre la línea de saturación ($GF = 0\%$) y la línea de Valor M ($GF = 100\%$). Aquí la presión en el tejido es superior a la presión ambiente, lo que fuerza la difusión del gas hacia la sangre y los alvéolos, pero **dentro de los límites de tolerancia biológica calculados por el algoritmo**.
-3. **Zona Crítica de Sobresaturación:** 
-   Cualquier punto que cruce por encima de la línea del Valor M. El gradiente de presión supera la capacidad de retención en solución del tejido, disparando la formación descontrolada de burbujas en el lecho vascular o en los tejidos conectivos.
-
-> **Importante:** La línea de Valor M no es una frontera binaria infalible. Es un umbral estadístico calibrado empíricamente. Factores como la hidratación, temperatura corporal, esfuerzo en fondo, perfil de inmersión y edad alteran la respuesta biológica individual.
+Aquí $P_{\text{comp}}$ es la tensión de gas inerte del compartimento y las presiones usan unidades coherentes. El coeficiente $a$ es la ordenada en el origen de esta recta; $b$ determina su pendiente, que en esta formulación es $1/b$. La extrapolación a presión cero no debe interpretarse como una medida fisiológica directa. Para helio y nitrógeno se usan coeficientes distintos; con ambos gases, las implementaciones combinan los coeficientes según las tensiones modeladas.
 
 ---
 
-## 3. Erik Baker y el hackeo de la línea roja: Factores de Gradiente (*Gradient Factors*)
+## 2. Qué representa el gráfico de presiones
 
-El problema del modelo Bühlmann clásico es que sus valores M originales están «grabados a fuego» en las matrices matemáticas. Si buceas un domingo de verano a 22 °C en un agua tranquila, tu perfil biológico no es el mismo que si estás realizando una inmersión profunda a 10 °C con esfuerzo físico severo.
+Si representamos la tensión total de gas inerte de un compartimento frente a la presión ambiente, la diagonal $P_{\text{comp}} = P_{\text{amb}}$ sirve como referencia de gradiente cero. La recta de valor M representa el límite del modelo para GF del 100 %. Entre ambas pueden dibujarse límites con GF menores.
 
-En la década de 1990, el ingeniero **Erik Baker** ideó una solución elegante: en lugar de tocar las ecuaciones tisulares subyacentes, introdujo un **factor de proporcionalidad sobre el gradiente máximo permitido**.
+La posición respecto a la diagonal **no indica por sí sola si el compartimento carga o elimina gas**. Para saberlo hay que comparar la tensión de cada gas con su presión inspirada modelada y considerar cómo cambia a lo largo del tiempo. Tampoco identifica una zona clínicamente segura: puede ocurrir ED dentro de los límites del modelo, y cruzar la línea M no implica necesariamente síntomas ni una formación descontrolada de burbujas.
 
-Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de sobresaturación mediante dos porcentajes: **GF Low** y **GF High**.
+---
+
+## 3. Los factores de gradiente de Erik Baker
+
+Los factores de gradiente modifican el límite de sobresaturación utilizado por el modelo sin cambiar sus semiperíodos. Para un compartimento y una presión ambiente dados, GF es la fracción del gradiente entre la presión ambiente y el valor M:
+
+$$P_{\text{límite GF}} = P_{\text{amb}} + GF\,(M - P_{\text{amb}})$$
+
+En esta ecuación, GF se expresa como fracción: 70 % equivale a 0,70. No significa el 70 % del valor M absoluto ni una reducción del 30 % del riesgo de ED. Las implementaciones suelen utilizar dos ajustes, **GF Low** y **GF High**. No miden directamente cómo responde el cuerpo a la inmersión.
 
 {{< rawhtml >}}
 <div id="d3-buhlmann-container" style="background: #111827; border: 1px solid #374151; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);">
   <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
     <div>
-      <h3 style="margin: 0; color: #f9fafb; font-size: 1.2rem; font-weight: 600;">Simulador Interactivo de Gradient Factors (Erik Baker)</h3>
-      <p style="margin: 0.25rem 0 0 0; color: #9ca3af; font-size: 0.85rem;">Compara el límite teórico de Bühlmann frente a la rampa de descompresión real según tus GF</p>
+      <h3 style="margin: 0; color: #f9fafb; font-size: 1.2rem; font-weight: 600;">Gráfico conceptual de Gradient Factors</h3>
+      <p style="margin: 0.25rem 0 0 0; color: #9ca3af; font-size: 0.85rem;">Ejemplo para un compartimento de nitrógeno, con primera parada hipotética a 3 bar y superficie a 1 bar. No calcula una inmersión, cargas tisulares ni paradas reales; no usar para planificar.</p>
     </div>
     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
-      <button type="button" class="gf-btn" onclick="setGF(50, 70)" style="display: inline-block; width: auto; margin: 0; background: #1f2937; border: 1px solid #4b5563; color: #e5e7eb; padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">50 / 70 (Tech)</button>
-      <button type="button" class="gf-btn" onclick="setGF(50, 85)" style="display: inline-block; width: auto; margin: 0; background: #1f2937; border: 1px solid #4b5563; color: #e5e7eb; padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">50 / 85 (Estándar)</button>
-      <button type="button" class="gf-btn" onclick="setGF(30, 70)" style="display: inline-block; width: auto; margin: 0; background: #1f2937; border: 1px solid #4b5563; color: #e5e7eb; padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">30 / 70 (Deep Stops)</button>
-      <button type="button" class="gf-btn" onclick="setGF(100, 100)" style="display: inline-block; width: auto; margin: 0; background: #1f2937; border: 1px solid #4b5563; color: #e5e7eb; padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">100 / 100 (Bühlmann puro)</button>
+      <button type="button" class="gf-btn" onclick="setGF(50, 70)" style="display: inline-block; width: auto; margin: 0; background: #1f2937; border: 1px solid #4b5563; color: #e5e7eb; padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">50 / 70</button>
+      <button type="button" class="gf-btn" onclick="setGF(50, 85)" style="display: inline-block; width: auto; margin: 0; background: #1f2937; border: 1px solid #4b5563; color: #e5e7eb; padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">50 / 85</button>
+      <button type="button" class="gf-btn" onclick="setGF(30, 70)" style="display: inline-block; width: auto; margin: 0; background: #1f2937; border: 1px solid #4b5563; color: #e5e7eb; padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">30 / 70</button>
+      <button type="button" class="gf-btn" onclick="setGF(100, 100)" style="display: inline-block; width: auto; margin: 0; background: #1f2937; border: 1px solid #4b5563; color: #e5e7eb; padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">100 / 100</button>
     </div>
   </div>
 
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-bottom: 1.5rem; background: #1f2937; padding: 1rem; border-radius: 8px;">
     <div>
       <div style="display: flex; justify-content: space-between; margin-bottom: 0.35rem;">
-        <label for="gf-low-slider" style="color: #60a5fa; font-weight: 500; font-size: 0.9rem;">GF Low (Primera Parada Profunda):</label>
+        <label for="gf-low-slider" style="color: #60a5fa; font-weight: 500; font-size: 0.9rem;">GF Low (primera parada hipotética):</label>
         <span id="gf-low-val" style="color: #60a5fa; font-weight: 700; font-family: monospace;">50%</span>
       </div>
       <input type="range" id="gf-low-slider" min="10" max="100" value="50" step="5" style="width: 100%; cursor: pointer;" oninput="updateFromSliders()">
@@ -105,11 +97,11 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
     </div>
     <div>
       <div style="display: flex; justify-content: space-between; margin-bottom: 0.35rem;">
-        <label for="gf-high-slider" style="color: #f59e0b; font-weight: 500; font-size: 0.9rem;">GF High (Salida a Superficie M₀):</label>
+        <label for="gf-high-slider" style="color: #f59e0b; font-weight: 500; font-size: 0.9rem;">GF High (límite en superficie):</label>
         <span id="gf-high-val" style="color: #f59e0b; font-weight: 700; font-family: monospace;">70%</span>
       </div>
       <input type="range" id="gf-high-slider" min="30" max="100" value="70" step="5" style="width: 100%; cursor: pointer;" oninput="updateFromSliders()">
-      <small style="color: #9ca3af; font-size: 0.75rem; display: block; margin-top: 2px;">Margen de sobresaturación al romper la superficie.</small>
+      <small style="color: #9ca3af; font-size: 0.75rem; display: block; margin-top: 2px;">Límite modelado en superficie, no tensión real de salida.</small>
     </div>
   </div>
 
@@ -121,19 +113,19 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
   <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 1rem; margin-top: 1.25rem; font-size: 0.8rem; color: #d1d5db; border-top: 1px solid #374151; padding-top: 1rem;">
     <div style="display: flex; align-items: center; gap: 6px;">
       <span style="display: inline-block; width: 12px; height: 12px; background: rgba(239, 68, 68, 0.6); border: 1px solid #ef4444; border-radius: 2px;"></span>
-      <span>Zona Crítica (ED / Burbujas)</span>
+      <span>Por encima del valor M modelado</span>
     </div>
     <div style="display: flex; align-items: center; gap: 6px;">
       <span style="display: inline-block; width: 12px; height: 12px; background: rgba(245, 158, 11, 0.4); border: 1px dashed #f59e0b; border-radius: 2px;"></span>
-      <span>Margen de Conservadurismo GF</span>
+      <span>Entre el límite GF y el valor M</span>
     </div>
     <div style="display: flex; align-items: center; gap: 6px;">
       <span style="display: inline-block; width: 12px; height: 12px; background: rgba(16, 185, 129, 0.4); border: 1px solid #10b981; border-radius: 2px;"></span>
-      <span>Ventana Deco Segura (Off-gassing)</span>
+      <span>Entre la diagonal y el límite GF</span>
     </div>
     <div style="display: flex; align-items: center; gap: 6px;">
       <span style="display: inline-block; width: 12px; height: 12px; background: rgba(59, 130, 246, 0.3); border: 1px solid #3b82f6; border-radius: 2px;"></span>
-      <span>Carga de Gas (On-gassing)</span>
+      <span>Por debajo de la diagonal</span>
     </div>
   </div>
 </div>
@@ -144,10 +136,10 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
   let gfLow = 50;
   let gfHigh = 70;
 
-  // Parámetros representativos de tejido medio Bühlmann (Tejido 5 / 27 min)
-  const a = 1.1698;
-  const b = 0.8618;
-  const pStop1 = 3.0; // 20m = 3.0 bar
+  // Nitrógeno, compartimento 5 / 27 min; ejemplo de Subsurface [1].
+  const a = 0.62;
+  const b = 0.8126;
+  const pStop1 = 3.0; // Primera parada hipotética, no calculada
   const pSurface = 1.0; // 1.0 bar absoluto
 
   const margin = {top: 30, right: 35, bottom: 55, left: 65};
@@ -157,8 +149,8 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
   const svg = d3.select("#buhlmann-svg");
   const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
 
-  const x = d3.scaleLinear().domain([0.8, 4.5]).range([0, width]);
-  const y = d3.scaleLinear().domain([0.8, 5.5]).range([height, 0]);
+  const x = d3.scaleLinear().domain([1.0, 4.5]).range([0, width]);
+  const y = d3.scaleLinear().domain([1.0, 6.5]).range([height, 0]);
 
   // Ejes
   const xAxis = d3.axisBottom(x).ticks(8).tickFormat(d => d + " bar");
@@ -203,7 +195,7 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
     .attr("text-anchor", "middle")
     .attr("font-size", "13px")
     .attr("font-weight", "500")
-    .text("Presión Ambiente P_amb (Presión externa / Profundidad)");
+    .text("Presión ambiente absoluta P_amb (bar)");
 
   g.append("text")
     .attr("transform", "rotate(-90)")
@@ -228,7 +220,7 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
 
   // Etiquetas de curvas
   const mLabel = g.append("text").attr("fill", "#f87171").attr("font-size", "12px").attr("font-weight", "600");
-  const equilLabel = g.append("text").attr("fill", "#60a5fa").attr("font-size", "11px").text("Equilibrio P_amb = P_tejido (0% GF)");
+  const equilLabel = g.append("text").attr("fill", "#60a5fa").attr("font-size", "11px").text("Diagonal P_comp = P_amb (0% GF)");
   const gfLabel = g.append("text").attr("fill", "#fbbf24").attr("font-size", "12px").attr("font-weight", "600");
 
   // Puntos interactivos destacados
@@ -258,7 +250,7 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
   }
 
   function render() {
-    const pMin = 0.8;
+    const pMin = 1.0;
     const pMax = 4.5;
 
     // Línea de equilibrio (y = x)
@@ -278,7 +270,7 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
       .attr("x", x(2.2))
       .attr("y", y(mVal(2.2)) - 8)
       .attr("transform", `rotate(-36, ${x(2.2)}, ${y(mVal(2.2))})`)
-      .text("Línea de Valor M de Bühlmann (100% límite)");
+      .text("Valor M modelado (GF 100%)");
 
     // Línea GF
     const samplePoints = d3.range(pMin, pMax + 0.05, 0.1);
@@ -291,7 +283,7 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
       .attr("x", x(1.8))
       .attr("y", y(pTolGf(1.8, gfLow, gfHigh)) - 8)
       .attr("transform", `rotate(-34, ${x(1.8)}, ${y(pTolGf(1.8, gfLow, gfHigh))})`)
-      .text(`Rampa GF (${gfLow}/${gfHigh})`);
+      .text(`Límite con GF (${gfLow}/${gfHigh})`);
 
     // Relleno de áreas
     const areaOnGassing = d3.area().x(d => x(d)).y0(height).y1(d => y(d));
@@ -313,11 +305,11 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
 
     const gfHighPt = pTolGf(pSurface, gfLow, gfHigh);
     pGfHighDot.attr("cx", x(pSurface)).attr("cy", y(gfHighPt));
-    gfHighText.attr("x", x(pSurface) + 10).attr("y", y(gfHighPt) + 4).text(`Salida GF High (${gfHigh}%): ${gfHighPt.toFixed(2)} bar`);
+    gfHighText.attr("x", x(pSurface) + 10).attr("y", y(gfHighPt) + 4).text(`Límite GF High (${gfHigh}%): ${gfHighPt.toFixed(2)} bar`);
 
     const gfLowPt = pTolGf(pStop1, gfLow, gfHigh);
     pGfLowDot.attr("cx", x(pStop1)).attr("cy", y(gfLowPt));
-    gfLowText.attr("x", x(pStop1) - 130).attr("y", y(gfLowPt) - 10).text(`1ª Parada GF Low (${gfLow}%): ${gfLowPt.toFixed(2)} bar`);
+    gfLowText.attr("x", x(pStop1) - 130).attr("y", y(gfLowPt) - 10).text(`Parada hipotética GF Low (${gfLow}%): ${gfLowPt.toFixed(2)} bar`);
   }
 
   window.setGF = function(low, high) {
@@ -343,42 +335,37 @@ Los **Factores de Gradiente (GF)** permiten al buceador comprimir la ventana de 
 </script>
 {{< /rawhtml >}}
 
-* **GF Low (Factor de Gradiente Bajo):** Define el porcentaje de la línea de Valor M al que el algoritmo activa la **primera parada de descompresión** (la más profunda). Un GF Low del 50 % obliga al buceador a detener su ascenso mucho antes de que el tejido líder alcance su tensión máxima admisible.
-* **GF High (Factor de Gradiente Alto):** Define el porcentaje máximo de Valor M admisible en el momento de **salir a la superficie** ($M_0$). Un GF High del 70 % garantiza que saldrás del agua manteniendo un margen de seguridad del 30 % respecto al techo fisiológico de Bühlmann.
-* **La pendiente lineal:** Entre la primera parada y la superficie, el ordenador calcula una interpolación lineal continua, ajustando el conservadurismo de cada parada intermedia.
-
-Por razones históricas y operativas de descompresión por etapas, esta rampa continua se discretiza en **escalones de 3 metros (0,3 bar)**.
+* **GF Low:** influye en el límite utilizado para determinar la profundidad de la primera parada obligatoria, cuando existe. Su efecto depende del perfil y de los compartimentos que controlan el ascenso.
+* **GF High:** fija el factor aplicado al límite modelado en superficie. Un 70 % deja sin utilizar el 30 % del gradiente modelado entre la presión ambiente y el valor M, no un 30 % de riesgo clínico.
+* **Interpolación:** muchas implementaciones interpolan GF entre la primera parada y la superficie y presentan paradas en incrementos de profundidad. Los detalles, incluidos los escalones y el comportamiento sin paradas obligatorias, dependen del dispositivo o programa.
 
 ---
 
 ## 4. Configuraciones habituales de GF: Criterio frente a mitos
 
-En la década de los 2000 estuvo muy extendida la moda de forzar paradas profundas empíricas utilizando valores de GF Low extremadamente agresivos (por ejemplo, `20/70` o `30/70`).
+Una parada más profunda no es necesariamente más segura. Durante ella, algunos compartimentos lentos pueden continuar cargando gas mientras otros lo eliminan. Cambiar el reparto de tiempo entre paradas también modifica el perfil completo, por lo que no basta con comparar una profundidad aislada.
 
-La investigación contemporánea (notablemente los estudios de la *Navy Experimental Diving Unit - NEDU* liderados por David Doolette) demostró que **paradas profundas artificialmente excesivas pueden ser contraproducentes**: obligan al buceador a detenerse a cotas donde los tejidos lentos todavía continúan cargando gas inerte (*on-gassing*), sin que los tejidos rápidos desaturen con suficiente eficacia.
+Blatteau y colaboradores estudiaron perfiles concretos con aire a 50 y 60 metros en grupos pequeños: los resultados de las paradas profundas añadidas variaron según el protocolo y uno de ellos se asoció con un caso de ED [2]. En otro trabajo, De Ridder y colaboradores compararon mediante simulación perfiles GF con tablas de referencia para inmersiones con aire no repetitivas; cuestionaron que un GF Low bajo fuera necesariamente más seguro en ese contexto [5]. La comparación con tablas no es un ensayo clínico de cada ajuste.
 
-### Puntos de partida recomendados en circuito abierto y trimix:
-* **`50/70` – Perfil conservador técnico:** Muy utilizado en inmersiones profundas con descompresión con oxígeno al 100 %, frío o perfiles exigentes. Asegura una salida a superficie con baja tensión tisular residual.
-* **`50/80` o `55/85` – Estándar equilibrado:** Excelente equilibrio entre tiempo total de descompresión (*runtime*) y ventana de desaturación eficiente en paradas someras (6 m y 3 m).
+Estos resultados no prueban que todas las paradas profundas sean perjudiciales ni validan una pareja de GF para cualquier inmersión con trimix, cambios de gas o inmersiones repetitivas. Las combinaciones del gráfico son ejemplos matemáticos, no recomendaciones. La elección operativa debe hacerse dentro de la formación y los procedimientos aplicables al perfil y al equipo utilizados.
 
 ---
 
-## 5. La conexión con el agua: Por qué la teoría matemática exige estabilidad milimétrica
+## 5. Control de profundidad durante la descompresión
 
-Todo el cálculo de Bühlmann y Baker asume una premisa estricta: **que el buceador permanece inmóvil a una presión constante durante cada minuto de parada**.
+Controlar la flotabilidad y la profundidad ayuda a ejecutar el perfil previsto, respetar los techos indicados y evitar ascensos involuntarios. El modelo puede calcular la evolución de los compartimentos mientras cambia la presión: no exige permanecer inmóvil ni mantener una profundidad milimétrica.
 
-Analicemos la física en la parada decisiva de 6 metros:
-* A 6 metros, la presión absoluta es de **1,6 bar**.
-* A 5 metros, la presión absoluta es de **1,5 bar**.
-* **Una oscilación de apenas 1 metro representa una variación del 6,25 % en la presión absoluta**. En una parada a 3 metros (1,3 bar), esa misma oscilación representa casi un **10 % de variación súbita de presión**.
+Como aproximación, con 1 bar en superficie y un aumento de 0,1 bar por metro, subir de 6 a 5 metros reduce la presión absoluta de 1,6 a 1,5 bar, un 6,25 % respecto a la presión inicial. Subir de 3 a 2 metros la reduce de 1,3 a 1,2 bar, aproximadamente un **7,7 %**. Son ejemplos de presión, no estimaciones de riesgo: la presión real depende del entorno y no se puede inferir una probabilidad de ED a partir de esa variación aislada.
 
-Si en tu parada de descompresión a 6 metros oscilas verticalmente arriba y abajo porque no dominas el *trim* o no tienes control fino de la flotabilidad, **estás alterando caóticamente el gradiente de difusión alveolar**. De nada sirve programar un *Shearwater* con precisión de un decimal si tu cuerpo se desplaza un metro arriba y abajo al respirar o al mover las aletas.
+El sidemount es una configuración con la que se puede entrenar el control de flotabilidad y el trim. Su comodidad y estabilidad dependen del ajuste, del equipo y de la técnica; no garantizan una posición perfecta ni una descompresión más segura que otra configuración bien utilizada.
 
-### Por qué el Sidemount es la plataforma ideal para la descompresión
-La configuración en **Sidemount** ubica el centro de masa de las botellas exactamente alineado con el eje pulmonar y los costados del torso:
-1. Permite mantener un **trim riguroso a 0° horizontal** con esfuerzo muscular cero.
-2. Elimina el balanceo lateral (*roll*) que genera un bibotella pesado sobre la espalda.
-3. Facilita permanecer suspendido en el agua como una estatua frente al cabo de fondeo o la boya de descompresión, garantizando que el gradiente que calculó Erik Baker se cumpla en tus tejidos con precisión milimétrica.
+### Referencias
+
+1. [Subsurface, implementación del modelo de descompresión](https://raw.githubusercontent.com/Subsurface-divelog/subsurface/master/core/deco.cpp). Código fuente y coeficientes usados en el ejemplo; es una implementación de referencia, no una validación clínica.
+2. [Blatteau JE y colaboradores. Bubble incidence after staged decompression from 50 or 60 msw: effect of adding deep stops. 2005](https://pubmed.ncbi.nlm.nih.gov/15892549/). Estudio experimental de perfiles concretos con aire.
+3. [Doolette DJ. Venous gas emboli detected by two-dimensional echocardiography are an imperfect surrogate endpoint for decompression sickness. 2016](https://pubmed.ncbi.nlm.nih.gov/27044455/).
+4. [Bakovic D y colaboradores. High-grade bubbles in left and right heart in an asymptomatic diver at rest after surfacing. 2008](https://pubmed.ncbi.nlm.nih.gov/18581949/). Caso de burbujas sin síntomas de ED.
+5. [De Ridder S y colaboradores. Selecting optimal air diving gradient factors for Belgian military divers: more conservative settings are not necessarily safer. 2023](https://europepmc.org/articles/PMC10735712). Comparación por simulación para inmersiones con aire no repetitivas.
 
 ---
 
