@@ -58,7 +58,7 @@ Antes de decidir tu equipo definitivo, debes elegir tu **plataforma base**:
 
 **Technical Diving International (TDI)** es la agencia certificadora de buceo técnico más grande y reconocida del mundo. Su estructura pedagógica permite construir los cimientos paso a paso sin lagunas de seguridad:
 
-![Esquema de progresión oficial de cursos TDI](/tdi_flowchart_web-only_v0718.png)
+![Esquema de progresión oficial de cursos TDI](/tdi_flowchart_web-only_v0718.webp)
 
 ### Paso 1: Dominar la base — TDI Intro to Tech y TDI Sidemount
 El verdadero pilar de todo buceador técnico no es el curso de descompresión, sino el curso de fundamentos:

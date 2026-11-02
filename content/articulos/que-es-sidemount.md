@@ -33,7 +33,7 @@ Las raíces del sidemount están ligadas a los espeleobuceadores británicos que
 
 Con el tiempo, el montaje lateral se adaptó a cuevas inundadas que exigían nadar durante más tiempo, con mayor atención a la flotabilidad y a la posición de las botellas. Después se extendió al buceo técnico y recreativo en aguas abiertas. Si te interesa esa evolución, puedes leer la [historia del sidemount](/articulos/historia-sidemount/).
 
-![Buceador con las botellas colocadas a los lados del cuerpo](/que_es/Sidemount_032_Photo_by_Pete_Nawrocky.jpg)
+![Buceador con las botellas colocadas a los lados del cuerpo](/que_es/Sidemount_032_Photo_by_Pete_Nawrocky.webp)
 
 ## Cómo funciona una configuración sidemount
 
@@ -89,11 +89,11 @@ El arnés y el ala pueden resultar prácticos para viajar, pero su peso y volume
 
 En entornos bajo techo, el perfil de las botellas y la posibilidad de manipularlas son ventajas para buceadores con formación específica. Una configuración lateral bien ajustada puede facilitar el avance en ciertos pasos y permite modificar la posición de las botellas cuando la técnica y el entorno lo requieren.
 
-![Buceador desplazando las botellas hacia delante en una zona estrecha](/que_es/Sidemount_cylinder_partial_removal-crop.jpg)
+![Buceador desplazando las botellas hacia delante en una zona estrecha](/que_es/Sidemount_cylinder_partial_removal-crop.webp)
 
 Esto no significa que cualquier paso sea seguro ni que el tamaño del cuerpo sea el único límite: el equipo, la visibilidad, el hilo guía, el espacio para maniobrar y la salida forman parte de la decisión. El sidemount por sí solo no habilita para penetrar en cuevas o pecios; esas inmersiones requieren formación, planificación y experiencia específicas.
 
-![Buceador durante una formación de penetración en pecios](/que_es/Technical_wreck_penetration_training_course.jpg)
+![Buceador durante una formación de penetración en pecios](/que_es/Technical_wreck_penetration_training_course.webp)
 
 ## ¿Se puede bucear en sidemount con una sola botella?
 

@@ -6,9 +6,9 @@ disableShare: true
 layout: legal
 ShowReadingTime: false
 showToc: false
-Image: /tech_diving.jpg
+Image: /tech_diving.webp
 cover:
-    image: /lluis.png
+    image: /lluis.webp
 ---
 
 
@@ -157,7 +157,7 @@ cover:
         <h3 class="title">Actualidad</h3>
         <h4>Buceando sin parar</h4>
         <div>
-            <img src="/a1f003ee-b4ec-472a-9e9b-cccb4a88004b.jpeg" class="fotito"  />
+            <img src="/a1f003ee-b4ec-472a-9e9b-cccb4a88004b.webp" class="fotito"  />
             <p class="largo" style="text-align: justify">En este momento, mi enfoque principal se centra en la inmersión en ambientes de cuevas, empleando la técnica de configuración sidemount en el buceo técnico. Mi compromiso no solo se limita a explorar estas fascinantes cuevas, sino también a compartir mi experiencia y conocimientos. Me encuentro ofreciendo cursos especializados a buceadores, abarcando todos los niveles, con el propósito de formar a futuros exploradores del buceo técnico y de cuevas. Esta labor educativa y de entrenamiento se realiza en colaboración con nuestro equipo, donde nos esforzamos por proporcionar una formación completa y segura para aquellos apasionados por estas modalidades de buceo.</p>
             <p class="corto" style="text-align: justify">En la actualidad, me dedico con gran dedicación al buceo técnico en entornos de cuevas, empleando la técnica de configuración sidemount. Además, imparto cursos de todos los niveles a aquellos entusiastas del buceo técnico y de cuevas que han optado por recibir formación con nuestro equipo.</p>
         </div>
@@ -169,7 +169,7 @@ cover:
         <h3 class="title">2022</h3>
         <h4 style="text-align: right">Comienzo con el buceo en cuevas</h4>
         <div>
-            <img src="/7b24eb01-a507-4072-bad6-2dd769b9304a.jpeg" class="fotito"  />
+            <img src="/7b24eb01-a507-4072-bad6-2dd769b9304a.webp" class="fotito"  />
             <p class="largo" style="text-align: justify">En este momento, gracias al apoyo de David de las Heras, he obtenido la certificación como instructor TDI Intro to Tech y como instructor TDI de cavernas utilizando la configuración Sidemount. Este logro representa un avance significativo hacia mi objetivo de convertirme en formador en entornos cerrados. La historia continúa...</p>
             <p class="corto" style="text-align: justify">En este momento, gracias al apoyo de David de las Heras, he obtenido la certificación como instructor TDI Intro to Tech y como instructor TDI de cavernas utilizando la configuración Sidemount. Este logro representa un avance significativo hacia mi objetivo de convertirme en formador en entornos cerrados. La historia continúa..</p>
         </div>
@@ -181,7 +181,7 @@ cover:
         <h3 class="title">2015</h3>
         <h4>Comienzo con el buceo técnico</h4>
         <div>
-            <img src="/af88c58c-6ae9-44c1-b70f-d785fc0e4d4f.jpeg" class="fotito"  />
+            <img src="/af88c58c-6ae9-44c1-b70f-d785fc0e4d4f.webp" class="fotito"  />
             <p class="largo" style="text-align: justify">La aventura no se detiene ahí. A medida que exploraba diferentes tipos de inmersiones, me sentía cada vez más atraído por entornos marinos más delicados y desafiantes. Fue entonces cuando surgió en mí el anhelo de sumergirme en el mundo del buceo en cuevas. En el año 2015, de la mano de Deniss Kozlovs, inicié mi travesía en el buceo técnico. Durante este tiempo, adquirí certificaciones significativas, como buceador TDI Fullcave, Trimix, Nitrox Avanzado y Procedimientos Descompresivos.</p>
             <p class="corto" style="text-align: justify">La experiencia no termina ahí. Al realizar distintos tipos de inmersiones, me atrajeron entornos marinos más delicados y desafiantes. En 2015, con Deniss Kozlovs, comencé mi aventura en el buceo técnico, obteniendo certificaciones como buceador TDI Fullcave, Trimix, Nitrox Avanzado y Procedimientos Descompresivos.</p>
         </div>
@@ -193,7 +193,7 @@ cover:
         <h3 class="title">2012</h3>
         <h4 style="text-align: right">Comienzo a ser instructor</h4>
         <div>
-            <img src="/4c6f2599-ed22-4238-babb-3ba0d064c03e.jpeg" class="fotito"  />
+            <img src="/4c6f2599-ed22-4238-babb-3ba0d064c03e.webp" class="fotito"  />
             <p class="largo" style="text-align: justify">El respaldo incondicional de mis amigos y familiares ha sido fundamental en el logro de un sueño personal: obtener la certificación como Instructor PADI. Este hito representa una continuación significativa en mi trayectoria formativa, permitiéndome avanzar en mi capacitación como instructor especializado en MASTER SCUBA DIVER TRAINER. Su apoyo constante ha sido un pilar invaluable en este emocionante viaje hacia el dominio y la excelencia en el mundo del buceo.</p>
             <p class="corto" style="text-align: justify">Mis amigos y familiares me brindaron aliento y apoyo para lograr un sueño: obtener la certificación como Instructor PADI. Este paso marca la continuación de mi formación como instructor especializado en MASTER SCUBA DIVER TRAINER.</p>
         </div>
@@ -205,7 +205,7 @@ cover:
         <h3 class="title">2003</h3>
         <h4>Comienzo a bucear</h4>
         <div>
-            <img src="/628a8d4f-fe45-4ce6-afb1-515019dd01d6.jpeg" class="fotito" />
+            <img src="/628a8d4f-fe45-4ce6-afb1-515019dd01d6.webp" class="fotito" />
             <p class="largo" style="text-align: justify">Mis primeros pasos como buceador de 1 estrella FECDAS se remontan al año 2003, en l’Escala (Girona - Costa Brava), un lugar verdaderamente paradisíaco para sumergirse. Desde el principio, quedó patente que este entorno era mi hogar, donde los sonidos se desvanecían, reinaba la serenidad y la belleza de los diversos paisajes subacuáticos me cautivaba cada vez más. A lo largo del tiempo, fui acumulando experiencia y ampliando mis habilidades mediante la formación en distintas especialidades, tales como buceo en pecios, grutas, inmersiones profundas, sidemount, entre otras. Esta evolución me llevó a obtener la certificación como Guía de Grupo, permitiéndome colaborar con diversos Centros de Buceo.</p>
             <p class="corto" style="text-align: justify">En 2003, comencé como buceador de 1 estrella FECDAS en l’Escala (Girona - Costa Brava), un lugar paradisíaco. Desde entonces, me he especializado en diversas áreas del buceo, obteniendo la certificación como Guía de Grupo para colaborar con Centros de Buceo.</p>
         </div>

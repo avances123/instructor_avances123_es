@@ -11,7 +11,7 @@ ShowShareButtons: false
 showToc: false
 weight: 5
 cover:
-    image: /drysuit1.jpg
+    image: /drysuit1.webp
 ---
 
 ## ¿Por qué traje seco?

@@ -5,8 +5,8 @@ description: Certificaciones de buceo básicas
 ShowBreadCrumbs: true
 ShowShareButtons: false
 showToc: false
-Image: /img_1897-1.png
+Image: /img_1897-1.webp
 cover:
-    image: /sdi.png
+    image: /sdi.webp
     alttext: logo de sdi
 ---
