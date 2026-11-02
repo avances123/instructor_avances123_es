@@ -8,7 +8,7 @@ ShowReadingTime: false
 showToc: false
 weight: 4
 cover:
-    image: /having-doubts--drawing-of-a-man-on-blackboard--illustration.jpg
+    image: /9.webp
 ---
 
 # ¿Qué es el buceo sidemount?
