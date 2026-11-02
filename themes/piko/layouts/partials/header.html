@@ -114,6 +114,10 @@
               {{ end }} 
               {{- if .Title }}
               {{ .Title | safeHTML }}     
+              {{- else if eq .Pre "youtube" }}
+              YouTube
+              {{- else if eq .Pre "instagram" }}
+              Instagram
               {{ end }}
             </span>
           </a>

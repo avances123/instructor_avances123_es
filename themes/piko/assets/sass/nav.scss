@@ -73,6 +73,13 @@ nav {
   background-color: var(--background-color);
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  ul li a span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+  }
+
   button {
     position: absolute;
     top: var(--spacing);
