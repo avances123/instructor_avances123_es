@@ -1,7 +1,9 @@
 ---
 title: 'Fabio Rueda' # in any language you want
+seoTitle: "Fabio Rueda - Fundador e Instructor Principal | Sidemount Spain"
 url: "/fabio"
-description: 'Los hitos de mi carrera en el buceo'
+description: 'Fundador e Instructor Principal de Sidemount Spain. Especialista en buceo técnico, trim y sidemount en Cataluña y España.'
+seoDescription: "Conoce a Fabio Rueda, fundador e instructor principal de Sidemount Spain (sidemount.es). Formador técnico en configuración lateral, trimado avanzado y buceo en cuevas."
 disableShare: true
 layout: legal
 ShowReadingTime: false
@@ -154,11 +156,11 @@ cover:
     <div class="card">
       <div class="info">
         <h3 class="title">Actualidad</h3>
-        <h4>Buceando sin parar</h4>
+        <h4>Fundador e Instructor Principal de Sidemount Spain</h4>
         <div>
             <img src="/yo.webp" class="fotito"  />
-            <p class="largo" style="text-align: justify">En la actualidad, mi vida gira en torno al buceo en cuevas, una pasión que se ha convertido en un estilo de vida. A través de un dedicado estudio, he incursionado en la topografía submarina, fusionando mi profesión como ingeniero de datos y mapas con mi amor por el buceo. Esta combinación me ha permitido llevar la precisión, la rigurosidad y la tecnología del análisis de datos a un ámbito apasionante: la espeleología subacuática. Cada inmersión se convierte en una oportunidad para explorar, mapear y comprender estos intrincados laberintos submarinos, utilizando mi formación profesional para crear mapas detallados y comprender mejor estos entornos misteriosos y desafiantes. Mi mayor satisfacción radica en poder integrar la ciencia y la exploración, llevando el buceo en cuevas a un nivel más profundo y técnico gracias a las herramientas y enfoques de la ingeniería de datos.</p>
-            <p class="corto" style="text-align: justify">Mi vida se centra en el buceo en cuevas, fusionando mi profesión de ingeniero de datos con esta pasión, lo que me permite aplicar la precisión y tecnología del análisis de datos a la espeleología subacuática. Utilizando mi formación profesional, cada inmersión se convierte en una oportunidad para explorar, mapear y comprender estos entornos, llevando el buceo en cuevas a un nivel más técnico y profundo mediante la integración de la ciencia y la exploración.</p>
+            <p class="largo" style="text-align: justify">Como fundador e instructor principal de Sidemount Spain (sidemount.es), dirijo la formación especializada en buceo técnico, trimado avanzado y configuración lateral en Cataluña y España. Mi vida gira en torno al buceo técnico y en cuevas, una disciplina que combino con mi profesión como ingeniero de datos y mapas. Esta combinación me permite aplicar la máxima rigurosidad técnica, el análisis métrico y la precisión matemática a la enseñanza del sidemount y la espeleología subacuática. En Sidemount Spain no enseñamos sidemount como una especialidad secundaria de catálogo: nos dedicamos de forma exclusiva a formar a buceadores técnicos bajo los estándares más exigentes de la industria.</p>
+            <p class="corto" style="text-align: justify">Fundador e instructor principal de Sidemount Spain (sidemount.es). Especialista en formación técnica en montaje lateral (sidemount) y buceo en cuevas en Cataluña y España, fusionando la ingeniería de datos con la máxima precisión y disciplina bajo el agua.</p>
         </div>
       </div>
     </div>
@@ -205,8 +207,8 @@ cover:
         <h4 style="text-align: right">Comienzo en el buceo técnico</h4>
         <div>
             <img src="/tdi_sidemount.webp" class="fotito"  />
-            <p class="largo" style="text-align: justify">El mundo del buceo técnico se abrió ante mí como un desafío irresistible después de mi incursión inicial en el buceo recreativo. Fascinado por la idea de explorar cuevas submarinas al estilo de un astronauta, decidí adentrarme en el buceo técnico desde sus cimientos, adoptando la configuración sidemount. Determinado a dominar esta disciplina desde el principio, busqué y encontré a uno de los instructores más destacados en España, Oscar L Garcia. El proceso fue exigente y complejo, llevándome a superar desafíos que ampliaron mis límites. A pesar de la intensidad, encontré una nueva pasión en este enfoque más técnico del buceo. La fusión entre la exploración intrépida y el desafío técnico me atrapó por completo, convirtiendo lo que solía ser un pasatiempo en una dedicación seria y absorbente que me motivó a explorar aún más las profundidades desconocidas del mundo submarino.</p>
-            <p class="corto" style="text-align: justify">Me adentré en el desafiante mundo del buceo técnico, adoptando la configuración sidemount, con el instructor Oscar L Garcia en España. Este enfoque exigente y emocionante amplió mis límites, convirtiendo mi pasión por el buceo en una dedicación absorbente, fusionando la exploración intrépida con desafíos técnicos, llevándome a explorar aún más las profundidades submarinas desconocidas.</p>
+            <p class="largo" style="text-align: justify">El mundo del buceo técnico se abrió ante mí como un desafío irresistible después de mi incursión inicial en el buceo recreativo. Fascinado por la idea de explorar cuevas submarinas al estilo de un astronauta, decidí adentrarme en el buceo técnico desde sus cimientos, adoptando la configuración sidemount. Determinado a dominar esta disciplina desde el principio, me formé con el antiguo referente en el sidemount en España. El proceso fue exigente y complejo, llevándome a superar desafíos que ampliaron mis límites. A pesar de la intensidad, encontré una nueva pasión en este enfoque más técnico del buceo. La fusión entre la exploración intrépida y el desafío técnico me atrapó por completo, convirtiendo lo que solía ser un pasatiempo en una dedicación seria y absorbente que me motivó a explorar aún más las profundidades desconocidas del mundo submarino.</p>
+            <p class="corto" style="text-align: justify">Me adentré en el desafiante mundo del buceo técnico, adoptando la configuración sidemount, con el antiguo referente en el sidemount en España. Este enfoque exigente y emocionante amplió mis límites, convirtiendo mi pasión por el buceo en una dedicación absorbente, fusionando la exploración intrépida con desafíos técnicos, llevándome a explorar aún más las profundidades submarinas desconocidas.</p>
         </div>
       </div>
     </div>

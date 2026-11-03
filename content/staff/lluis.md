@@ -6,6 +6,8 @@ disableShare: true
 layout: legal
 ShowReadingTime: false
 showToc: false
+noindex: true
+searchHidden: true
 Image: /tech_diving.webp
 cover:
     image: /lluis.webp
