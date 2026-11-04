@@ -17,5 +17,5 @@ TextoPrincipal: |
     <li>Aprendizaje más eficiente: Al centrarse exclusivamente en el sidemount, el proceso de aprendizaje es más directo y eficiente, permitiendo al buceador dominar las técnicas más rápidamente y con mayor confianza.</li>
     </ul>
 Image: /formacion-hero.webp
-imagePosition: center 60%
+imagePosition: center 50%
 ---
