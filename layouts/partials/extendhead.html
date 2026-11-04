@@ -44,18 +44,13 @@
         }
 
         if (typeof gtag === 'function') {
-            // GA4 Leads
+            // GA4 Standard Lead Event
             gtag('event', 'generate_lead', {
                 'lead_method': method || 'generic',
                 'lead_source': source || window.location.pathname,
                 'course_name': courseName || '',
                 'event_callback': doNavigate,
                 'event_timeout': 1500
-            });
-            gtag('event', 'conversion_event_contact', {
-                'lead_method': method || 'generic',
-                'lead_source': source || window.location.pathname,
-                'course_name': courseName || ''
             });
 
             // Google Ads Direct Conversion
