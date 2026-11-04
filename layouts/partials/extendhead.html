@@ -25,6 +25,7 @@
 <script>
     gtag('js', new Date());
     gtag('config', 'G-NFPNJYXW0E');
+    gtag('config', 'AW-18548222725');
 </script>
 
 <!-- Conversion Tracking Helpers -->
@@ -43,6 +44,7 @@
         }
 
         if (typeof gtag === 'function') {
+            // GA4 Leads
             gtag('event', 'generate_lead', {
                 'lead_method': method || 'generic',
                 'lead_source': source || window.location.pathname,
@@ -54,6 +56,13 @@
                 'lead_method': method || 'generic',
                 'lead_source': source || window.location.pathname,
                 'course_name': courseName || ''
+            });
+
+            // Google Ads Direct Conversion
+            gtag('event', 'conversion', {
+                'send_to': 'AW-18548222725/V8h6CL6EpLIdEIXWvYxF',
+                'value': 50.0,
+                'currency': 'EUR'
             });
         } else {
             doNavigate();
