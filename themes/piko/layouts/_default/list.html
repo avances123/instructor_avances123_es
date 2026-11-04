@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <section class="hero" style="background-image:linear-gradient(rgba(20,30,38, 0.9), rgba(24,44,54, 0.8)),
-url('{{.Params.Image}}');">
+url('{{.Params.Image}}');{{ with .Params.imagePosition }} background-position: {{ . }};{{ end }}">
   <header class="container">
     <hgroup>
       <h1>{{ .Title }}</h1>
