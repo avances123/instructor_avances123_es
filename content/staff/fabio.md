@@ -168,7 +168,7 @@ cover:
     <div class="card">
       <div class="info">
         <h3 class="title">2024</h3>
-        <h4>Especializandome como instructor tecnico con los mejores en la especialidad</h4>
+        <h4>Especializándome como instructor técnico con los mejores en la especialidad</h4>
         <div>
             <img src="/sdrill-audrey.webp" class="fotito"  />
             <p class="largo" style="text-align: justify">Durante el transcurso de este año, he alcanzado un hito significativo en mi desarrollo profesional como instructor al obtener la certificación en sidemount técnico en Malta, bajo la tutela de Audrey Cudel, una destacada instructora reconocida en la especialidad. Esta evaluación representó un proceso riguroso y exigente que ha ampliado mi competencia y conocimiento en técnicas avanzadas de buceo, específicamente en el contexto del sidemount. La instrucción recibida y el éxito obtenido en esta evaluación constituyen una validación tangible de mi habilidad para impartir formación de alta calidad en este campo especializado del buceo técnico. Este logro no solo refleja mi dedicación y compromiso con la excelencia profesional, sino que también fortalece mi capacidad para brindar una enseñanza efectiva y segura a futuros alumnos en esta disciplina exigente y técnica del buceo.</p>
@@ -192,7 +192,7 @@ cover:
     <div class="card">
       <div class="info">
         <h3 class="title">2020</h3>
-        <h4>Comienzo on el buceo de cuevas</h4>
+        <h4>Comienzo con el buceo de cuevas</h4>
         <div>
             <img src="/GOPR1774.webp" class="fotito"  />
             <p class="largo" style="text-align: justify">Después de acumular una sólida experiencia en el buceo en aguas abiertas, sentí la llamada para adentrarme en un nuevo desafío: el buceo en cuevas. Con esa meta en mente, decidí seguir mi camino hacia el buceo de cuevas bajo la guía experta de Javier de Miguel, en la cautivadora cueva del Moraig. Fue allí donde consolidé los fundamentos esenciales para desenvolverme con seguridad en este entorno desafiante y fascinante. A través del riguroso entrenamiento y la orientación experta, adquirí la disciplina y el enfoque necesarios para operar de manera segura en estas condiciones, comprendiendo la importancia de la preparación meticulosa y el respeto por el entorno subterráneo. Este período de formación no solo fortaleció mis habilidades, sino que también me brindó una comprensión más profunda y una apreciación renovada por la belleza y complejidad del buceo en cuevas.</p>
