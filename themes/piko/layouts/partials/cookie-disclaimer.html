@@ -1,15 +1,15 @@
 <article id="cookie-consent-banner" style="display: none;" role="dialog" aria-live="polite" aria-label="Consentimiento de cookies">
-  <div>
+  <div class="cookie-content">
     <span>
       {{ .Site.Params.CookieNotice | default "Utilizamos cookies analíticas para medir el tráfico y mejorar la experiencia. Puedes aceptarlas o rechazarlas." }}
     </span>
   </div>
-  <footer style="margin-top: 1rem; display: flex; gap: 0.5rem; justify-content: flex-end; align-items: center; flex-wrap: wrap;">
+  <footer class="cookie-actions">
     {{ if .Site.Params.CookieLink }}
-    <a href="{{ .Site.Params.CookieLink | relURL }}" target="_blank" rel="noopener" style="margin-right: auto; font-size: 0.85rem;">{{ .Site.Params.CookieButton | default "Política de cookies" }}</a>
+    <a href="{{ .Site.Params.CookieLink | relURL }}" target="_blank" rel="noopener" class="cookie-link">{{ .Site.Params.CookieButton | default "Política de cookies" }}</a>
     {{ end }}
-    <button type="button" id="cookie-btn-reject" class="secondary outline" style="margin-bottom: 0; padding: 0.4rem 0.8rem; font-size: 0.85rem; width: auto;">Rechazar</button>
-    <button type="button" id="cookie-btn-accept" style="margin-bottom: 0; padding: 0.4rem 0.8rem; font-size: 0.85rem; width: auto;">Aceptar</button>
+    <button type="button" id="cookie-btn-reject" class="secondary outline">Rechazar</button>
+    <button type="button" id="cookie-btn-accept">Aceptar</button>
   </footer>
 </article>
 

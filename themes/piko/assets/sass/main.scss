@@ -477,6 +477,35 @@ a[role='button'],
   z-index: 9999;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
   margin-bottom: 0;
+  padding: 1.25rem;
+
+  .cookie-content {
+    font-size: 0.88rem;
+    line-height: 1.4;
+  }
+
+  .cookie-actions {
+    margin-top: 0.75rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .cookie-link {
+      margin-right: auto;
+      font-size: 0.8rem;
+      opacity: 0.8;
+      text-decoration: underline !important;
+    }
+
+    button {
+      margin-bottom: 0;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.82rem;
+      width: auto;
+    }
+  }
 
   @media (max-width: 576px) {
     bottom: 0;
@@ -484,6 +513,30 @@ a[role='button'],
     left: 0;
     max-width: 100%;
     border-radius: 0;
+    padding: 0.65rem 1rem;
+    background: rgba(17, 25, 31, 0.97);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+    .cookie-content {
+      font-size: 0.78rem;
+      line-height: 1.3;
+    }
+
+    .cookie-actions {
+      margin-top: 0.4rem;
+      gap: 0.35rem;
+
+      .cookie-link {
+        font-size: 0.75rem;
+      }
+
+      button {
+        padding: 0.25rem 0.65rem;
+        font-size: 0.78rem;
+      }
+    }
   }
 }
 
