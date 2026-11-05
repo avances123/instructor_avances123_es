@@ -30,6 +30,10 @@
         'ad_user_data': status,
         'ad_personalization': status
       });
+      gtag('event', 'cookie_consent_decision', {
+        'decision': granted ? 'accept' : 'reject',
+        'transport_type': 'beacon'
+      });
     }
     try {
       localStorage.setItem(STORAGE_KEY, status);
