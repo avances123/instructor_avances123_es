@@ -6,16 +6,13 @@
 </div>
 
 <script>
-    if (typeof gtag === 'function') {
-        gtag('event', 'generate_lead', {
-            'lead_method': 'form',
-            'lead_source': 'thanks_page'
-        });
-        gtag('event', 'conversion', {
-            'send_to': 'AW-18548222725/V8h6CL6EpLIdEIXWvYxF',
-            'value': 50.0,
-            'currency': 'EUR'
-        });
-    }
+    try {
+        var submittedAt = Number(sessionStorage.getItem('contact_form_pending'));
+        sessionStorage.removeItem('contact_form_pending');
+        if (submittedAt > 0 && Date.now() - submittedAt < 30 * 60 * 1000 &&
+                Date.now() >= submittedAt && typeof trackLead === 'function') {
+            trackLead('form', 'contact_form_submit', '', '');
+        }
+    } catch (e) {}
 </script>
 {{ end }}

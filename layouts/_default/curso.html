@@ -19,7 +19,7 @@
     <h3 style="margin-top: 0; margin-bottom: 0.5rem;">¿Te interesa este curso?</h3>
     <p style="margin-bottom: 1rem; font-size: 0.95rem; opacity: 0.85;">Pídeme información sobre fechas disponibles, requisitos de acceso o material necesario.</p>
     <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
-      <a href="https://api.whatsapp.com/send?phone=608611784&text=Hola%20Fabio,%20quiero%20informaci%C3%B3n%20sobre%20el%20curso%20{{ .Title | urlquery }}" 
+      <a href="https://api.whatsapp.com/send?phone=34608611784&text=Hola%20Fabio,%20quiero%20informaci%C3%B3n%20sobre%20el%20curso%20{{ .Title | urlquery }}"
          target="_blank" 
          role="button" 
          onclick="return trackLead('whatsapp', 'course_page', '{{ .Title }}', this.href);"
@@ -29,7 +29,6 @@
       <a href="/contacto/" 
          role="button" 
          class="contrast outline" 
-         onclick="return trackLead('form_click', 'course_page', '{{ .Title }}', this.href);"
          style="margin-bottom: 0;">
          Rellenar formulario
       </a>

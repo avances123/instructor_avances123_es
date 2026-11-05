@@ -40,9 +40,11 @@
                 'transport_type': 'beacon'
             });
 
-            // Google Ads Direct Conversion
+            // Cada canal tiene su propia acción de conversión en Google Ads.
             gtag('event', 'conversion', {
-                'send_to': 'AW-18548222725/V8h6CL6EpLIdEIXWvYxF',
+                'send_to': method === 'form'
+                    ? 'AW-18548222725/YZSZCJj75LIdEIXWvYxF'
+                    : 'AW-18548222725/V8h6CL6EpLIdEIXWvYxF',
                 'value': 50.0,
                 'currency': 'EUR',
                 'transport_type': 'beacon'

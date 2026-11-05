@@ -16,7 +16,7 @@
     <h3 style="margin-top: 0; margin-bottom: 0.5rem;">¿Quieres formarte en Sidemount o Buceo Técnico?</h3>
     <p style="margin-bottom: 1rem; font-size: 0.95rem; opacity: 0.85;">Entrena en L'Escala (Costa Brava) y Barcelona con instructores especializados en configuración lateral y entornos bajo techo.</p>
     <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
-      <a href="https://api.whatsapp.com/send?phone=608611784&text=Hola%20Fabio,%20he%20le%C3%ADdo%20el%20art%C3%ADculo%20{{ .Title | urlquery }}%20y%20quiero%20informaci%C3%B3n%20sobre%20los%20cursos" 
+      <a href="https://api.whatsapp.com/send?phone=34608611784&text=Hola%20Fabio,%20he%20le%C3%ADdo%20el%20art%C3%ADculo%20{{ .Title | urlquery }}%20y%20quiero%20informaci%C3%B3n%20sobre%20los%20cursos"
          target="_blank" 
          role="button" 
          onclick="return trackLead('whatsapp', 'article_cta', '{{ .Title }}', this.href);"
@@ -26,7 +26,6 @@
       <a href="/contacto/" 
          role="button" 
          class="contrast outline" 
-         onclick="return trackLead('form_click', 'article_cta', '{{ .Title }}', this.href);"
          style="margin-bottom: 0;">
          Rellenar formulario
       </a>

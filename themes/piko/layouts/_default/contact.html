@@ -12,7 +12,7 @@
         <strong>¿Prefieres atención inmediata?</strong>
         <p style="margin: 0; font-size: 0.9rem; opacity: 0.85;">Escríbeme directamente por WhatsApp para resolver dudas sobre cursos, fechas o material.</p>
       </div>
-      <a href="https://api.whatsapp.com/send?phone=608611784&text=Hola%20Fabio,%20te%20escribo%20desde%20la%20web%20para%20preguntarte%20sobre%20los%20cursos" 
+      <a href="https://api.whatsapp.com/send?phone=34608611784&text=Hola%20Fabio,%20te%20escribo%20desde%20la%20web%20para%20preguntarte%20sobre%20los%20cursos"
          target="_blank" 
          role="button" 
          onclick="return trackLead('whatsapp', 'contact_page_banner', '', this.href);"
@@ -59,12 +59,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (!form) return;
 
-    form.addEventListener('submit', function(e) {
-        // Enviar evento de conversión a GA4
-        if (typeof trackLead === 'function') {
-            trackLead('form', 'contact_form_submit', '', '');
-        }
+    function markPendingSubmission() {
+        try {
+            sessionStorage.setItem('contact_form_pending', String(Date.now()));
+        } catch (e) {}
+    }
 
+    try {
+        sessionStorage.removeItem('contact_form_pending');
+    } catch (e) {}
+
+    form.addEventListener('submit', function(e) {
         if (window.fetch) {
             e.preventDefault();
             submitBtn.disabled = true;
@@ -85,14 +90,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 body: JSON.stringify(payload)
             }).then(function(response) {
                 if (response.ok) {
+                    markPendingSubmission();
                     window.location.href = 'https://www.sidemount.es/gracias/';
                 } else {
                     // Fallback al submit normal si la API responde con error
+                    markPendingSubmission();
                     form.submit();
                 }
             }).catch(function() {
+                markPendingSubmission();
                 form.submit();
             });
+        } else {
+            markPendingSubmission();
         }
     });
 });
