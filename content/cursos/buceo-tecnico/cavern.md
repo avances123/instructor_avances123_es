@@ -73,7 +73,7 @@ El programa **TDI Cavern Diver** proporciona los conocimientos teóricos y las h
   * **Dos elementos de corte** independientes (*z-knife* / cortacabos y tijeras).
   * Ordenador de buceo/profundímetro, brújula, pizarra o *wetnotes* y tabla de planificación.
   * Traje de protección térmica acorde a la temperatura del agua, máscara principal y máscara de respeto en bolsillo, y aletas rígidas no partidas.
-* **Duración:** 3 a 4 días intensivos (incluyendo talleres en seco, sesiones en aguas confinadas/abiertas y mínimo 4 inmersiones en caverna en al menos 2 ubicaciones diferentes).
+* **Duración:** De 3 a 4 días, según las necesidades del alumno (incluyendo talleres en seco, sesiones en aguas confinadas/abiertas y mínimo 4 inmersiones en caverna en al menos 2 ubicaciones diferentes).
 * **Dónde se imparte:** Sesiones de formación en **L'Escala (Costa Brava)** y **Barcelona**.
 
 ## Otros detalles sobre el curso

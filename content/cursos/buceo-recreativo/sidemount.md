@@ -52,7 +52,7 @@ Este curso está diseñado según los estándares oficiales **SDI Sidemount Dive
   * Reguladores apropiados para configuración lateral con un manómetro en cada primera etapa y un total de dos segundas etapas.
   * Dispositivo compensador de flotabilidad (BCD/arnés) específico para configuración sidemount.
   * Traje de protección térmica adecuado, máscara, aletas, ordenador de buceo, brújula y boya de señalización (SMB).
-* **Duración:** 3 días.
+* **Duración:** 2 días.
 * **Dónde se imparte:** Sesiones prácticas en **L'Escala (Costa Brava)** y **Barcelona**.
 
 ## Otros detalles sobre el curso

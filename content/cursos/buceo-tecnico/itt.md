@@ -62,7 +62,7 @@ Este programa no solo proporciona conocimientos básicos, sino que exige un comp
   * Configuración técnica completa (sidemount o bibotella) con dos primeras etapas y segundas etapas (una con latiguillo largo de 1,5 m a 2,1 m y otra con latiguillo corto y collar).
   * Arnés y ala técnica acorde a la configuración.
   * Traje de protección térmica adecuado, máscara principal y máscara de respeto, aletas rígidas no partidas, ordenador de buceo/profundímetro, brújula, elementos de corte, pizarra/wetnotes, carrete/spool y boya de señalización (SMB).
-* **Duración:** 4 o 5 días.
+* **Duración:** De 4 a 5 días, según las necesidades del alumno.
 * **Dónde se imparte:** Sesiones de formación en **L'Escala (Costa Brava)** y **Barcelona**.
 
 ## Otros detalles sobre el curso
