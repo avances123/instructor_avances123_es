@@ -24,45 +24,31 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFPNJYXW0E"></script>
 <script>
     gtag('js', new Date());
-    gtag('config', 'G-NFPNJYXW0E');
-    gtag('config', 'AW-18548222725');
+    gtag('config', 'G-NFPNJYXW0E', { 'transport_type': 'beacon' });
+    gtag('config', 'AW-18548222725', { 'transport_type': 'beacon' });
 </script>
 
 <!-- Conversion Tracking Helpers -->
 <script>
     function trackLead(method, source, courseName, targetUrl) {
-        var callbackTriggered = false;
-        function doNavigate() {
-            if (!callbackTriggered && typeof targetUrl === 'string' && targetUrl) {
-                callbackTriggered = true;
-                if (targetUrl.indexOf('whatsapp.com') !== -1 || targetUrl.indexOf('wa.me') !== -1) {
-                    window.open(targetUrl, '_blank');
-                } else {
-                    window.location.href = targetUrl;
-                }
-            }
-        }
-
         if (typeof gtag === 'function') {
             // GA4 Standard Lead Event
             gtag('event', 'generate_lead', {
                 'lead_method': method || 'generic',
                 'lead_source': source || window.location.pathname,
                 'course_name': courseName || '',
-                'event_callback': doNavigate,
-                'event_timeout': 1500
+                'transport_type': 'beacon'
             });
 
             // Google Ads Direct Conversion
             gtag('event', 'conversion', {
                 'send_to': 'AW-18548222725/V8h6CL6EpLIdEIXWvYxF',
                 'value': 50.0,
-                'currency': 'EUR'
+                'currency': 'EUR',
+                'transport_type': 'beacon'
             });
-        } else {
-            doNavigate();
         }
-        return false;
+        return true;
     }
 
     // Helper retrocompatible para llamadas existentes
