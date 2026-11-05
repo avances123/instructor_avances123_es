@@ -30,6 +30,9 @@
         'ad_user_data': status,
         'ad_personalization': status
       });
+      gtag('event', granted ? 'cookie_consent_accept' : 'cookie_consent_reject', {
+        'transport_type': 'beacon'
+      });
       gtag('event', 'cookie_consent_decision', {
         'decision': granted ? 'accept' : 'reject',
         'transport_type': 'beacon'
