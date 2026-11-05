@@ -67,7 +67,7 @@ El curso se distingue por su exigencia y enfoque preciso en acelerar la curva de
   * Dos reguladores completos para configuración lateral (un manómetro en cada primera etapa, una segunda etapa con latiguillo largo y otra con latiguillo corto y collar).
   * Arnés y ala (BCD) específicos para configuración sidemount.
   * Traje de protección térmica adecuado, máscara, aletas técnicas, ordenador de buceo, brújula, carrete/spool y boya de señalización (SMB).
-* **Duración:** 4 días intensivos.
+* **Duración:** De 2 a 4 días, según las necesidades del alumno.
 * **Dónde se imparte:** Sesiones en **L'Escala (Costa Brava)** y **Barcelona**, en puntos seleccionados específicamente para el desarrollo de las habilidades técnicas.
 
 ## Otros detalles sobre el curso

@@ -5,3 +5,14 @@ resources
 documentacion_tdi/
 *.webm
 *.mkv
+
+# Archivos y directorios locales de asistentes
+AGENTS.md
+CLAUDE.md
+CONTEXT.md
+CONTEXT-MAP.md
+GEMINI.md
+SKILL.md
+.agents/
+.claude/
+.opencode/
