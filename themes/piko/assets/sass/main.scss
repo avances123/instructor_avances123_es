@@ -208,6 +208,17 @@ img,
   margin: 5px;
 }
 
+.cookie-settings {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--link-color);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none !important;
   color: var(--link-color);
@@ -476,6 +487,8 @@ a[role='button'],
   max-width: 440px;
   z-index: 9999;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  background: #11191f;
+  border-radius: var(--border-radius);
   margin-bottom: 0;
   padding: 1.25rem;
 
@@ -514,9 +527,6 @@ a[role='button'],
     max-width: 100%;
     border-radius: 0;
     padding: 0.65rem 1rem;
-    background: rgba(17, 25, 31, 0.97);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
     border-top: 1px solid rgba(255, 255, 255, 0.12);
 
     .cookie-content {

@@ -15,8 +15,8 @@ cover:
 
 {{< rawhtml >}}
 <div class="course-film" aria-hidden="true">
-  <video autoplay muted loop playsinline preload="metadata" poster="/video/fuentenavina-hero.webp">
-    <source src="/video/fuentenavina-hero.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline preload="metadata" poster="/video/fuentenavina-hero-corto.webp">
+    <source src="/video/fuentenavina-hero-corto.mp4" type="video/mp4">
   </video>
 </div>
 {{< /rawhtml >}}

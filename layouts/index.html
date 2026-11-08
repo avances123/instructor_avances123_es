@@ -2,8 +2,8 @@
 {{- if not (.Site.Params.homepage.disableHeroSection) }}
 <section class="hero">
   <div class="hero-film" aria-hidden="true">
-    <video autoplay muted loop playsinline preload="auto" poster="{{ "video/fuentenavina-hero.webp" | relURL }}">
-      <source src="{{ "video/fuentenavina-hero.mp4" | relURL }}" type="video/mp4">
+    <video autoplay muted loop playsinline preload="auto" poster="{{ "video/fuentenavina-hero-corto.webp" | relURL }}">
+      <source src="{{ "video/fuentenavina-hero-corto.mp4" | relURL }}" type="video/mp4">
     </video>
   </div>
   <header class="container">
@@ -45,8 +45,9 @@
         {{if .Params.Cover.Image}}
           <figure>
             <img
-              src="{{.Params.Cover.Image | absURL}}"
+              src="{{ .Params.Cover.thumbnail | default .Params.Cover.Image | absURL }}"
               alt="{{ .Title }}"
+              loading="lazy"
               width="600"
               height="400"
               layout="responsive"
@@ -89,6 +90,7 @@
             <img
               src="{{.Params.Cover.Image | absURL}}"
               alt="{{ .Title }}"
+              loading="lazy"
               width="600"
               height="400"
               layout="responsive"
@@ -154,6 +156,7 @@
         <img
           src="{{.Site.Params.homepage.aboutImgUrl}}"
           alt="{{.Site.Params.author}}"
+          loading="lazy"
           width="400"
           height="450"
           layout="intrinsic"
@@ -185,6 +188,7 @@
             height="400"
             layout="responsive"
             alt="{{.alt}}"
+            loading="lazy"
           ></img>
         </figure>
         <hgroup class="text-center">

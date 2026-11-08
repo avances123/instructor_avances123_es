@@ -1,4 +1,4 @@
-<article id="cookie-consent-banner" style="display: none;" role="dialog" aria-live="polite" aria-label="Consentimiento de cookies">
+<div id="cookie-consent-banner" style="display: none;" role="dialog" aria-live="polite" aria-label="Consentimiento de cookies">
   <div class="cookie-content">
     <span>
       {{ .Site.Params.CookieNotice | default "Utilizamos cookies analíticas para medir el tráfico y mejorar la experiencia. Puedes aceptarlas o rechazarlas." }}
@@ -11,7 +11,7 @@
     <button type="button" id="cookie-btn-reject" class="secondary outline">Rechazar</button>
     <button type="button" id="cookie-btn-accept">Aceptar</button>
   </footer>
-</article>
+</div>
 
 {{ "<!-- Cookies Script -->" | safeHTML }}
 {{ $cookies := resources.Get "js/cookie.js" | minify }}

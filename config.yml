@@ -92,7 +92,7 @@ params:
     disableAboutSection: false
     aboutTitle: La mejor agencia de la industria
     aboutDescription: Obtendrás tus carnets de la mejor certificadora
-    aboutImgUrl: "/product_t_d_tdi_sticker_v2.1.jpg"
+    aboutImgUrl: "/product_t_d_tdi_sticker-small.webp"
     aboutContent: Hi guys. This is where you put something about yourself.
     # Portfolio Section
     disablePortfolioSection: true

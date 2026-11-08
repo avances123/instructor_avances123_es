@@ -12,6 +12,7 @@ showToc: false
 weight: 1
 cover:
     image: /TDI-sidemount-header.webp
+    thumbnail: /TDI-sidemount-header-card.webp
 ---
 
 ## ¿Por qué el buceo técnico?

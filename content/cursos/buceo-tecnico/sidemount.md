@@ -12,6 +12,7 @@ showToc: false
 weight: 2
 cover:
     image: /que_es/Sidemount_032_Photo_by_Pete_Nawrocky.webp
+    thumbnail: /que_es/Sidemount_032_card.webp
 ---
 
 ## ¿Por qué buceo técnico en sidemount (montaje lateral)?
