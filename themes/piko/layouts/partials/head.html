@@ -12,6 +12,9 @@
 </title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{{- if and .IsHome (not .Site.Params.homepage.disableHeroSection) }}
+<link rel="preload" as="image" href="{{ "video/fuentenavina-hero-corto.webp" | relURL }}" fetchpriority="high" />
+{{- end }}
 
 {{- /* Meta */}}
 
@@ -36,12 +39,10 @@
 {{- end }}
 
 {{ "<!-- Main Stylesheet -->" | safeHTML }} 
-{{ $styles := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+{{ $mainstyles := resources.Get "sass/main.scss" | toCSS }}
+{{ $navstyles := resources.Get "sass/nav.scss" | toCSS }}
+{{ $styles := slice $mainstyles $navstyles | resources.Concat "sass/site.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" />
-
-{{ "<!-- Nav Stylesheet -->" | safeHTML }}
-{{ $navstyles := resources.Get "sass/nav.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $navstyles.Permalink }}" integrity="{{ $navstyles.Data.Integrity }}" crossorigin="anonymous" />
 
 {{ "<!-- plugins CSS -->" | safeHTML }} 
 {{ range site.Params.plugins.css }}
@@ -105,6 +106,5 @@
 {{- template "partials/templates/schema_json.html" . }}
 
 {{- end -}}
-
 
 
