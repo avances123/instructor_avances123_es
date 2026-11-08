@@ -14,6 +14,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 {{- if and .IsHome (not .Site.Params.homepage.disableHeroSection) }}
 <link rel="preload" as="image" href="{{ "video/fuentenavina-hero-corto.webp" | relURL }}" fetchpriority="high" />
+{{- else if .Params.preloadPoster }}
+<link rel="preload" as="image" href="{{ .Params.preloadPoster | relURL }}" fetchpriority="high" />
 {{- end }}
 
 {{- /* Meta */}}
@@ -106,5 +108,4 @@
 {{- template "partials/templates/schema_json.html" . }}
 
 {{- end -}}
-
 
